@@ -6,7 +6,7 @@ Cerita utuh dalam **tiga bab, dua belas adegan, dan epilog**, dikembangkan dari 
 
 ## Bermain
 
-Unduh [**Madoromi-1.0.0-android.apk** dari Google Drive](https://drive.google.com/file/d/1DGm4kIdWkhHl9EjGE5-9FhVljB09Mq0i/view) dan [checksum SHA-256](https://drive.google.com/file/d/18TOzAYADdj1vZ2cgxE0luHXXwCa4-1Pu/view). APK versi ini menargetkan Android 16 dan menyertakan ARM64. Salin ke ponsel, buka berkasnya, lalu izinkan pemasangan dari pengelola berkas ketika Android meminta. Game dimainkan secara offline dalam orientasi landscape; minimum Android 5.0 dengan OpenGL ES 3.0. Target pengguna adalah POCO F6/Android 16; pengujian fisik pada ponsel tersebut belum dilakukan di workspace ini.
+Unduh [**Madoromi-1.0.0-android.apk** langsung dari GitHub](https://github.com/WynnDev-rill/Visual-Novel-Madoromi-/releases/download/v1.0.0/Madoromi-1.0.0-android.apk) dan [checksum SHA-256](https://github.com/WynnDev-rill/Visual-Novel-Madoromi-/releases/download/v1.0.0/Madoromi-1.0.0-android.apk.sha256). [Halaman release v1.0.0](https://github.com/WynnDev-rill/Visual-Novel-Madoromi-/releases/tag/v1.0.0) sudah diterbitkan. APK versi ini menargetkan Android 16 dan menyertakan ARM64. Salin ke ponsel, buka berkasnya, lalu izinkan pemasangan dari pengelola berkas ketika Android meminta. Game dimainkan secara offline dalam orientasi landscape; minimum Android 5.0 dengan OpenGL ES 3.0. Target pengguna adalah POCO F6/Android 16; pengujian fisik pada ponsel tersebut belum dilakukan di workspace ini.
 
 Ketuk untuk membaca dan pilih jawaban tanpa batas waktu. Tersedia simpan/muat, simpan otomatis native, rollback, riwayat, mode otomatis, lewati, pilihan bab, ukuran teks, pengurangan gerakan, serta pengaturan musik/efek/suasana terpisah. Tidak ada voice acting karakter.
 

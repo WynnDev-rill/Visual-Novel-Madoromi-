@@ -26,4 +26,4 @@ The Android environment has noKVM and usesTCG/softwareGL. First native interface
 
 Earlier baseline commits/reports predate the canonical cast, haowjy prose polish, final jeans and azure interface. Their results are historical evidence rather than proof of this revision.
 
-The latest APK and SHA256SUMS were uploaded in place to the user's Drive. Returned Drive metadata confirms the expected filename and80,646,930-byte size. GitHub's binary-upload endpoint returned HTTP401; the empty draft release was not published. Source pushes remain available.
+The latest APK and SHA256SUMS were uploaded in place to the user's Drive. Returned Drive metadata confirms the expected filename and80,646,930-byte size. Direct workspace uploads returned HTTP401. Repository Actions run41841323746 subsequently verified the known APK hash, uploaded the APK/checksum and published v1.0.0 successfully. Release metadata confirms draft=false and an80,646,930-byte APK asset.

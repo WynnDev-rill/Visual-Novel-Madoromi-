@@ -16,6 +16,6 @@ PC bundle: 71,002,834 bytes; ZIP CRC and all33 archived production image hashes 
 
 The final APK replaced the earlier candidate at [the stable Drive link](https://drive.google.com/file/d/1DGm4kIdWkhHl9EjGE5-9FhVljB09Mq0i/view). [SHA256SUMS](https://drive.google.com/file/d/18TOzAYADdj1vZ2cgxE0luHXXwCa4-1Pu/view) was also updated. Both local packages remain in `dist/`.
 
-Source pushes and GitHub API identity checks work. GitHub release binary uploads returned HTTP401; the empty draft release must not be published as if it contained the APK. Drive is the working delivery channel. Signing material is preserved privately outside Git.
+GitHub release v1.0.0 is now published with the exact tested APK and its checksum as downloadable assets. Direct uploads from the workspace returned HTTP401; repository GitHub Actions successfully verified and uploaded the existing signed bytes, then published the draft (run41841323746). No rebuild or signing-key transfer was needed. The temporary delivery branch is removed after publication. Signing material remains private outside Git.
 
 Remaining acceptance check: install the latest Drive APK on POCO F6/Android16 and confirm readable full-screen presentation, music, first-choice progression, native save/load and Home/resume. The task environment cannot perform this physical check remotely.
