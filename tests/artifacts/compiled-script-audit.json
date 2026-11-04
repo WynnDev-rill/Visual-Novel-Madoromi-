@@ -1,0 +1,50 @@
+{
+  "method": "RenPy8.5.3 source digest in final16bytes of RPYC; md5(source + engine RPYC_MAGIC). Whole RPYC bytes can differ during distribution.",
+  "scripts": [
+    {
+      "source": "game/android_audio.rpy",
+      "source_sha256": "3f5ca7865a57b2fc0a8a406a502de14cc97b9906c0e13b391dca1c999e06a1fa",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/definitions.rpy",
+      "source_sha256": "66d41c2658fe00f0a754a1f3d6b3531224c02f6d3e7413cecd860e5bc690638e",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/gui.rpy",
+      "source_sha256": "872220c7c6497247adf083f4d8033b9af884491d8356f18ecc79ba37f8ecf508",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/interface_strings.rpy",
+      "source_sha256": "81deab7a70dcadb58b7671ffc6503cb61988c4fb0f78dcb17f1083a529a9768d",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/options.rpy",
+      "source_sha256": "d833194a7d71c6bb989d7d0404f8d40a08f1ca91a77d45d56244005a1b454162",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/presentation.rpy",
+      "source_sha256": "fbaa83fff1758ecbd5874156be0f0866d854e8033f2e7772893c2e3cf75ff7ba",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/screens.rpy",
+      "source_sha256": "b2ae2a8c885c3806929dab9693c493e54bac2c54cf123e2c4a9e6088f3da1959",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/story.rpy",
+      "source_sha256": "49bce935ce7f50e5877c60851e8fe89e4891d0819a1944608850e0c0427a71ea",
+      "renpy_source_digest_matches": true
+    },
+    {
+      "source": "game/system_ui.rpy",
+      "source_sha256": "f9b7c59489c6e06ba4e14236116ada399fe09edee5ae4751a1b8dac2a784f2a7",
+      "renpy_source_digest_matches": true
+    }
+  ]
+}

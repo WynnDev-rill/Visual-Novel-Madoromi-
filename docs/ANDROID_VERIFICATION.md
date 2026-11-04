@@ -1,6 +1,6 @@
 # Android verification
 
-## Final production build — 2026-11-04
+## Earlier production candidate — 2026-11-04
 
 The revised APK contains the 33 production images, the new system interface,
 and the Android AudioTrack selector. Its identity is:
@@ -14,7 +14,7 @@ and the Android AudioTrack selector. Its identity is:
   alignment; compressed native libraries use Android's declared extraction
 - No network permission; no test harness or build files packaged
 
-The static audit is [`tests/artifacts/android-build.json`](../tests/artifacts/android-build.json).
+The static audit for this earlier candidate is [`tests/artifacts/android-build-candidate1.json`](../tests/artifacts/android-build-candidate1.json).
 Final runtime evidence is in [`tests/artifacts/android-final/`](../tests/artifacts/android-final/).
 
 Installation initially exceeded the preserved 512 MiB guest data partition's
@@ -30,7 +30,7 @@ the title. The launch timeout is retained in the evidence rather than counted
 as a successful Android wait response. Actual screenshots establish rendering.
 The installed-package snapshot was taken before this launch.
 
-Final ordinary chat progression reached 01.47, but a later relaunch produced an Android ANR. Screenshot `09-anr-during-chat.png` and `anr-summary.txt` record it. The trace places the main thread in Android InputConsumer and SDLThread within ART CheckJNI. The cause is not isolated, and the AudioTrack change is not claimed to fix this later ANR. Final save/load, resume and fresh choice autosave are still unverified. Baseline results below do not establish those final results. A reduced-resolution800×450 diagnostic is in progress; it does not verify the intended1280×720 profile.
+This earlier candidate reached chat 01.47; a later input-injection/relaunch session produced an Android ANR. Screenshot `09-anr-during-chat.png` and `anr-summary.txt` retain it. The trace places the main thread in Android InputConsumer and SDLThread within ART CheckJNI. The cause was not isolated, and no claim is made that AudioTrack alone fixed it. Subsequent standard-touch replay reached the choice without that ANR. Reduced-resolution save/resume diagnostics are historical evidence, separate from the current build below.
 
 ## Baseline build — 2026-11-04
 
@@ -126,3 +126,11 @@ untouched. It uses the enabled WAV backend with `/dev/null` as output after
 the bounded audio sample above was retained. An external silence WAV satisfies
 the emulator's microphone input. This prevents recording growth while the
 emulator waits for later builds; it changes no game files or mixer settings.
+
+## Current native checkpoint revision
+
+The build with SHA-256 `3b8795e5e47def3ffaa2870f3a3791011b2a97c1f29e21699c34f773b8ad09b4` is80,646,930bytes. It includes project-specific startup art and five native blocking choice checkpoints. After a fresh start, ordinary in-game preferences/Skip reached the first choice and created `auto-1-LT1.save` (173,842bytes); the archive CRC passed. No previous save was loaded before that checkpoint. The earlier ANR was recorded in an older build/input-injection session; its cause is not claimed isolated. Repeated standard touch reached the choice on1280×720 without that ANR. The user target is POCO F6/Android16, which has not been physically tested in this workspace.
+
+The current APK then advanced with the second answer to phone 01.49, opened Muat → Otomatis, and loaded the original checkpoint through native confirmation. Screenshot `22-choice-restored.png` shows the first decision restored. The original checkpoint had rotated to slot2 after the native quit-autosave triggered during a cancelled title-exit prompt; this is recorded rather than misidentifying slot1. The desktop required regression separately asserts that the earlier story variable is restored.
+
+Home/background/resume also returned to the same first choice. Both background and foreground native events came from PID6785 (`checkpoint-lifecycle.log`). The first15-second resumed capture was black while this software renderer recovered; `25-resumed-choice-settled.png` records the settled screen. This verifies retained state, not fast physical-device resume. The API21 guest lacks `pidof`; process identity is established by the native lifecycle log instead.

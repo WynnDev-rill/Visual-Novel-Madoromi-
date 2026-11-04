@@ -75,3 +75,11 @@ API/signature validation does not establish device runtime compatibility. See th
 Android selects SDL’s native `android` (Java AudioTrack) audio driver in `game/android_audio.rpy` before audio initialization. This avoids the OpenSLES mutex stall observed on the API21 software emulator without disabling music, ambience or SFX. Final testing must clear diagnostic `wrap.id.wynndev.madoromi` and debug-app overrides before launch.
 
 Graphify is development-only. On a new machine, use `tools/knowledge_graph.sh setup`; after changing graph inputs use `tools/knowledge_graph.sh build` and `python3 tests/check_knowledge_graph.py`. CLI query/path/explain commands reject stale graph inputs. See [KNOWLEDGE_GRAPH.md](KNOWLEDGE_GRAPH.md).
+
+## User target device
+
+The user confirmed POCO F6 running Android16. The current APK targets API36 and includes arm64-v8a with16KB-aligned ELF load segments. These checks establish package requirements, not a physical POCO F6 gameplay test. API21 TCG ANR diagnostics must be distinguished from this modern ARM64 target.
+
+## Automatic choice checkpoints
+
+Five authored choice boundaries use the documented native `renpy.force_autosave(take_screenshot=True, block=True)` API. `config.autosave_on_choice=False` prevents a duplicate asynchronous request. The engine continues to own save format, slot rotation, rollback guards and restore behavior; no custom persistence format is used. This avoids the native background screenshot’s one-second deadline on slow software rendering. The required `choice_autosave` testcase proves a fresh slot restores the decision after a different answer was selected.

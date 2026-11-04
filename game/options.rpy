@@ -18,7 +18,9 @@ define config.intra_transition = Dissolve(.15)
 define config.after_load_transition = Dissolve(.25)
 define config.end_game_transition = Fade(.4, .2, .6)
 define config.history_length = 400
-define config.autosave_on_choice = True
+# Story checkpoints use the documented blocking mode of native force_autosave.
+# Background screenshots have a one-second deadline on slow rendering devices.
+define config.autosave_on_choice = False
 define config.autosave_on_quit = True
 define config.default_fullscreen = False
 default preferences.text_cps = 35
@@ -67,6 +69,7 @@ init python:
     build.classify("docs/**", None)
     build.classify("android.json", None)
     build.classify("android-icon**", None)
+    build.classify("android-presplash**", None)
     build.classify("game/test**.rpy", None)
     build.classify("game/test**.rpyc", None)
     build.documentation("README.md")

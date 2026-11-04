@@ -1,16 +1,21 @@
 # Production progress
 
-## 2026-11-04 — approximately95%
+## 2026-11-04 — approximately 99%
 
-This is a milestone estimate, not elapsed time or a measured quality score.
-The complete12-scene story has received a haowjy full-script audit and targeted polish. The latest production uses all four canonical user character designs, six Aoi facial states, three body poses, a matching women's-jeans epilogue costume, Mio/Sora expressions and gestures, ten coherent 2D backgrounds and a story-specific gift insert.
+This is a milestone estimate, not a measured quality score. The complete game and signed Android package are delivered; direct validation on the user's POCO F6/Android 16 remains outstanding. No physical-phone result is claimed.
 
-The azure/white ATRI-inspired UI has passed actual screenshot review. Native regression passed12 executed cases/79 assertions with both contrasting complete paths and all later callbacks; one optional software-GL autosave diagnostic was skipped. Separate motion-enabled acting and final menu captures passed. Graphify0.9.102 is installed; its real build/query/export pipeline, Ren'Py adapter, stale-input guard and browser viewer have been exercised.
+The three-act, twelve-scene romance and epilogue are complete. The haowjy script audit preserves the original story and all five choices. Production uses the user's canonical cast with facial expressions, body gestures and a coordinated jeans costume, ten coherent backgrounds, an ATRI-inspired azure/white interface, licensed instrumental music, ambience and SFX without character voice acting. The supplied Drive icon is integrated. Graphify 0.9.102 is installed and connected to the development workflow.
 
-The current signedAPK is80,009,790bytes, SHA-256 `2e5c03f925a188249a1aed87992241be00c7fc1447f88cb667b3fba0dc8f0253`. Signature, exact33image/10audio/4font/59GUI hashes, ABIs,16KBELF alignment, SDK metadata and offline permissions pass. It is installed on the software Android device; ordinary final-game play/state checks are still underway without the diagnostic audio wrapper. Desktop packaging and final tested commit/release publication remain. Progress reaches100% only when those stated deliverables are complete.
+Native regression: 13 executed cases, 85 assertions, zero skipped; both contrasting complete routes and all later callbacks pass. Required choice autosave creates a fresh checkpoint and restores the earlier decision. Independent motion-enabled acting and menu captures are retained. The latest build uses native blocking saves at five choices and project-specific Android loading art.
 
-## Resume checkpoint
+Final APK: 80,646,930 bytes, SHA-256 `3b8795e5e47def3ffaa2870f3a3791011b2a97c1f29e21699c34f773b8ad09b4`. Signature, source asset hashes, nine compiled-script source digests, API21–36 metadata, three ABIs, ARM64 16KB ELF alignment and offline permissions pass. On the API21 software-emulated Android device, ordinary touch reached the first choice, created a fresh native autosave, restored it after a different answer, and retained the choice across Home/resume. This is not a performance or compatibility guarantee for physical Android16 hardware. Earlier input-injection ANR evidence remains documented separately.
 
-Implementation/asset/UI milestone committed as `ab483c2`; clean GitHub Actions passed. Android ANR evidence committed as `f398044`. Release remains a draft with no uploaded assets: GitHub asset upload host returned HTTP401 even though source pushes/API identity requests succeeded. The verified local APK and PC ZIP remain in `dist/` with SHA256SUMS.txt. Do not describe this as a fully verified final Android release.
+PC bundle: 71,002,834 bytes; ZIP CRC and all33 archived production image hashes pass. SDKs, signing keys and test harnesses are excluded from runtime packages.
 
-Next: isolate the final APK chat ANR on Android API21 TCG; verify ordinary final-build save/load, resume and fresh autosave. Existing desktop source/visual tests must not be repeated unnecessarily. Diagnostic AVD currently uses800×450 override and debug.checkjni=0; both are environment diagnostics, not product changes. Restore1280×720 for target-profile screenshot checks. Raw ANR trace: `/workspace/downloads/madoromi-final-anr.txt`. User was asked for target phone model/Android version. Repair GitHub release-upload authorization before publishing assets; do not publish the empty draft as final.
+## Delivered files and repository
+
+The final APK replaced the earlier candidate at [the stable Drive link](https://drive.google.com/file/d/1DGm4kIdWkhHl9EjGE5-9FhVljB09Mq0i/view). [SHA256SUMS](https://drive.google.com/file/d/18TOzAYADdj1vZ2cgxE0luHXXwCa4-1Pu/view) was also updated. Both local packages remain in `dist/`.
+
+Source pushes and GitHub API identity checks work. GitHub release binary uploads returned HTTP401; the empty draft release must not be published as if it contained the APK. Drive is the working delivery channel. Signing material is preserved privately outside Git.
+
+Remaining acceptance check: install the latest Drive APK on POCO F6/Android16 and confirm readable full-screen presentation, music, first-choice progression, native save/load and Home/resume. The task environment cannot perform this physical check remotely.

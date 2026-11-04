@@ -1,0 +1,6 @@
+-rwxrwx--- u0_a53   sdcard_r    69522 2026-11-04 06:25 1-1-LT1.save
+-rwxrwx--- u0_a53   sdcard_r    67877 2026-11-04 11:54 1-2-LT1.save
+-rwxrwx--- u0_a53   sdcard_r     1785 2026-11-04 06:35 persistent
+-rwxrwx--- u0_a53   sdcard_r      302 2026-11-04 06:23 security_keys.txt
+drwxrwx--- u0_a53   sdcard_r          2026-11-04 11:58 sync
+-rwxrwx--- u0_a53   sdcard_r       19 2026-11-04 06:23 upgraded.txt

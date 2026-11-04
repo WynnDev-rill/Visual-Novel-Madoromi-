@@ -1,0 +1,12 @@
+{
+  "profile": "800x450 logical override scaled to1280x720 physical",
+  "scope": "Reduced-resolution diagnostic only, after ANR on intended1280x720profile",
+  "new_native_save": {
+    "file": "1-2-LT1.save",
+    "bytes": 67877,
+    "sha256": "1be8fe38a6d823294b8f68d3d7c4c1cf3214f5fd15ec7c6efd0e886627f2a9b1",
+    "zip_crc": "PASS"
+  },
+  "fresh_choice_autosave": "UNVERIFIED",
+  "intended_profile_ANR": "UNRESOLVED"
+}

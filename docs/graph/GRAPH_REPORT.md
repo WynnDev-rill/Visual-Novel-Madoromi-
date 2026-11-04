@@ -2,18 +2,18 @@
 
 Built with Graphify0.9.102 plus the project Ren’Py adapter. Upstream `.rpy` classification: None. The adapter is line-oriented structural extraction, not a full Ren’Py parser or runtime proof. Python tools use Graphify’s genuine tree-sitter AST extractor. Three source documents have a preserved independent host-agent semantic extraction with checked anchors. Binary art is indexed through the approved manifest, never sent to a model.
 
-The JSON/extraction preserve 1086 typed, cited evidence edges. The clustered HTML and generated analysis below aggregate these to 565 unique endpoint connections. 15 Python import/call symbols have no audited implementation; they are explicitly tagged unresolved external symbols, rather than guessed definitions.
+The JSON/extraction preserve 1089 typed, cited evidence edges. The clustered HTML and generated analysis below aggregate these to 566 unique endpoint connections. 15 Python import/call symbols have no audited implementation; they are explicitly tagged unresolved external symbols, rather than guessed definitions.
 
 Token accounting: no separate model/API calls run on regeneration. Host-agent semantic-extraction token usage is unavailable; upstream zero fields below are placeholders and do not assert zero total workflow cost. The graph does not cover external SDK internals, private Drive documents, every dynamic expression or every possible route.
 
 # Graph Report - madoromi  (2026-11-04)
 
 ## Corpus Check
-- 25 files · ~34,857 words
+- 25 files · ~35,127 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 274 nodes · 565 edges · 20 communities (9 shown, 11 thin omitted)
+- 274 nodes · 566 edges · 20 communities (9 shown, 11 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -62,8 +62,8 @@ Token accounting: no separate model/API calls run on regeneration. Host-agent se
 ## Communities (20 total, 11 thin omitted)
 
 ### Community 0 - "Project documentation"
-Cohesion: 0.06
-Nodes (54): Choice in act_1 (L39), Continue, FileAction, FileDelete, FileLoad, FilePage, FileSave, Hide (+46 more)
+Cohesion: 0.07
+Nodes (54): Choice in act_1 (L40), Continue, FileAction, FileDelete, FileLoad, FilePage, FileSave, Hide (+46 more)
 
 ### Community 1 - "Development and verification tools"
 Cohesion: 0.09
@@ -71,7 +71,7 @@ Nodes (8): main(), require(), main(), sha(), convert(), describe(), loop_birds()
 
 ### Community 2 - "Project documentation"
 Cohesion: 0.08
-Nodes (35): Choice in act_1 (L111), Choice in act_1 (L251), Choice in act_2 (L591), Choice in epilogue (L944), Beanbag question and ten seconds, Completed afterstory and healthier goodnight routine, haowjy creative-writing-craft, story_color: blue / gold (+27 more)
+Nodes (35): Choice in act_1 (L113), Choice in act_1 (L254), Choice in act_2 (L595), Choice in epilogue (L949), Beanbag question and ten seconds, Completed afterstory and healthier goodnight routine, haowjy creative-writing-craft, story_color: blue / gold (+27 more)
 
 ### Community 3 - "Art and sound resources"
 Cohesion: 0.08
@@ -110,7 +110,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `input`, `preferences.text_cps`, `preferences.afm_time` to the rest of the system?**
   _23 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project documentation` be split into smaller, more focused modules?**
-  _Cohesion score 0.06490384615384616 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06538461538461539 - nodes in this community are weakly interconnected._
 - **Why does `act_2` connect `Art and sound resources` to `Project documentation`, `Project documentation`, `Art and sound resources`, `Art and sound resources`, `Art and sound resources`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Should `Development and verification tools` be split into smaller, more focused modules?**

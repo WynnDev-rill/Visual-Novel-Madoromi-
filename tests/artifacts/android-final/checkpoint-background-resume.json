@@ -1,0 +1,13 @@
+{
+  "apk_sha256": "3b8795e5e47def3ffaa2870f3a3791011b2a97c1f29e21699c34f773b8ad09b4",
+  "pid_before": 6785,
+  "pid_after": 6785,
+  "same_process": true,
+  "activity_start": "Starting: Intent { cmp=id.wynndev.madoromi/org.renpy.android.PythonSDLActivity }\r\nWarning: Activity not started, its current task has been brought to the front",
+  "profile": "API21 x86_64 TCG,1280x720",
+  "screen_before": "22-choice-restored.png",
+  "screen_after": "25-resumed-choice-settled.png",
+  "result": "PASS: after settled rendering, the same first-choice screen returned",
+  "pid_evidence": "checkpoint-lifecycle.log: background/foreground events from same process; pidof unavailable on this API21 guest",
+  "timing_note": "The early15-second capture24 was black during software renderer recovery; capture25 confirms settled rendering. No physical-device latency claim."
+}

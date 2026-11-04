@@ -36,6 +36,7 @@ label act_1:
     "Aku melihat jam. Tentu saja."
     "Nyaris satu jam sejak ia bilang, ‘Ada hal aneh di teras.’"
     "Di grup band, Sora mengirim pesan agar kami tidak terlambat latihan sore nanti. Aku menandainya sudah dibaca, lalu kembali ke percakapan Aoi."
+    $ renpy.force_autosave(take_screenshot=True, block=True)
     menu:
         "Aoi masih ingin bercerita."
         "Dengarkan apa yang membuatnya penasaran.":
@@ -108,6 +109,7 @@ label act_1:
     r "Susah?"
     a "Gambarnya gampang. Kalimat ajakannya belum ketemu. Kalau terlalu panjang, orang lewat saja. Kalau terlalu pendek, kelihatannya seperti tugas."
     "Ia membaca dua versi yang ditulisnya. Keduanya terdengar terlalu resmi untuk seseorang yang semalam menilai kepribadian semut."
+    $ renpy.force_autosave(take_screenshot=True, block=True)
     menu:
         "Bagaimana aku menemaninya?"
         "Duduk tenang sampai ia menemukan kalimatnya.":
@@ -248,6 +250,7 @@ label act_1:
     r "Itu batas yang bisa kuikuti."
     "Aoi menyerahkan sekotak pensil warna. Beberapa ujungnya lebih pendek daripada tutup penghapusku."
     a "Atap stasiunnya mau warna apa?"
+    $ renpy.force_autosave(take_screenshot=True, block=True)
     menu:
         "Dua pensil terletak di tanganku."
         "Biru, seperti air ketika angin sudah reda.":
@@ -588,6 +591,7 @@ label act_2:
     "Kartu kedua lebih sulit."
     "‘Untuk Aoi.’ Selesai."
     "Aku menambahkan ikan kecil di sudut. Menghapus ekornya. Menggambar lagi."
+    $ renpy.force_autosave(take_screenshot=True, block=True)
     menu:
         "Besok, bagaimana aku memulai?"
         "Dengan kalimat sederhana yang bisa kuucapkan utuh.":
@@ -941,6 +945,7 @@ label epilogue:
     "Aku tertawa cukup keras sampai harus melihat pintu kamar. Tidak ada yang memanggil."
     "Kami membahas latihan, amplop, lalu video singkat yang dikirim Sora. Pukul sebelas kurang sepuluh, balasan Aoi mulai mempunyai salah ketik."
     call phone_chat([("aoi", "Aku masih mau dengar."), ("ren", "Aku juga masih mau cerita."), ("aoi", "Tapi aku mulai membaca dua kali."), ("ren", "Berhenti di sini dulu?")], "22.51")
+    $ renpy.force_autosave(take_screenshot=True, block=True)
     menu:
         "Masih ada banyak malam setelah ini."
         "Jaga ucapan selamat malam kami.":

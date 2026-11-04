@@ -160,8 +160,7 @@ testsuite madoromi:
         run FileDelete("2", page="9", confirm=False)
 
     testcase choice_autosave:
-        description "Optional fresh native choice-autosave diagnostic; software-GL screenshot deadlines can be inconclusive."
-        enabled (__import__("os").environ.get("MADOROMI_TEST_REQUIRE_AUTOSAVE") == "1")
+        description "Fresh native choice autosave exists and restores the earlier decision after another answer is selected."
         $ renpy.unlink_save("auto-1")
         run Start()
         skip until screen "choice"
@@ -169,6 +168,12 @@ testsuite madoromi:
         assert eval not renpy.is_skipping()
         assert eval renpy.can_load("auto-1") timeout 15.0
         assert eval (renpy.get_save_data("auto-1")["story_reply"] == "listen")
+        click expression _qa_choices[0][1]
+        pause until not screen "choice" timeout 10.0
+        assert eval (story_reply == "questions") timeout 5.0
+        run FileLoad("1", page="auto", confirm=False)
+        assert screen "choice" timeout 15.0
+        assert eval (story_reply == "listen")
 
     testcase save_load_and_rollback:
         description "Manual save/load and rollback restore a selected branch and its earlier decision point."

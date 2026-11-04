@@ -26,8 +26,22 @@ extracts_native = bool(re.search(r"android:extractNativeLibs.*0xffffffff", manif
 counts, missing, mismatches, unwanted, native = {}, [], [], [], {}
 alignments = []
 compressed_native = False
+script_digests = []
 with ZipFile(args.apk) as z:
     names = set(z.namelist())
+    splash = ROOT / "android-presplash.jpg"
+    if splash.exists():
+        assert z.read("assets/android-presplash.jpg") == splash.read_bytes(), "Startup branding mismatch"
+    # Ren'Py's compiled distribution may be normalized, so full RPYC bytes
+    # differ from development copies. The engine stores its source digest in
+    # the last16bytes (script.py: write_rpyc_md5), using this pinned SDK magic.
+    for source in sorted((ROOT / "game").glob("*.rpy")):
+        if source.name.startswith("test"):
+            continue
+        internal = "assets/x-game/x-" + source.with_suffix(".rpyc").name
+        expected_digest = hashlib.md5(source.read_bytes() + b"_2025-07-06").digest()
+        assert z.read(internal)[-16:] == expected_digest, "Stale compiled script: " + source.name
+        script_digests.append(source.relative_to(ROOT).as_posix())
     for category in ("images", "audio", "fonts", "gui"):
         sources = sorted(f for f in (ROOT / "game" / category).rglob("*") if f.is_file())
         counts[category] = len(sources)
@@ -76,6 +90,7 @@ assert counts["images"] == 33 and counts["audio"] == 10 and counts["fonts"] == 4
 assert not (missing or mismatches or unwanted), (missing, mismatches, unwanted)
 report = {"apk": "dist/" + args.apk.name, "bytes": args.apk.stat().st_size, "sha256": hashlib.sha256(args.apk.read_bytes()).hexdigest(), "verified_source_asset_counts": counts, "asset_hash_mismatches": mismatches, "missing_assets": missing, "unwanted_build_or_test_files": unwanted, "native_library_counts": native, "native_libraries_compressed": compressed_native, "extract_native_libraries": extracts_native, "zip_alignment_verified": True, "minimum_64bit_ELF_load_alignment": min(alignments), "certificate_sha256": cert, "network_permission": network, "signature_verified": True}
 args.report.parent.mkdir(parents=True, exist_ok=True)
+report["compiled_script_source_digests_verified"] = script_digests
 args.report.write_text(json.dumps(report, indent=2) + "\n")
 print("PASS: APK signature, exact asset hashes/inventory, ABIs, 16KB alignment, API21–36 and offline permission profile.")
 print("SHA-256:", report["sha256"])

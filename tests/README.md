@@ -41,11 +41,12 @@ native background screenshot/save exceptions without changing their behavior.
 Use the default global suite in the command above. Ren'Py's explicit suite
 selection marks all descendants enabled, including optional diagnostics.
 
-The separate `choice_autosave` diagnostic is enabled with
-`MADOROMI_TEST_REQUIRE_AUTOSAVE=1`. It deletes `auto-1` and requires a newly
-created choice autosave. Ren'Py's one-second background screenshot deadline can
-fail under software GL during automated skipping; that test is optional in the
-headless suite and an ordinary-device autosave check is reported separately.
+`choice_autosave` is a required test. It deletes `auto-1`, requires a fresh
+checkpoint, selects a different answer, then loads the automatic slot and
+asserts that the earlier decision is restored. The five story menus call
+Ren'Py's documented `force_autosave(take_screenshot=True, block=True)` API.
+This keeps native serialization, rotation and rollback guards while avoiding
+the one-second background screenshot deadline found under software rendering.
 
 Check the report's final `Status: PASSED` and actual assertion counts. Ren'Py can
 exit zero after a failed test when a teardown calls `exit`; process status alone

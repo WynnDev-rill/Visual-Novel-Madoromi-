@@ -1,0 +1,15 @@
+{
+  "source_generated_original": "exec-b4d09962-ee48-40be-b45e-cb597480673a.png",
+  "source_sha256": "0a22e2c649ae53a8d23f84b011fb4a4dbb4b16d53f71f4bffe65cd3fb7ff1480",
+  "runtime_path": "android-presplash.jpg",
+  "runtime_sha256": "693c3e5bd1433888e7b1e0a875da4edda2d9e6f9f91cc035720db2bc3f4ae723",
+  "size": [
+    1672,
+    941
+  ],
+  "method": "OpenAI image generation edit of own native title screenshot; preserve canonical cast, world and title, remove menu/tagline/footer, add MEMUAT.",
+  "prompt_note": "Production intent summary, not a verbatim prompt.",
+  "conversion": "Full-canvas RGB JPEG95 conversion only; no resize/retouch",
+  "integration": "RAPT native android-presplash.jpg; excluded from desktop package",
+  "source_reference": "tests/artifacts/android-final/01-title.png"
+}

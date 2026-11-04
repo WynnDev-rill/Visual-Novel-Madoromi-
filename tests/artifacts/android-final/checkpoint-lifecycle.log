@@ -1,0 +1,15 @@
+V/SDL     ( 6785): onPause()
+W/AudioTrack( 6785): releaseBuffer() track 0x7f452465ef00 disabled due to previous underrun, restarting
+W/AudioTrack( 6785): releaseBuffer() track 0x7f452465ef00 disabled due to previous underrun, restarting
+V/python  ( 6785): onStop() start.
+V/SDL     ( 6785): onStop()
+V/python  ( 6785): onStop() done.
+I/python  ( 6785): Entered background. --------------------------------------------
+I/ActivityManager( 4106): START u0 {flg=0x10000000 cmp=id.wynndev.madoromi/org.renpy.android.PythonSDLActivity} from uid 0 on display 0
+V/SDL     ( 6785): onStart()
+V/SDL     ( 6785): onResume()
+V/SDL     ( 6785): surfaceCreated()
+V/SDL     ( 6785): Window size: 1280x720
+V/SDL     ( 6785): nativeResume()
+W/AudioTrack( 6785): releaseBuffer() track 0x7f452465ef00 disabled due to previous underrun, restarting
+I/python  ( 6785): Entering foreground. -------------------------------------------

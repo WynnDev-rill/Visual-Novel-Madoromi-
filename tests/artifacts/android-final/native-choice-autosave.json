@@ -1,0 +1,16 @@
+{
+  "file": "auto-1-LT1.save",
+  "bytes": 173842,
+  "sha256": "20c7b353d25ba1aa1b1c9ccf86c2cc25e726845cfb35ce64412dc8a4350b5d34",
+  "zip_crc": "PASS",
+  "apk_sha256": "3b8795e5e47def3ffaa2870f3a3791011b2a97c1f29e21699c34f773b8ad09b4",
+  "fresh_before_any_loads": true,
+  "profile": "1280x720,API21x86_64TCG",
+  "method": "Ordinary preferences/Skip UI, native blocking checkpoint",
+  "restore_result": "PASS: loaded earlier choice after selecting second answer",
+  "restored_screenshot": "22-choice-restored.png",
+  "load_confirmation_screenshot": "21-checkpoint-load-confirm.png",
+  "page_screenshot": "20-automatic-page.png",
+  "slot_at_restore": "auto-2 (native quit-autosave rotated the original auto-1)",
+  "notes": "Native test separately asserts story_reply value restoration; Android screenshot establishes restored decision UI. The attempted title exit was cancelled."
+}

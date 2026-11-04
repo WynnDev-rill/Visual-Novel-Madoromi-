@@ -858,7 +858,7 @@
       "kind": "label",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L315",
+      "source_location": "L318",
       "_origin": "ast"
     },
     {
@@ -867,7 +867,7 @@
       "kind": "label",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L614",
+      "source_location": "L618",
       "_origin": "ast"
     },
     {
@@ -876,7 +876,7 @@
       "kind": "label",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L900",
+      "source_location": "L904",
       "_origin": "ast"
     },
     {
@@ -1236,7 +1236,7 @@
       "kind": "state",
       "file_type": "code",
       "source_file": "game/options.rpy",
-      "source_location": "L24",
+      "source_location": "L26",
       "_origin": "ast"
     },
     {
@@ -1245,7 +1245,7 @@
       "kind": "state",
       "file_type": "code",
       "source_file": "game/options.rpy",
-      "source_location": "L25",
+      "source_location": "L27",
       "_origin": "ast"
     },
     {
@@ -1568,12 +1568,12 @@
       "_origin": "ast"
     },
     {
-      "id": "choice:game/story.rpy:39",
-      "label": "Choice in act_1 (L39)",
+      "id": "choice:game/story.rpy:40",
+      "label": "Choice in act_1 (L40)",
       "kind": "choice",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L39",
+      "source_location": "L40",
       "_origin": "ast"
     },
     {
@@ -1582,7 +1582,7 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L41",
+      "source_location": "L42",
       "_origin": "ast"
     },
     {
@@ -1591,16 +1591,16 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L45",
+      "source_location": "L46",
       "_origin": "ast"
     },
     {
-      "id": "choice:game/story.rpy:111",
-      "label": "Choice in act_1 (L111)",
+      "id": "choice:game/story.rpy:113",
+      "label": "Choice in act_1 (L113)",
       "kind": "choice",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L111",
+      "source_location": "L113",
       "_origin": "ast"
     },
     {
@@ -1609,7 +1609,7 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L113",
+      "source_location": "L115",
       "_origin": "ast"
     },
     {
@@ -1618,7 +1618,7 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L126",
+      "source_location": "L128",
       "_origin": "ast"
     },
     {
@@ -1631,12 +1631,12 @@
       "_origin": "ast"
     },
     {
-      "id": "choice:game/story.rpy:251",
-      "label": "Choice in act_1 (L251)",
+      "id": "choice:game/story.rpy:254",
+      "label": "Choice in act_1 (L254)",
       "kind": "choice",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L251",
+      "source_location": "L254",
       "_origin": "ast"
     },
     {
@@ -1645,7 +1645,7 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L253",
+      "source_location": "L256",
       "_origin": "ast"
     },
     {
@@ -1654,16 +1654,16 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L258",
+      "source_location": "L261",
       "_origin": "ast"
     },
     {
-      "id": "choice:game/story.rpy:591",
-      "label": "Choice in act_2 (L591)",
+      "id": "choice:game/story.rpy:595",
+      "label": "Choice in act_2 (L595)",
       "kind": "choice",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L591",
+      "source_location": "L595",
       "_origin": "ast"
     },
     {
@@ -1672,7 +1672,7 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L593",
+      "source_location": "L597",
       "_origin": "ast"
     },
     {
@@ -1681,16 +1681,16 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L599",
+      "source_location": "L603",
       "_origin": "ast"
     },
     {
-      "id": "choice:game/story.rpy:944",
-      "label": "Choice in epilogue (L944)",
+      "id": "choice:game/story.rpy:949",
+      "label": "Choice in epilogue (L949)",
       "kind": "choice",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L944",
+      "source_location": "L949",
       "_origin": "ast"
     },
     {
@@ -1699,7 +1699,7 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L946",
+      "source_location": "L951",
       "_origin": "ast"
     },
     {
@@ -1708,7 +1708,7 @@
       "kind": "option",
       "file_type": "code",
       "source_file": "game/story.rpy",
-      "source_location": "L950",
+      "source_location": "L955",
       "_origin": "ast"
     },
     {
@@ -1833,7 +1833,7 @@
       "kind": "testcase",
       "file_type": "code",
       "source_file": "game/testcases.rpy",
-      "source_location": "L173",
+      "source_location": "L178",
       "_origin": "ast"
     },
     {
@@ -1842,7 +1842,7 @@
       "kind": "testcase",
       "file_type": "code",
       "source_file": "game/testcases.rpy",
-      "source_location": "L214",
+      "source_location": "L219",
       "_origin": "ast"
     },
     {
@@ -1851,7 +1851,7 @@
       "kind": "testcase",
       "file_type": "code",
       "source_file": "game/testcases.rpy",
-      "source_location": "L232",
+      "source_location": "L237",
       "_origin": "ast"
     },
     {
@@ -1860,7 +1860,7 @@
       "kind": "testcase",
       "file_type": "code",
       "source_file": "game/testcases.rpy",
-      "source_location": "L245",
+      "source_location": "L250",
       "_origin": "ast"
     },
     {
@@ -1869,7 +1869,7 @@
       "kind": "testcase",
       "file_type": "code",
       "source_file": "game/testcases.rpy",
-      "source_location": "L273",
+      "source_location": "L278",
       "_origin": "ast"
     },
     {
@@ -3214,7 +3214,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L315",
+      "source_location": "L318",
       "_origin": "ast"
     },
     {
@@ -3225,7 +3225,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L614",
+      "source_location": "L618",
       "_origin": "ast"
     },
     {
@@ -3236,7 +3236,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L900",
+      "source_location": "L904",
       "_origin": "ast"
     },
     {
@@ -4814,24 +4814,24 @@
     },
     {
       "source": "label:act_1",
-      "target": "choice:game/story.rpy:39",
+      "target": "choice:game/story.rpy:40",
       "relation": "offers_choice",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L39",
+      "source_location": "L40",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:39",
+      "source": "choice:game/story.rpy:40",
       "target": "option:f0e57b6e768f",
       "relation": "has_option",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L41",
+      "source_location": "L42",
       "_origin": "ast"
     },
     {
@@ -4842,7 +4842,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L42",
+      "source_location": "L43",
       "_origin": "ast"
     },
     {
@@ -4853,24 +4853,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L43",
+      "source_location": "L44",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:39",
+      "source": "choice:game/story.rpy:40",
       "target": "option:38a1d76b1e0d",
       "relation": "has_option",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L45",
-      "_origin": "ast"
-    },
-    {
-      "source": "option:38a1d76b1e0d",
-      "target": "state:story_reply",
-      "relation": "writes_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -4879,9 +4868,9 @@
       "_origin": "ast"
     },
     {
-      "source": "label:act_1",
-      "target": "label:phone_chat",
-      "relation": "call",
+      "source": "option:38a1d76b1e0d",
+      "target": "state:story_reply",
+      "relation": "writes_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -4897,7 +4886,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L49",
+      "source_location": "L48",
       "_origin": "ast"
     },
     {
@@ -4908,7 +4897,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L52",
+      "source_location": "L50",
       "_origin": "ast"
     },
     {
@@ -4919,7 +4908,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L55",
+      "source_location": "L53",
       "_origin": "ast"
     },
     {
@@ -4930,7 +4919,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L58",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "label:phone_chat",
+      "relation": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L59",
       "_origin": "ast"
     },
     {
@@ -4941,7 +4941,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L63",
+      "source_location": "L64",
       "_origin": "ast"
     },
     {
@@ -4952,7 +4952,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L65",
+      "source_location": "L66",
       "_origin": "ast"
     },
     {
@@ -4963,7 +4963,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L66",
+      "source_location": "L67",
       "_origin": "ast"
     },
     {
@@ -4974,23 +4974,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L66",
+      "source_location": "L67",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
       "target": "character:s",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L68",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5001,7 +4990,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:s",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5018,18 +5007,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L72",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L73",
+      "source_location": "L71",
       "_origin": "ast"
     },
     {
@@ -5040,7 +5018,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L73",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L74",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:s",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L75",
       "_origin": "ast"
     },
     {
@@ -5051,7 +5051,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L77",
+      "source_location": "L78",
       "_origin": "ast"
     },
     {
@@ -5062,7 +5062,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L77",
+      "source_location": "L78",
       "_origin": "ast"
     },
     {
@@ -5073,7 +5073,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L80",
+      "source_location": "L81",
       "_origin": "ast"
     },
     {
@@ -5084,7 +5084,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L82",
+      "source_location": "L83",
       "_origin": "ast"
     },
     {
@@ -5095,7 +5095,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L84",
+      "source_location": "L85",
       "_origin": "ast"
     },
     {
@@ -5106,7 +5106,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L85",
+      "source_location": "L86",
       "_origin": "ast"
     },
     {
@@ -5117,34 +5117,23 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L85",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L86",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L88",
+      "source_location": "L87",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5155,18 +5144,18 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L91",
+      "source_location": "L90",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5177,7 +5166,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5188,7 +5177,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5199,7 +5188,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5210,18 +5199,18 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L98",
+      "source_location": "L96",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5232,7 +5221,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5243,18 +5232,18 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L102",
+      "source_location": "L101",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5265,7 +5254,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5276,7 +5265,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5287,18 +5276,18 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L108",
+      "source_location": "L106",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5309,24 +5298,35 @@
     },
     {
       "source": "label:act_1",
-      "target": "choice:game/story.rpy:111",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L110",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "choice:game/story.rpy:113",
       "relation": "offers_choice",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L111",
+      "source_location": "L113",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:111",
+      "source": "choice:game/story.rpy:113",
       "target": "option:658aaac33f5b",
       "relation": "has_option",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L113",
+      "source_location": "L115",
       "_origin": "ast"
     },
     {
@@ -5337,51 +5337,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L114",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L115",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L116",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L119",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L120",
+      "source_location": "L117",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L118",
       "_origin": "ast"
     },
     {
@@ -5403,7 +5381,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L123",
+      "source_location": "L122",
       "_origin": "ast"
     },
     {
@@ -5414,29 +5392,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L124",
-      "_origin": "ast"
-    },
-    {
-      "source": "choice:game/story.rpy:111",
-      "target": "option:9505e9d9042f",
-      "relation": "has_option",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L126",
-      "_origin": "ast"
-    },
-    {
-      "source": "option:9505e9d9042f",
-      "target": "state:story_company",
-      "relation": "writes_state",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L127",
+      "source_location": "L123",
       "_origin": "ast"
     },
     {
@@ -5447,13 +5403,35 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L128",
+      "source_location": "L125",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
       "target": "character:a",
       "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L126",
+      "_origin": "ast"
+    },
+    {
+      "source": "choice:game/story.rpy:113",
+      "target": "option:9505e9d9042f",
+      "relation": "has_option",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L128",
+      "_origin": "ast"
+    },
+    {
+      "source": "option:9505e9d9042f",
+      "target": "state:story_company",
+      "relation": "writes_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -5469,7 +5447,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L131",
+      "source_location": "L130",
       "_origin": "ast"
     },
     {
@@ -5480,7 +5458,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L132",
+      "source_location": "L131",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L133",
       "_origin": "ast"
     },
     {
@@ -5496,13 +5485,13 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L135",
+      "source_location": "L136",
       "_origin": "ast"
     },
     {
@@ -5514,17 +5503,6 @@
       "weight": 1.0,
       "source_file": "game/story.rpy",
       "source_location": "L137",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L138",
       "_origin": "ast"
     },
     {
@@ -5546,7 +5524,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L142",
+      "source_location": "L140",
       "_origin": "ast"
     },
     {
@@ -5557,7 +5535,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L143",
+      "source_location": "L141",
       "_origin": "ast"
     },
     {
@@ -5579,7 +5557,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L147",
+      "source_location": "L145",
       "_origin": "ast"
     },
     {
@@ -5590,12 +5568,23 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L148",
+      "source_location": "L146",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
       "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L149",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5606,29 +5595,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L151",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "transform:heroine",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L151",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5639,35 +5606,13 @@
     },
     {
       "source": "label:act_1",
-      "target": "asset:game/images/originals/street.webp",
-      "relation": "scene_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L156",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "asset:game/audio/ambience/garden.ogg",
-      "relation": "references_asset",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L157",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "asset:game/images/originals/characters/aoi/school_neutral.webp",
+      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
       "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L159",
+      "source_location": "L153",
       "_origin": "ast"
     },
     {
@@ -5678,7 +5623,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L159",
+      "source_location": "L153",
       "_origin": "ast"
     },
     {
@@ -5689,13 +5634,46 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L160",
+      "source_location": "L154",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
+      "target": "asset:game/images/originals/street.webp",
+      "relation": "scene_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L158",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "asset:game/audio/ambience/garden.ogg",
+      "relation": "references_asset",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L159",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "asset:game/images/originals/characters/aoi/school_neutral.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L161",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "transform:heroine",
+      "relation": "stages_with",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -5716,24 +5694,13 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L166",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L167",
+      "source_location": "L163",
       "_origin": "ast"
     },
     {
@@ -5744,7 +5711,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L170",
+      "source_location": "L164",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L168",
       "_origin": "ast"
     },
     {
@@ -5755,7 +5733,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L171",
+      "source_location": "L169",
       "_origin": "ast"
     },
     {
@@ -5777,7 +5755,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L174",
+      "source_location": "L173",
       "_origin": "ast"
     },
     {
@@ -5788,7 +5766,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L175",
+      "source_location": "L174",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L176",
       "_origin": "ast"
     },
     {
@@ -5804,13 +5793,24 @@
     },
     {
       "source": "label:act_1",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L179",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L178",
+      "source_location": "L180",
       "_origin": "ast"
     },
     {
@@ -5821,7 +5821,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L180",
+      "source_location": "L182",
       "_origin": "ast"
     },
     {
@@ -5832,7 +5832,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L180",
+      "source_location": "L182",
       "_origin": "ast"
     },
     {
@@ -5843,7 +5843,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L182",
+      "source_location": "L184",
       "_origin": "ast"
     },
     {
@@ -5854,29 +5854,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L182",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L184",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L185",
       "_origin": "ast"
     },
     {
@@ -5898,7 +5876,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L191",
+      "source_location": "L187",
       "_origin": "ast"
     },
     {
@@ -5909,7 +5887,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L192",
+      "source_location": "L188",
       "_origin": "ast"
     },
     {
@@ -5920,7 +5898,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L195",
+      "source_location": "L193",
       "_origin": "ast"
     },
     {
@@ -5931,7 +5909,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L196",
+      "source_location": "L194",
       "_origin": "ast"
     },
     {
@@ -5958,6 +5936,17 @@
     },
     {
       "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L199",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
@@ -5969,40 +5958,18 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L201",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "asset:game/images/originals/characters/aoi/school_laugh_open.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L202",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "transform:heroine",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L202",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6013,8 +5980,19 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
+      "target": "asset:game/images/originals/characters/aoi/school_laugh_open.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L204",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "transform:heroine",
+      "relation": "stages_with",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -6030,7 +6008,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L206",
+      "source_location": "L205",
       "_origin": "ast"
     },
     {
@@ -6041,7 +6019,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L209",
+      "source_location": "L206",
       "_origin": "ast"
     },
     {
@@ -6052,7 +6030,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L210",
+      "source_location": "L208",
       "_origin": "ast"
     },
     {
@@ -6079,6 +6057,17 @@
     },
     {
       "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L213",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
@@ -6090,7 +6079,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6101,13 +6090,13 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L217",
+      "source_location": "L218",
       "_origin": "ast"
     },
     {
@@ -6119,17 +6108,6 @@
       "weight": 1.0,
       "source_file": "game/story.rpy",
       "source_location": "L219",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L220",
       "_origin": "ast"
     },
     {
@@ -6167,24 +6145,24 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L226",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L227",
+      "source_location": "L224",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L225",
       "_origin": "ast"
     },
     {
@@ -6222,57 +6200,13 @@
     },
     {
       "source": "label:act_1",
-      "target": "asset:game/images/originals/lounge.webp",
-      "relation": "scene_image",
+      "target": "character:r",
+      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L235",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "transform:scene_drift",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L235",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "audio:tender",
-      "relation": "uses_audio",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L237",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "asset:game/images/originals/characters/aoi/school_neutral.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L240",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "transform:closeup",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L240",
+      "source_location": "L231",
       "_origin": "ast"
     },
     {
@@ -6283,18 +6217,62 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L232",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "asset:game/images/originals/lounge.webp",
+      "relation": "scene_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L237",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "transform:scene_drift",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L237",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "audio:tender",
+      "relation": "uses_audio",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L239",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "asset:game/images/originals/characters/aoi/school_neutral.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L242",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
+      "target": "transform:closeup",
+      "relation": "stages_with",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L243",
+      "source_location": "L242",
       "_origin": "ast"
     },
     {
@@ -6310,29 +6288,40 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L247",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L248",
+      "source_location": "L245",
       "_origin": "ast"
     },
     {
       "source": "label:act_1",
       "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L246",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L249",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6343,24 +6332,35 @@
     },
     {
       "source": "label:act_1",
-      "target": "choice:game/story.rpy:251",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L252",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "choice:game/story.rpy:254",
       "relation": "offers_choice",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L251",
+      "source_location": "L254",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:251",
+      "source": "choice:game/story.rpy:254",
       "target": "option:b4961789c31b",
       "relation": "has_option",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L253",
+      "source_location": "L256",
       "_origin": "ast"
     },
     {
@@ -6371,7 +6371,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L254",
+      "source_location": "L257",
       "_origin": "ast"
     },
     {
@@ -6382,7 +6382,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L255",
+      "source_location": "L258",
       "_origin": "ast"
     },
     {
@@ -6393,18 +6393,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L256",
+      "source_location": "L259",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:251",
+      "source": "choice:game/story.rpy:254",
       "target": "option:0f467ae5a760",
       "relation": "has_option",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L258",
+      "source_location": "L261",
       "_origin": "ast"
     },
     {
@@ -6415,7 +6415,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L259",
+      "source_location": "L262",
       "_origin": "ast"
     },
     {
@@ -6426,18 +6426,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L260",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L261",
+      "source_location": "L263",
       "_origin": "ast"
     },
     {
@@ -6453,29 +6442,7 @@
     },
     {
       "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L265",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
       "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L266",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6486,13 +6453,46 @@
     },
     {
       "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L268",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L269",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L270",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
       "target": "asset:game/images/originals/characters/mio/neutral.webp",
       "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L270",
+      "source_location": "L273",
       "_origin": "ast"
     },
     {
@@ -6503,7 +6503,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L270",
+      "source_location": "L273",
       "_origin": "ast"
     },
     {
@@ -6514,7 +6514,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L271",
+      "source_location": "L274",
       "_origin": "ast"
     },
     {
@@ -6525,7 +6525,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L273",
+      "source_location": "L276",
       "_origin": "ast"
     },
     {
@@ -6536,7 +6536,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L273",
+      "source_location": "L276",
       "_origin": "ast"
     },
     {
@@ -6547,7 +6547,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L281",
+      "source_location": "L284",
       "_origin": "ast"
     },
     {
@@ -6558,7 +6558,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L281",
+      "source_location": "L284",
       "_origin": "ast"
     },
     {
@@ -6569,7 +6569,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L285",
+      "source_location": "L288",
       "_origin": "ast"
     },
     {
@@ -6580,7 +6580,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L285",
+      "source_location": "L288",
       "_origin": "ast"
     },
     {
@@ -6591,7 +6591,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L286",
+      "source_location": "L289",
       "_origin": "ast"
     },
     {
@@ -6602,7 +6602,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L288",
+      "source_location": "L291",
       "_origin": "ast"
     },
     {
@@ -6613,7 +6613,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L290",
+      "source_location": "L293",
       "_origin": "ast"
     },
     {
@@ -6624,7 +6624,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L291",
+      "source_location": "L294",
       "_origin": "ast"
     },
     {
@@ -6635,7 +6635,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L291",
+      "source_location": "L294",
       "_origin": "ast"
     },
     {
@@ -6646,7 +6646,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L292",
+      "source_location": "L295",
       "_origin": "ast"
     },
     {
@@ -6657,7 +6657,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L294",
+      "source_location": "L297",
       "_origin": "ast"
     },
     {
@@ -6668,7 +6668,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L296",
+      "source_location": "L299",
       "_origin": "ast"
     },
     {
@@ -6679,29 +6679,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L300",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L301",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L302",
+      "source_location": "L303",
       "_origin": "ast"
     },
     {
@@ -6723,7 +6701,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L308",
+      "source_location": "L305",
       "_origin": "ast"
     },
     {
@@ -6734,29 +6712,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L309",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L310",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_1",
-      "target": "transform:heroine",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L310",
+      "source_location": "L307",
       "_origin": "ast"
     },
     {
@@ -6772,13 +6728,57 @@
     },
     {
       "source": "label:act_1",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L312",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L313",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "transform:heroine",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L313",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L314",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_1",
       "target": "label:act_2",
       "relation": "jump",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L313",
+      "source_location": "L316",
       "_origin": "ast"
     },
     {
@@ -6789,7 +6789,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L316",
+      "source_location": "L319",
       "_origin": "ast"
     },
     {
@@ -6800,7 +6800,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L317",
+      "source_location": "L320",
       "_origin": "ast"
     },
     {
@@ -6811,7 +6811,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L318",
+      "source_location": "L321",
       "_origin": "ast"
     },
     {
@@ -6822,7 +6822,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L321",
+      "source_location": "L324",
       "_origin": "ast"
     },
     {
@@ -6833,7 +6833,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L323",
+      "source_location": "L326",
       "_origin": "ast"
     },
     {
@@ -6844,7 +6844,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L324",
+      "source_location": "L327",
       "_origin": "ast"
     },
     {
@@ -6855,7 +6855,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L324",
+      "source_location": "L327",
       "_origin": "ast"
     },
     {
@@ -6866,18 +6866,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L326",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:s",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L327",
+      "source_location": "L329",
       "_origin": "ast"
     },
     {
@@ -6893,13 +6882,24 @@
     },
     {
       "source": "label:act_2",
+      "target": "character:s",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L333",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L331",
+      "source_location": "L334",
       "_origin": "ast"
     },
     {
@@ -6910,7 +6910,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L332",
+      "source_location": "L335",
       "_origin": "ast"
     },
     {
@@ -6921,7 +6921,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L333",
+      "source_location": "L336",
       "_origin": "ast"
     },
     {
@@ -6932,7 +6932,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L333",
+      "source_location": "L336",
       "_origin": "ast"
     },
     {
@@ -6943,7 +6943,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L338",
+      "source_location": "L341",
       "_origin": "ast"
     },
     {
@@ -6954,7 +6954,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L338",
+      "source_location": "L341",
       "_origin": "ast"
     },
     {
@@ -6965,7 +6965,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L341",
+      "source_location": "L344",
       "_origin": "ast"
     },
     {
@@ -6976,7 +6976,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L354",
+      "source_location": "L357",
       "_origin": "ast"
     },
     {
@@ -6987,7 +6987,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L355",
+      "source_location": "L358",
       "_origin": "ast"
     },
     {
@@ -6998,7 +6998,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L356",
+      "source_location": "L359",
       "_origin": "ast"
     },
     {
@@ -7009,35 +7009,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L357",
+      "source_location": "L360",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
       "target": "transform:heroine",
       "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L357",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L359",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -7053,23 +7031,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L361",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L362",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7080,13 +7047,24 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
       "source_location": "L364",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L365",
       "_origin": "ast"
     },
     {
@@ -7119,7 +7097,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L368",
+      "source_location": "L369",
       "_origin": "ast"
     },
     {
@@ -7130,7 +7108,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L371",
+      "source_location": "L370",
       "_origin": "ast"
     },
     {
@@ -7141,7 +7119,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L372",
+      "source_location": "L371",
       "_origin": "ast"
     },
     {
@@ -7152,7 +7130,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L373",
+      "source_location": "L374",
       "_origin": "ast"
     },
     {
@@ -7174,7 +7152,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L377",
+      "source_location": "L376",
       "_origin": "ast"
     },
     {
@@ -7190,8 +7168,8 @@
     },
     {
       "source": "label:act_2",
-      "target": "asset:game/images/originals/characters/sora/neutral.webp",
-      "relation": "show_image",
+      "target": "character:r",
+      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -7201,18 +7179,7 @@
     },
     {
       "source": "label:act_2",
-      "target": "transform:leftside",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L380",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:s",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7223,40 +7190,51 @@
     },
     {
       "source": "label:act_2",
+      "target": "asset:game/images/originals/characters/sora/neutral.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L383",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "transform:leftside",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L383",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:s",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L384",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L382",
+      "source_location": "L385",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
       "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L386",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L388",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7267,24 +7245,24 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L393",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L394",
+      "source_location": "L391",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L392",
       "_origin": "ast"
     },
     {
@@ -7311,7 +7289,7 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7322,7 +7300,7 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7333,35 +7311,13 @@
     },
     {
       "source": "label:act_2",
-      "target": "asset:game/images/originals/characters/sora/easy.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L403",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "transform:leftside",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L403",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:s",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L404",
+      "source_location": "L402",
       "_origin": "ast"
     },
     {
@@ -7372,7 +7328,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L405",
+      "source_location": "L403",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "asset:game/images/originals/characters/sora/easy.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L406",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "transform:leftside",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L406",
       "_origin": "ast"
     },
     {
@@ -7383,7 +7361,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L406",
+      "source_location": "L407",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L408",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:s",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L409",
       "_origin": "ast"
     },
     {
@@ -7394,7 +7394,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L411",
+      "source_location": "L414",
       "_origin": "ast"
     },
     {
@@ -7405,7 +7405,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L412",
+      "source_location": "L415",
       "_origin": "ast"
     },
     {
@@ -7416,7 +7416,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L413",
+      "source_location": "L416",
       "_origin": "ast"
     },
     {
@@ -7427,7 +7427,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L420",
+      "source_location": "L423",
       "_origin": "ast"
     },
     {
@@ -7438,7 +7438,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L420",
+      "source_location": "L423",
       "_origin": "ast"
     },
     {
@@ -7449,7 +7449,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L421",
+      "source_location": "L424",
       "_origin": "ast"
     },
     {
@@ -7460,7 +7460,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L422",
+      "source_location": "L425",
       "_origin": "ast"
     },
     {
@@ -7471,7 +7471,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L423",
+      "source_location": "L426",
       "_origin": "ast"
     },
     {
@@ -7482,7 +7482,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L426",
+      "source_location": "L429",
       "_origin": "ast"
     },
     {
@@ -7493,45 +7493,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L426",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L427",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:s",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L428",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L429",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
-      "target": "character:s",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7542,13 +7509,13 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:a",
+      "target": "character:s",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L432",
+      "source_location": "L431",
       "_origin": "ast"
     },
     {
@@ -7559,7 +7526,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L436",
+      "source_location": "L432",
       "_origin": "ast"
     },
     {
@@ -7570,7 +7537,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L437",
+      "source_location": "L433",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L435",
       "_origin": "ast"
     },
     {
@@ -7586,13 +7564,35 @@
     },
     {
       "source": "label:act_2",
+      "target": "character:s",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L440",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L442",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L444",
+      "source_location": "L447",
       "_origin": "ast"
     },
     {
@@ -7603,7 +7603,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L445",
+      "source_location": "L448",
       "_origin": "ast"
     },
     {
@@ -7614,7 +7614,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L446",
+      "source_location": "L449",
       "_origin": "ast"
     },
     {
@@ -7625,7 +7625,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L450",
+      "source_location": "L453",
       "_origin": "ast"
     },
     {
@@ -7636,7 +7636,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L450",
+      "source_location": "L453",
       "_origin": "ast"
     },
     {
@@ -7647,7 +7647,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L452",
+      "source_location": "L455",
       "_origin": "ast"
     },
     {
@@ -7658,7 +7658,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L452",
+      "source_location": "L455",
       "_origin": "ast"
     },
     {
@@ -7669,35 +7669,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L453",
+      "source_location": "L456",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
       "target": "transform:heroine",
       "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L453",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:s",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L454",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -7713,7 +7691,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L462",
+      "source_location": "L457",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L459",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:s",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L465",
       "_origin": "ast"
     },
     {
@@ -7724,35 +7724,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L465",
+      "source_location": "L468",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
       "target": "transform:heroine",
       "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L465",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L467",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -7768,12 +7746,23 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L469",
+      "source_location": "L470",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
       "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L471",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7784,13 +7773,24 @@
     },
     {
       "source": "label:act_2",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L475",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L474",
+      "source_location": "L477",
       "_origin": "ast"
     },
     {
@@ -7801,7 +7801,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L476",
+      "source_location": "L479",
       "_origin": "ast"
     },
     {
@@ -7812,7 +7812,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L479",
+      "source_location": "L482",
       "_origin": "ast"
     },
     {
@@ -7823,35 +7823,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L480",
+      "source_location": "L483",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
       "target": "audio:night",
       "relation": "uses_audio",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L481",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:s",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L483",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -7867,23 +7845,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L485",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L486",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
-      "target": "character:s",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7894,68 +7861,13 @@
     },
     {
       "source": "label:act_2",
-      "target": "asset:game/images/originals/lounge.webp",
-      "relation": "scene_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L492",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "transform:scene_drift",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L492",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "audio:tender",
-      "relation": "uses_audio",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L494",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "asset:game/images/originals/characters/mio/smile.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L495",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "transform:leftside",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L495",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:m",
+      "target": "character:s",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L497",
+      "source_location": "L488",
       "_origin": "ast"
     },
     {
@@ -7966,7 +7878,73 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L499",
+      "source_location": "L489",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:s",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L490",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "asset:game/images/originals/lounge.webp",
+      "relation": "scene_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L495",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "transform:scene_drift",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L495",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "audio:tender",
+      "relation": "uses_audio",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L497",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "asset:game/images/originals/characters/mio/smile.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L498",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "transform:leftside",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L498",
       "_origin": "ast"
     },
     {
@@ -7982,13 +7960,35 @@
     },
     {
       "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L502",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:m",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L503",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
       "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
       "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L502",
+      "source_location": "L505",
       "_origin": "ast"
     },
     {
@@ -7999,18 +7999,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L502",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L503",
+      "source_location": "L505",
       "_origin": "ast"
     },
     {
@@ -8026,30 +8015,19 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L507",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L508",
+      "source_location": "L509",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
-      "target": "asset:game/images/originals/characters/mio/concerned.webp",
-      "relation": "show_image",
+      "target": "character:r",
+      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -8059,18 +8037,7 @@
     },
     {
       "source": "label:act_2",
-      "target": "transform:leftside",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L510",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:m",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8081,8 +8048,19 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
+      "target": "asset:game/images/originals/characters/mio/concerned.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L513",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "transform:leftside",
+      "relation": "stages_with",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -8103,35 +8081,13 @@
     },
     {
       "source": "label:act_2",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L515",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "asset:game/images/originals/characters/mio/thoughtful.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L518",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "transform:leftside",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L518",
+      "source_location": "L516",
       "_origin": "ast"
     },
     {
@@ -8142,7 +8098,51 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L519",
+      "source_location": "L517",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L518",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "asset:game/images/originals/characters/mio/thoughtful.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L521",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "transform:leftside",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L521",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:m",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L522",
       "_origin": "ast"
     },
     {
@@ -8153,51 +8153,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L520",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L523",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L524",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L525",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L529",
+      "source_location": "L526",
       "_origin": "ast"
     },
     {
@@ -8208,29 +8175,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L530",
+      "source_location": "L527",
       "_origin": "ast"
     },
     {
       "source": "label:act_2",
-      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
-      "relation": "show_image",
+      "target": "character:a",
+      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L531",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "transform:heroine",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L531",
+      "source_location": "L528",
       "_origin": "ast"
     },
     {
@@ -8252,6 +8208,28 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L533",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L534",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "transform:heroine",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L534",
       "_origin": "ast"
     },
@@ -8268,6 +8246,17 @@
     },
     {
       "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L537",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
@@ -8279,13 +8268,24 @@
     },
     {
       "source": "label:act_2",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L541",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L539",
+      "source_location": "L542",
       "_origin": "ast"
     },
     {
@@ -8296,7 +8296,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L547",
+      "source_location": "L550",
       "_origin": "ast"
     },
     {
@@ -8307,7 +8307,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L549",
+      "source_location": "L552",
       "_origin": "ast"
     },
     {
@@ -8318,7 +8318,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L559",
+      "source_location": "L562",
       "_origin": "ast"
     },
     {
@@ -8329,7 +8329,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L566",
+      "source_location": "L569",
       "_origin": "ast"
     },
     {
@@ -8340,7 +8340,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L572",
+      "source_location": "L575",
       "_origin": "ast"
     },
     {
@@ -8351,18 +8351,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L573",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "label:phone_chat",
-      "relation": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L580",
+      "source_location": "L576",
       "_origin": "ast"
     },
     {
@@ -8378,24 +8367,35 @@
     },
     {
       "source": "label:act_2",
-      "target": "choice:game/story.rpy:591",
+      "target": "label:phone_chat",
+      "relation": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L586",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "choice:game/story.rpy:595",
       "relation": "offers_choice",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L591",
+      "source_location": "L595",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:591",
+      "source": "choice:game/story.rpy:595",
       "target": "option:62a31127103b",
       "relation": "has_option",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L593",
+      "source_location": "L597",
       "_origin": "ast"
     },
     {
@@ -8406,7 +8406,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L594",
+      "source_location": "L598",
       "_origin": "ast"
     },
     {
@@ -8417,18 +8417,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L596",
+      "source_location": "L600",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:591",
+      "source": "choice:game/story.rpy:595",
       "target": "option:c1f36b6235aa",
       "relation": "has_option",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L599",
+      "source_location": "L603",
       "_origin": "ast"
     },
     {
@@ -8439,29 +8439,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L600",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L602",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_2",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L604",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L606",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_2",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L608",
       "_origin": "ast"
     },
     {
@@ -8472,7 +8472,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L609",
+      "source_location": "L613",
       "_origin": "ast"
     },
     {
@@ -8483,7 +8483,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L612",
+      "source_location": "L616",
       "_origin": "ast"
     },
     {
@@ -8494,7 +8494,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L615",
+      "source_location": "L619",
       "_origin": "ast"
     },
     {
@@ -8505,7 +8505,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L616",
+      "source_location": "L620",
       "_origin": "ast"
     },
     {
@@ -8516,7 +8516,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L617",
+      "source_location": "L621",
       "_origin": "ast"
     },
     {
@@ -8527,7 +8527,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L620",
+      "source_location": "L624",
       "_origin": "ast"
     },
     {
@@ -8538,7 +8538,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L621",
+      "source_location": "L625",
       "_origin": "ast"
     },
     {
@@ -8549,7 +8549,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L622",
+      "source_location": "L626",
       "_origin": "ast"
     },
     {
@@ -8560,7 +8560,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L627",
+      "source_location": "L631",
       "_origin": "ast"
     },
     {
@@ -8571,40 +8571,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L627",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L628",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L629",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L631",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L632",
       "_origin": "ast"
     },
     {
@@ -8626,7 +8604,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L634",
+      "source_location": "L635",
       "_origin": "ast"
     },
     {
@@ -8637,7 +8615,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L635",
+      "source_location": "L637",
       "_origin": "ast"
     },
     {
@@ -8648,7 +8626,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L636",
+      "source_location": "L638",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L639",
       "_origin": "ast"
     },
     {
@@ -8664,13 +8653,24 @@
     },
     {
       "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L644",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L641",
+      "source_location": "L645",
       "_origin": "ast"
     },
     {
@@ -8681,7 +8681,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L642",
+      "source_location": "L646",
       "_origin": "ast"
     },
     {
@@ -8692,7 +8692,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L644",
+      "source_location": "L648",
       "_origin": "ast"
     },
     {
@@ -8703,7 +8703,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L644",
+      "source_location": "L648",
       "_origin": "ast"
     },
     {
@@ -8714,35 +8714,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L646",
+      "source_location": "L650",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
       "target": "transform:heroine",
       "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L646",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L648",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -8758,18 +8736,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L651",
+      "source_location": "L652",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L653",
+      "source_location": "L654",
       "_origin": "ast"
     },
     {
@@ -8791,12 +8769,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L658",
+      "source_location": "L657",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8813,7 +8791,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L663",
+      "source_location": "L662",
       "_origin": "ast"
     },
     {
@@ -8824,7 +8802,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L664",
+      "source_location": "L663",
       "_origin": "ast"
     },
     {
@@ -8835,7 +8813,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L665",
+      "source_location": "L667",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L668",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L669",
       "_origin": "ast"
     },
     {
@@ -8846,7 +8846,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L667",
+      "source_location": "L671",
       "_origin": "ast"
     },
     {
@@ -8857,7 +8857,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L667",
+      "source_location": "L671",
       "_origin": "ast"
     },
     {
@@ -8868,7 +8868,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L668",
+      "source_location": "L672",
       "_origin": "ast"
     },
     {
@@ -8879,7 +8879,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L669",
+      "source_location": "L673",
       "_origin": "ast"
     },
     {
@@ -8890,7 +8890,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L669",
+      "source_location": "L673",
       "_origin": "ast"
     },
     {
@@ -8901,45 +8901,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L675",
+      "source_location": "L679",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
       "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L676",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L677",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L678",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8950,46 +8917,13 @@
     },
     {
       "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_laugh.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L686",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "transform:heroine",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L686",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L687",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L689",
+      "source_location": "L681",
       "_origin": "ast"
     },
     {
@@ -9000,40 +8934,62 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L694",
+      "source_location": "L682",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_neutral.webp",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L684",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "asset:game/images/originals/characters/aoi/school_laugh.webp",
       "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L695",
+      "source_location": "L690",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "transform:closeup",
+      "target": "transform:heroine",
       "relation": "stages_with",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L695",
+      "source_location": "L690",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "state:story_courage",
-      "relation": "reads_state",
+      "target": "character:a",
+      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L697",
+      "source_location": "L691",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L693",
       "_origin": "ast"
     },
     {
@@ -9049,8 +9005,8 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
+      "target": "asset:game/images/originals/characters/aoi/school_neutral.webp",
+      "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -9060,8 +9016,19 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
+      "target": "transform:closeup",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L699",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "state:story_courage",
+      "relation": "reads_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -9077,34 +9044,45 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L702",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L703",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L705",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L707",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
       "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L704",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L706",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9115,68 +9093,13 @@
     },
     {
       "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_shy.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L710",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "transform:closeup",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L710",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_tender_heart.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L714",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "transform:closeup",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L714",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L715",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "audio:confession",
-      "relation": "uses_audio",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L716",
+      "source_location": "L710",
       "_origin": "ast"
     },
     {
@@ -9187,18 +9110,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L718",
+      "source_location": "L712",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_laugh_open.webp",
+      "target": "asset:game/images/originals/characters/aoi/school_shy.webp",
       "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L719",
+      "source_location": "L714",
       "_origin": "ast"
     },
     {
@@ -9209,13 +9132,46 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L719",
+      "source_location": "L714",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "asset:game/images/originals/characters/aoi/school_tender_heart.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L718",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "transform:closeup",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L718",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
       "target": "character:a",
       "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L719",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "audio:confession",
+      "relation": "uses_audio",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -9231,12 +9187,34 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L721",
+      "source_location": "L722",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "asset:game/images/originals/characters/aoi/school_laugh_open.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L723",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "transform:closeup",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L723",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9247,7 +9225,7 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9258,7 +9236,7 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9269,7 +9247,7 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9286,23 +9264,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L730",
+      "source_location": "L732",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
       "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L731",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9313,7 +9280,7 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9324,7 +9291,7 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9335,18 +9302,18 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L736",
+      "source_location": "L737",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9363,12 +9330,23 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L740",
+      "source_location": "L739",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
       "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L740",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9385,7 +9363,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L747",
+      "source_location": "L744",
       "_origin": "ast"
     },
     {
@@ -9396,7 +9374,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L749",
+      "source_location": "L746",
       "_origin": "ast"
     },
     {
@@ -9407,18 +9385,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L750",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L752",
+      "source_location": "L751",
       "_origin": "ast"
     },
     {
@@ -9429,7 +9396,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L755",
+      "source_location": "L753",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L754",
       "_origin": "ast"
     },
     {
@@ -9451,7 +9429,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L757",
+      "source_location": "L759",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L760",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L761",
       "_origin": "ast"
     },
     {
@@ -9462,7 +9462,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L758",
+      "source_location": "L762",
       "_origin": "ast"
     },
     {
@@ -9473,23 +9473,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L758",
+      "source_location": "L762",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
       "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L759",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9500,29 +9489,7 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L764",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
       "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L766",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9539,13 +9506,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L769",
+      "source_location": "L768",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "state:story_reply",
-      "relation": "reads_state",
+      "target": "character:r",
+      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -9566,17 +9533,6 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L772",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
@@ -9584,6 +9540,17 @@
       "weight": 1.0,
       "source_file": "game/story.rpy",
       "source_location": "L773",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "state:story_reply",
+      "relation": "reads_state",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L774",
       "_origin": "ast"
     },
     {
@@ -9632,8 +9599,8 @@
     },
     {
       "source": "label:act_3",
-      "target": "state:story_company",
-      "relation": "reads_state",
+      "target": "character:r",
+      "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -9654,17 +9621,6 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L782",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
@@ -9672,6 +9628,17 @@
       "weight": 1.0,
       "source_file": "game/story.rpy",
       "source_location": "L783",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "state:story_company",
+      "relation": "reads_state",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L784",
       "_origin": "ast"
     },
     {
@@ -9687,6 +9654,17 @@
     },
     {
       "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L786",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
@@ -9694,17 +9672,6 @@
       "weight": 1.0,
       "source_file": "game/story.rpy",
       "source_location": "L787",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L788",
       "_origin": "ast"
     },
     {
@@ -9737,6 +9704,17 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L792",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L793",
       "_origin": "ast"
     },
@@ -9748,7 +9726,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L794",
+      "source_location": "L795",
       "_origin": "ast"
     },
     {
@@ -9759,12 +9737,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L795",
+      "source_location": "L797",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9792,17 +9770,6 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L801",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L802",
       "_origin": "ast"
     },
@@ -9819,13 +9786,13 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L804",
+      "source_location": "L805",
       "_origin": "ast"
     },
     {
@@ -9858,6 +9825,17 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L808",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L810",
       "_origin": "ast"
     },
@@ -9880,40 +9858,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L813",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_surprised.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L815",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "transform:closeup",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L815",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L816",
+      "source_location": "L814",
       "_origin": "ast"
     },
     {
@@ -9924,7 +9869,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L817",
+      "source_location": "L815",
       "_origin": "ast"
     },
     {
@@ -9935,7 +9880,40 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L817",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "asset:game/images/originals/characters/aoi/school_surprised.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L819",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "transform:closeup",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L819",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L820",
       "_origin": "ast"
     },
     {
@@ -9951,29 +9929,18 @@
     },
     {
       "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_shy.webp",
-      "relation": "show_image",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L822",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "transform:closeup",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L822",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
       "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L823",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9984,46 +9951,13 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L830",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L831",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L833",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
+      "target": "asset:game/images/originals/characters/aoi/school_shy.webp",
       "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L834",
+      "source_location": "L826",
       "_origin": "ast"
     },
     {
@@ -10034,12 +9968,34 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L834",
+      "source_location": "L826",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
       "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L829",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L834",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10056,18 +10012,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L836",
+      "source_location": "L837",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "audio:bell",
-      "relation": "uses_audio",
+      "target": "asset:game/images/originals/characters/aoi/school_smile.webp",
+      "relation": "show_image",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L840",
+      "source_location": "L838",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "transform:closeup",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L838",
       "_origin": "ast"
     },
     {
@@ -10078,7 +10045,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L843",
+      "source_location": "L839",
       "_origin": "ast"
     },
     {
@@ -10089,29 +10056,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L845",
+      "source_location": "L840",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "asset:game/images/originals/characters/aoi/school_laugh.webp",
-      "relation": "show_image",
+      "target": "audio:bell",
+      "relation": "uses_audio",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L846",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "transform:heroine",
-      "relation": "stages_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L846",
+      "source_location": "L844",
       "_origin": "ast"
     },
     {
@@ -10133,12 +10089,34 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L848",
+      "source_location": "L849",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "asset:game/images/originals/characters/aoi/school_laugh.webp",
+      "relation": "show_image",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L850",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "transform:heroine",
+      "relation": "stages_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L850",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10155,18 +10133,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L853",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L854",
+      "source_location": "L852",
       "_origin": "ast"
     },
     {
@@ -10182,13 +10149,46 @@
     },
     {
       "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L857",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L858",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L859",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
       "target": "audio:page",
       "relation": "uses_audio",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L856",
+      "source_location": "L860",
       "_origin": "ast"
     },
     {
@@ -10199,45 +10199,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L859",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L860",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L861",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
       "source_location": "L863",
       "_origin": "ast"
     },
     {
       "source": "label:act_3",
-      "target": "character:r",
+      "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10248,24 +10215,13 @@
     },
     {
       "source": "label:act_3",
-      "target": "character:a",
+      "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
       "source_location": "L865",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "state:story_color",
-      "relation": "reads_state",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L866",
       "_origin": "ast"
     },
     {
@@ -10298,7 +10254,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
+      "source_location": "L869",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "state:story_color",
+      "relation": "reads_state",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
       "source_location": "L870",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L871",
       "_origin": "ast"
     },
     {
@@ -10309,7 +10287,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L871",
+      "source_location": "L872",
       "_origin": "ast"
     },
     {
@@ -10342,18 +10320,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L877",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:act_3",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L879",
+      "source_location": "L878",
       "_origin": "ast"
     },
     {
@@ -10364,7 +10331,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L880",
+      "source_location": "L879",
       "_origin": "ast"
     },
     {
@@ -10386,7 +10353,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L885",
+      "source_location": "L883",
       "_origin": "ast"
     },
     {
@@ -10397,7 +10364,40 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L887",
+      "source_location": "L884",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L885",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L889",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:act_3",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L891",
       "_origin": "ast"
     },
     {
@@ -10408,7 +10408,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L889",
+      "source_location": "L893",
       "_origin": "ast"
     },
     {
@@ -10419,7 +10419,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L891",
+      "source_location": "L895",
       "_origin": "ast"
     },
     {
@@ -10430,7 +10430,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L891",
+      "source_location": "L895",
       "_origin": "ast"
     },
     {
@@ -10441,7 +10441,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L893",
+      "source_location": "L897",
       "_origin": "ast"
     },
     {
@@ -10452,7 +10452,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L894",
+      "source_location": "L898",
       "_origin": "ast"
     },
     {
@@ -10463,7 +10463,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L895",
+      "source_location": "L899",
       "_origin": "ast"
     },
     {
@@ -10474,7 +10474,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L897",
+      "source_location": "L901",
       "_origin": "ast"
     },
     {
@@ -10485,7 +10485,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L898",
+      "source_location": "L902",
       "_origin": "ast"
     },
     {
@@ -10496,7 +10496,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L901",
+      "source_location": "L905",
       "_origin": "ast"
     },
     {
@@ -10507,7 +10507,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L903",
+      "source_location": "L907",
       "_origin": "ast"
     },
     {
@@ -10518,7 +10518,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L904",
+      "source_location": "L908",
       "_origin": "ast"
     },
     {
@@ -10529,7 +10529,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L905",
+      "source_location": "L909",
       "_origin": "ast"
     },
     {
@@ -10540,7 +10540,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L907",
+      "source_location": "L911",
       "_origin": "ast"
     },
     {
@@ -10551,7 +10551,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L907",
+      "source_location": "L911",
       "_origin": "ast"
     },
     {
@@ -10562,29 +10562,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L909",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:epilogue",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L910",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:epilogue",
-      "target": "character:a",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L912",
+      "source_location": "L913",
       "_origin": "ast"
     },
     {
@@ -10606,7 +10584,18 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L915",
+      "source_location": "L916",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:epilogue",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L918",
       "_origin": "ast"
     },
     {
@@ -10622,24 +10611,24 @@
     },
     {
       "source": "label:epilogue",
-      "target": "character:r",
-      "relation": "speaks_as",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L920",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:epilogue",
       "target": "character:a",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L921",
+      "source_location": "L923",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:epilogue",
+      "target": "character:r",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L924",
       "_origin": "ast"
     },
     {
@@ -10655,13 +10644,24 @@
     },
     {
       "source": "label:epilogue",
+      "target": "character:a",
+      "relation": "speaks_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L929",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:epilogue",
       "target": "character:r",
       "relation": "speaks_as",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L926",
+      "source_location": "L930",
       "_origin": "ast"
     },
     {
@@ -10672,7 +10672,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L927",
+      "source_location": "L931",
       "_origin": "ast"
     },
     {
@@ -10683,7 +10683,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L928",
+      "source_location": "L932",
       "_origin": "ast"
     },
     {
@@ -10694,7 +10694,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L933",
+      "source_location": "L937",
       "_origin": "ast"
     },
     {
@@ -10705,7 +10705,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L935",
+      "source_location": "L939",
       "_origin": "ast"
     },
     {
@@ -10716,7 +10716,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L936",
+      "source_location": "L940",
       "_origin": "ast"
     },
     {
@@ -10727,7 +10727,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L937",
+      "source_location": "L941",
       "_origin": "ast"
     },
     {
@@ -10738,35 +10738,13 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L938",
+      "source_location": "L942",
       "_origin": "ast"
     },
     {
       "source": "label:epilogue",
       "target": "label:phone_chat",
       "relation": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L940",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:epilogue",
-      "target": "label:phone_chat",
-      "relation": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L943",
-      "_origin": "ast"
-    },
-    {
-      "source": "label:epilogue",
-      "target": "choice:game/story.rpy:944",
-      "relation": "offers_choice",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -10775,20 +10753,9 @@
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:944",
-      "target": "option:c15642489a7d",
-      "relation": "has_option",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L946",
-      "_origin": "ast"
-    },
-    {
-      "source": "option:c15642489a7d",
-      "target": "state:story_promise",
-      "relation": "writes_state",
+      "source": "label:epilogue",
+      "target": "label:phone_chat",
+      "relation": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -10798,30 +10765,19 @@
     },
     {
       "source": "label:epilogue",
-      "target": "label:phone_chat",
-      "relation": "call",
+      "target": "choice:game/story.rpy:949",
+      "relation": "offers_choice",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L948",
+      "source_location": "L949",
       "_origin": "ast"
     },
     {
-      "source": "choice:game/story.rpy:944",
-      "target": "option:bdddd05713de",
+      "source": "choice:game/story.rpy:949",
+      "target": "option:c15642489a7d",
       "relation": "has_option",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/story.rpy",
-      "source_location": "L950",
-      "_origin": "ast"
-    },
-    {
-      "source": "option:bdddd05713de",
-      "target": "state:story_promise",
-      "relation": "writes_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -10830,9 +10786,9 @@
       "_origin": "ast"
     },
     {
-      "source": "label:epilogue",
-      "target": "label:phone_chat",
-      "relation": "call",
+      "source": "option:c15642489a7d",
+      "target": "state:story_promise",
+      "relation": "writes_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
@@ -10848,7 +10804,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L954",
+      "source_location": "L953",
+      "_origin": "ast"
+    },
+    {
+      "source": "choice:game/story.rpy:949",
+      "target": "option:bdddd05713de",
+      "relation": "has_option",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L955",
+      "_origin": "ast"
+    },
+    {
+      "source": "option:bdddd05713de",
+      "target": "state:story_promise",
+      "relation": "writes_state",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L956",
       "_origin": "ast"
     },
     {
@@ -10859,7 +10837,29 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L956",
+      "source_location": "L957",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:epilogue",
+      "target": "label:phone_chat",
+      "relation": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L959",
+      "_origin": "ast"
+    },
+    {
+      "source": "label:epilogue",
+      "target": "label:phone_chat",
+      "relation": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/story.rpy",
+      "source_location": "L961",
       "_origin": "ast"
     },
     {
@@ -10870,7 +10870,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L961",
+      "source_location": "L966",
       "_origin": "ast"
     },
     {
@@ -10881,7 +10881,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/story.rpy",
-      "source_location": "L963",
+      "source_location": "L968",
       "_origin": "ast"
     },
     {
@@ -12146,7 +12146,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L166",
+      "source_location": "L165",
       "_origin": "ast"
     },
     {
@@ -12157,7 +12157,40 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L171",
+      "source_location": "L170",
+      "_origin": "ast"
+    },
+    {
+      "source": "test:choice_autosave",
+      "target": "state:story_reply",
+      "relation": "reads_state",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/testcases.rpy",
+      "source_location": "L173",
+      "_origin": "ast"
+    },
+    {
+      "source": "test:choice_autosave",
+      "target": "native:FileLoad",
+      "relation": "uses_native_action",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/testcases.rpy",
+      "source_location": "L174",
+      "_origin": "ast"
+    },
+    {
+      "source": "test:choice_autosave",
+      "target": "state:story_reply",
+      "relation": "reads_state",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/testcases.rpy",
+      "source_location": "L176",
       "_origin": "ast"
     },
     {
@@ -12168,7 +12201,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L173",
+      "source_location": "L178",
       "_origin": "ast"
     },
     {
@@ -12179,7 +12212,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L175",
+      "source_location": "L180",
       "_origin": "ast"
     },
     {
@@ -12190,7 +12223,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L181",
+      "source_location": "L186",
       "_origin": "ast"
     },
     {
@@ -12201,7 +12234,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L182",
+      "source_location": "L187",
       "_origin": "ast"
     },
     {
@@ -12212,7 +12245,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L183",
+      "source_location": "L188",
       "_origin": "ast"
     },
     {
@@ -12223,7 +12256,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L183",
+      "source_location": "L188",
       "_origin": "ast"
     },
     {
@@ -12234,7 +12267,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L185",
+      "source_location": "L190",
       "_origin": "ast"
     },
     {
@@ -12245,7 +12278,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L186",
+      "source_location": "L191",
       "_origin": "ast"
     },
     {
@@ -12256,7 +12289,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L188",
+      "source_location": "L193",
       "_origin": "ast"
     },
     {
@@ -12267,7 +12300,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L195",
+      "source_location": "L200",
       "_origin": "ast"
     },
     {
@@ -12278,7 +12311,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L198",
+      "source_location": "L203",
       "_origin": "ast"
     },
     {
@@ -12289,7 +12322,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L198",
+      "source_location": "L203",
       "_origin": "ast"
     },
     {
@@ -12300,7 +12333,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L204",
+      "source_location": "L209",
       "_origin": "ast"
     },
     {
@@ -12311,7 +12344,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L205",
+      "source_location": "L210",
       "_origin": "ast"
     },
     {
@@ -12322,7 +12355,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L208",
+      "source_location": "L213",
       "_origin": "ast"
     },
     {
@@ -12333,7 +12366,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L208",
+      "source_location": "L213",
       "_origin": "ast"
     },
     {
@@ -12344,7 +12377,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L211",
+      "source_location": "L216",
       "_origin": "ast"
     },
     {
@@ -12355,7 +12388,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L214",
+      "source_location": "L219",
       "_origin": "ast"
     },
     {
@@ -12366,7 +12399,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L216",
+      "source_location": "L221",
       "_origin": "ast"
     },
     {
@@ -12377,7 +12410,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L225",
+      "source_location": "L230",
       "_origin": "ast"
     },
     {
@@ -12388,7 +12421,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L232",
+      "source_location": "L237",
       "_origin": "ast"
     },
     {
@@ -12399,7 +12432,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L235",
+      "source_location": "L240",
       "_origin": "ast"
     },
     {
@@ -12410,7 +12443,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L245",
+      "source_location": "L250",
       "_origin": "ast"
     },
     {
@@ -12421,7 +12454,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L247",
+      "source_location": "L252",
       "_origin": "ast"
     },
     {
@@ -12432,7 +12465,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L249",
+      "source_location": "L254",
       "_origin": "ast"
     },
     {
@@ -12443,7 +12476,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L256",
+      "source_location": "L261",
       "_origin": "ast"
     },
     {
@@ -12454,7 +12487,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L257",
+      "source_location": "L262",
       "_origin": "ast"
     },
     {
@@ -12465,7 +12498,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L257",
+      "source_location": "L262",
       "_origin": "ast"
     },
     {
@@ -12476,7 +12509,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L266",
+      "source_location": "L271",
       "_origin": "ast"
     },
     {
@@ -12487,7 +12520,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L267",
+      "source_location": "L272",
       "_origin": "ast"
     },
     {
@@ -12498,7 +12531,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L267",
+      "source_location": "L272",
       "_origin": "ast"
     },
     {
@@ -12509,7 +12542,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L269",
+      "source_location": "L274",
       "_origin": "ast"
     },
     {
@@ -12520,7 +12553,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L273",
+      "source_location": "L278",
       "_origin": "ast"
     },
     {
@@ -12531,7 +12564,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L276",
+      "source_location": "L281",
       "_origin": "ast"
     },
     {
@@ -12542,7 +12575,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L277",
+      "source_location": "L282",
       "_origin": "ast"
     },
     {
@@ -12553,7 +12586,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L278",
+      "source_location": "L283",
       "_origin": "ast"
     },
     {
@@ -12564,7 +12597,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L281",
+      "source_location": "L286",
       "_origin": "ast"
     },
     {
@@ -12575,7 +12608,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L288",
+      "source_location": "L293",
       "_origin": "ast"
     },
     {
@@ -12586,7 +12619,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L293",
+      "source_location": "L298",
       "_origin": "ast"
     },
     {
@@ -12597,7 +12630,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L297",
+      "source_location": "L302",
       "_origin": "ast"
     },
     {
@@ -12608,7 +12641,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L302",
+      "source_location": "L307",
       "_origin": "ast"
     },
     {
@@ -12619,7 +12652,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L306",
+      "source_location": "L311",
       "_origin": "ast"
     },
     {
@@ -12630,7 +12663,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L307",
+      "source_location": "L312",
       "_origin": "ast"
     },
     {
@@ -12641,7 +12674,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L320",
+      "source_location": "L325",
       "_origin": "ast"
     },
     {
@@ -12652,23 +12685,12 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L325",
+      "source_location": "L330",
       "_origin": "ast"
     },
     {
       "source": "test:complete_routes",
       "target": "state:persistent.chapter_unlocked",
-      "relation": "reads_state",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "weight": 1.0,
-      "source_file": "game/testcases.rpy",
-      "source_location": "L326",
-      "_origin": "ast"
-    },
-    {
-      "source": "test:complete_routes",
-      "target": "state:persistent.completed",
       "relation": "reads_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -12679,13 +12701,24 @@
     },
     {
       "source": "test:complete_routes",
+      "target": "state:persistent.completed",
+      "relation": "reads_state",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "game/testcases.rpy",
+      "source_location": "L336",
+      "_origin": "ast"
+    },
+    {
+      "source": "test:complete_routes",
       "target": "state:story_promise",
       "relation": "reads_state",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L332",
+      "source_location": "L337",
       "_origin": "ast"
     },
     {
@@ -12696,7 +12729,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L334",
+      "source_location": "L339",
       "_origin": "ast"
     },
     {
@@ -12707,7 +12740,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L334",
+      "source_location": "L339",
       "_origin": "ast"
     },
     {
@@ -12718,7 +12751,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L342",
+      "source_location": "L347",
       "_origin": "ast"
     },
     {
@@ -12729,7 +12762,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L344",
+      "source_location": "L349",
       "_origin": "ast"
     },
     {
@@ -12740,7 +12773,7 @@
       "confidence_score": 1.0,
       "weight": 1.0,
       "source_file": "game/testcases.rpy",
-      "source_location": "L344",
+      "source_location": "L349",
       "_origin": "ast"
     },
     {

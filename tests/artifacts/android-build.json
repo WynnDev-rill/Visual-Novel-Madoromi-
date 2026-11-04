@@ -1,7 +1,7 @@
 {
   "apk": "dist/Madoromi-1.0.0-android.apk",
-  "bytes": 80009790,
-  "sha256": "2e5c03f925a188249a1aed87992241be00c7fc1447f88cb667b3fba0dc8f0253",
+  "bytes": 80646930,
+  "sha256": "3b8795e5e47def3ffaa2870f3a3791011b2a97c1f29e21699c34f773b8ad09b4",
   "verified_source_asset_counts": {
     "images": 33,
     "audio": 10,
@@ -22,5 +22,16 @@
   "minimum_64bit_ELF_load_alignment": 16384,
   "certificate_sha256": "c51521e99fee25ec47b14827d36fa0788d1774b554d5623d9b7f77808450f481",
   "network_permission": false,
-  "signature_verified": true
+  "signature_verified": true,
+  "compiled_script_source_digests_verified": [
+    "game/android_audio.rpy",
+    "game/definitions.rpy",
+    "game/gui.rpy",
+    "game/interface_strings.rpy",
+    "game/options.rpy",
+    "game/presentation.rpy",
+    "game/screens.rpy",
+    "game/story.rpy",
+    "game/system_ui.rpy"
+  ]
 }
