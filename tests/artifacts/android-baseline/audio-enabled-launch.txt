@@ -1,0 +1,7 @@
+Starting: Intent { cmp=id.wynndev.madoromi/org.renpy.android.PythonSDLActivity }
+Status: ok
+Activity: id.wynndev.madoromi/org.renpy.android.PythonSDLActivity
+ThisTime: 4161
+TotalTime: 4161
+WaitTime: 4365
+Complete

@@ -1,67 +1,41 @@
-# Visual art acquisition and rights
+# Visual art provenance and production selection
 
-Audited on 3 November 2026. All reused runtime artwork is by **Potat0Master**, acquired from the creator's own itch.io pages. Aoi uses the same Kohaku character across all expressions and outfits. The creator's character name is an asset identifier; the game character and story are original to MADOROMI.
+Revised 4 November 2026. The current visual production pass follows the user's four canonical character designs and a single fine-line painted 2D environment family. It replaces the earlier Potat0Master character/background selection. The earlier creator-page evidence and [visual-assets.json](visual-assets.json) remain a historical acquisition audit; they are not the current runtime manifest.
 
-Suggested in-game credit: **Character and background art: Potat0Master — https://potat0master.itch.io/**. Credit is appreciated rather than required under the audited terms.
+## User-supplied character designs
 
-## Permitted use and distribution boundary
+The user supplied `aoi_base_bust_v1.png`, `mio_base_bust_v1.png`, `sora_base_bust_v1.png` and `ren_base_bust_v1.png` through `MADOROMI — Visual Novel / 02 - Aset & Lisensi / Karakter — MADOROMI`. Their current instruction expressly authorizes using these designs and developing consistent expressions, costumes and body language for this game.
 
-The creator expressly permits personal and commercial games and modification of the artwork. The creator prohibits resale or distribution of the images as standalone assets, including modified versions. The pages specifically clarify that making and selling a visual novel with the art is permitted.
+The folder's manifest describes the PNGs as 1200×1600 RGBA upper-body concepts, cropped and upscaled from one AI-generated lineup. They are not native full-body portraits, ready-made expression sets, or Live2D models. Production extends the supplied PNG concepts into standing sprites with complete arms/hands, expression changes and scene-specific poses. Ren remains the first-person viewpoint; his concept can be used for a cast/profile portrait without placing him opposite the reader in every scene.
 
-Therefore the selected images are used only inside MADOROMI and are excluded from the source repository. Distributions include them in the integrated game: a Ren'Py visual archive on desktop, or native image assets inside the signed Android APK. Do not publish the downloaded ZIPs, raw artwork directories, sprite contact sheets, or an asset-only archive. Raw downloads are retained outside the project at `/workspace/downloads/visuals`.
+| Character | Canonical design anchors |
+| --- | --- |
+| Aoi | Blonde low side bun, two narrow dark hairpins as shown in the supplied image, thin round glasses, amber eyes, ivory vest, navy/gold blazer and bow |
+| Mio | Blue-black medium-length hair, round glasses, blue eyes, gray vest, navy/gold uniform |
+| Sora | Messy dark hair, round glasses, headphones at the neck, navy/gold uniform; drummer |
+| Ren | Ash-brown parted hair, calm expression, dark scarf and navy uniform; first-person protagonist |
 
-The checked pages contain no restriction on this AI-assisted development workflow or ordinary visual inspection/resizing. “No generative AI was used” describes the creator's production method; it does not forbid AI-assisted game development. No creator art was used to train a model or submitted for image generation. Preparation uses Pillow for a fixed transparent crop and Lanczos resizing; it adds no painted or generated detail.
+The supplied original-reference JPGs remain private source references and are not distributed in this repository or used as generation inputs. The supplied concept PNGs are the design inputs. User authorization and provenance are recorded here; no independently verified commercial clearance of the underlying references or exclusive copyright in generated work is asserted. This record does not replace rights in the user's source material.
 
-The downloaded archives contain no separate EULA or README. Relevant page quotations, retrieval dates, and page digests are preserved in [evidence](evidence/). Exact archive hashes, individual members, adaptation, dimensions, output hashes, and runtime paths are recorded in [visual-assets.json](visual-assets.json).
+## Production transformations and runtime files
 
-## Reproduce the approved selection
+OpenAI image generation is used to develop the supplied concepts into consistent expressions, body poses and the afterstory costume. The user's current instruction permits creating coherent backgrounds with AI. The same character finish and palette guide all new environments; no benchmark-game illustration, screenshot or music is submitted as a production asset.
 
-```sh
-python -m pip install Pillow
-python tools/acquire_visuals.py --cache /path/outside/source/visual-cache
+Approved derived runtime WebPs are stored under `game/images/originals/`. Production metadata belongs in `production-art.json`: source/output identifiers and hashes, native/runtime dimensions, preparation, generation prompts where retained, and reference lineage. Original tool outputs and private reference downloads remain outside the repository. Mechanical preparation may resize or convert images while preserving a common sprite canvas; it does not invent facial features or repaint anatomy with a separate image-processing pipeline.
+
+Body language is part of the current integration pass: Aoi's shy clasp, open laugh and tender hand-at-heart poses; Mio's thoughtful glasses gesture; and Sora's relaxed headphone/pocket posture. These require actual scene integration and screenshot checks before they count as verified acting. Expression and pose changes must preserve identity, anatomy, costume and apparent scale. Native Ren'Py dissolves connect changes, with reduced motion available.
+
+The committed production selection supports a clean checkout without downloading the historical illustration packs. Run:
+
+```bash
+python3 -m pip install Pillow
+python3 tests/check_assets.py
 ```
 
-The script uses the creator's public free download flow, selects the audited download by published filename, verifies the archive SHA-256, and derives the chosen game images. It requires no account or payment. A changed archive fails closed for another license/content review; it does not silently accept new material. Pillow is a development dependency, not a game dependency. The default project destination is the script's parent project directory; `--project` can override it.
+Desktop builds use the native Ren'Py visual archive. Android builds use RAPT's native image assets inside the signed APK. Final runtime evidence is reported separately in [VERIFICATION.md](../VERIFICATION.md); a successful earlier-art build does not verify replacement illustrations.
 
-The source repository alone intentionally does not contain these third-party images. Run acquisition before linting, rendering, desktop packaging, or Android packaging. A game build must include the images as part of the integrated game bundle; Android uses RAPT's native APK assets rather than RPA files. The creator's download pages remain the source of truth for future releases.
+## Historical asset-first curation
 
-## Selected packs
+The baseline used Potat0Master Character Sets A01/A02 and environment packs from the creator's [itch.io pages](https://potat0master.itch.io/). Their audited custom terms permitted personal/commercial game use and editing, and prohibited standalone redistribution. Those raw third-party images remain outside Git. Exact archive hashes, members, adaptation and page quotations are retained in [visual-assets.json](visual-assets.json) and [evidence](evidence/); `tools/acquire_visuals.py` is retained for historical reproducibility, not as a current build prerequisite.
 
-| Pack | Scene or character use | Source |
-| --- | --- | --- |
-| Character Set A01, 2160p WebP free tier | Kohaku, summer/winter school uniforms; 17 consistent expressions | [Creator page](https://potat0master.itch.io/free-characters-for-visual-novels-set-a01) |
-| Character Set A02, 2160p WebP free tier | Same Kohaku, white T-shirt and blue blouse; 17 expressions each | [Creator page](https://potat0master.itch.io/characters-set-a02) |
-| Personal Rooms Pack 1 | Same bedroom by day and lamplit night | [Creator page](https://potat0master.itch.io/free-visual-novel-backgrounds-personal-rooms-pack-1) |
-| School Mini Pack 1 | School exterior, classroom, hallway; day/evening variants | [Creator page](https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-1) |
-| School Mini Pack 2 | Art room, afternoon/evening | [Creator page](https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-2) |
-| Mini Pack 1 | Coffee shop, afternoon/evening | [Creator page](https://potat0master.itch.io/free-visual-novel-backgrounds-mini-pack-1) |
-| Mini Pack 2 | Canteen | [Creator page](https://potat0master.itch.io/free-visual-novel-backgrounds-mini-pack-2) |
-| Starter Pack 2 | Street, night city and auditorium | [Creator page](https://potat0master.itch.io/free-visual-novel-backgrounds-starter-pack-2) |
-| Stylized Random Pack A | River/forest and stone rail arch establishing shots | [Creator page](https://potat0master.itch.io/free-stylized-backgrounds-for-visual-novels-random-pack-a) |
-
-## Art direction and known gaps
-
-The chosen family combines soft anime portraits with restrained Blender-rendered scenery, warm afternoon light, blue-grey school clothing, and golden-brown hair. The heroine's face, eyes, silhouette and shading stay identical between outfits. The source portraits are 1440×2160; every portrait uses the same crop `(80, 420, 1320, 2160)` and becomes a 770×1080 transparent WebP. All expression changes align without moving her head. Backgrounds become 1920×1080 WebP, generally downsampled from 3840×2160; the older Starter Pack 2 backgrounds are already 1920×1080.
-
-The approved reused packs do **not** supply a cathedral/tree courtyard, a bakery with visible bread, or a beanbag lounge. A classroom was not relabeled as a lounge, and a park playground was not relabeled as a cathedral. Those locations require original environment illustrations; their provenance is separate from this register. A coffee shop can support secondary café scenes but does not visually establish the source story's favorite bakery.
-
-Kyuririn's current download was inspected as a candidate but not integrated: its selection mixes sketches, unrelated locations, and only a small number of finished interiors. NoranekoGames was excluded because its broad prohibition on AI use is incompatible with this workflow. No benchmark game artwork or screenshots are included in the build.
-
-## Expression interface
-
-Files are `game/images/characters/aoi/{outfit}_{expression}.webp`. Outfits: `school`, `summer`, `casual`, `blouse`.
-
-| Game expression | Creator expression |
-| --- | --- |
-| neutral | normal |
-| smile | normalblush |
-| shy | blush |
-| sad | upset |
-| surprised | huh |
-| laugh | happy |
-| talk, tears, pout, frown, angry, angrytalk, disgusted, poutangry | Same creator label |
-| smirk | evilsmirk |
-| dread | purp |
-| sadtalk | upsettalk |
-
-Portraits deliberately retain the original artist's designs. No new character art, expression interpolation, face swaps, or generative retouching was used.
+No Potat0Master illustration was submitted for image generation. Kyuririn was evaluated but not integrated; NoranekoGames was excluded because its AI-use restriction did not fit this workflow. The replacement decision follows the user's supplied canonical designs and requirement for a coherent visual family, while keeping mature licensed audio, fonts and native engine systems.

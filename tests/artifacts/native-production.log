@@ -1,0 +1,43 @@
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-6.18.57-x86_64-with-glibc2.41
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  1.0.0
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + madoromi
+[rpytest] [exc]     - title_and_preferences
+[rpytest] [exc]     - title_and_preferences (7.431 s)
+[rpytest] [exc]     - phone_backlog
+[rpytest] [exc]     - phone_backlog (5.155 s)
+[rpytest] [exc]     - save_load_and_rollback
+[rpytest] [exc]     - save_load_and_rollback (15.225 s)
+[rpytest] [exc]     - automatic_reading
+[rpytest] [exc]     - automatic_reading (5.791 s)
+[rpytest] [exc]     - menu_destinations(destination='help')
+[rpytest] [exc]     - menu_destinations(destination='help') (1.967 s)
+[rpytest] [exc]     - menu_destinations(destination='credits')
+[rpytest] [exc]     - menu_destinations(destination='credits') (2.379 s)
+[rpytest] [exc]     - menu_destinations(destination='load')
+[rpytest] [exc]     - menu_destinations(destination='load') (1.501 s)
+[rpytest] [exc]     - menu_destinations(destination='chapters')
+[rpytest] [exc]     - menu_destinations(destination='chapters') (1.812 s)
+[rpytest] [exc]     - menu_destinations(destination='about')
+[rpytest] [exc]     - menu_destinations(destination='about') (1.707 s)
+[rpytest] [exc]     - confirmation_and_acting
+[rpytest] [exc]     - confirmation_and_acting (45.283 s)
+[rpytest] [exc]     - complete_routes(route=(0, 0, 0, 0, 0))
+[rpytest] [exc]     - complete_routes(route=(0, 0, 0, 0, 0)) (67.857 s [01:07])
+[rpytest] [exc]     - complete_routes(route=(1, 1, 1, 1, 1))
+[rpytest] [exc]     - complete_routes(route=(1, 1, 1, 1, 1)) (18.714 s)
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :    13 |    12 passed |     0 xfailed |     0 failed |     0 xpassed |     1 skipped |     0 not run
+[rpytest] Test hooks :    14 |    14 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    79 |    79 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 185.281 s [03:05]
+[rpytest] Status: PASSED 
+

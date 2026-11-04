@@ -557,7 +557,7 @@ screen help():
 
     tag menu
 
-    default device = "keyboard"
+    default device = ("touch" if renpy.mobile else "keyboard")
 
     use game_menu(_("Bantuan"), scroll="viewport"):
 
@@ -567,14 +567,21 @@ screen help():
             spacing gui.scale(15)
 
             hbox:
-
-                textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-                textbutton _("Mouse") action SetScreenVariable("device", "mouse")
+                spacing 16
+                textbutton "Layar sentuh" action SetScreenVariable("device", "touch") style "system_subtab_button"
+                textbutton "Keyboard" action SetScreenVariable("device", "keyboard") style "system_subtab_button"
+                textbutton "Mouse" action SetScreenVariable("device", "mouse") style "system_subtab_button"
 
                 if GamepadExists():
-                    textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
+                    textbutton "Gamepad" action SetScreenVariable("device", "gamepad") style "system_subtab_button"
 
-            if device == "keyboard":
+            if device == "touch":
+                vbox:
+                    spacing 28
+                    xmaximum 1450
+                    for instruction in ["Ketuk area cerita untuk menampilkan seluruh kalimat, lalu ketuk lagi untuk lanjut.", "Ketuk pilihan untuk menjawab. Tidak ada batas waktu memilih.", "Gunakan Riwayat untuk membaca ulang, dan Kembali untuk mengulang bagian sebelumnya.", "Simpan dan Muat tersedia pada bilah bawah. Menu membuka pengaturan dan halaman judul.", "Otomatis melanjutkan teks dengan jeda yang dapat diatur. Ketuk area cerita untuk menghentikannya.", "Geser daftar untuk menelusuri riwayat atau pengaturan. Tombol Kembali Android membuka menu game."]:
+                        text instruction size 30 color "#153d5a" line_spacing 8
+            elif device == "keyboard":
                 use keyboard_help
             elif device == "mouse":
                 use mouse_help
@@ -626,11 +633,11 @@ screen keyboard_help():
 
     hbox:
         label "V"
-        text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
+        text _("Aktifkan atau hentikan pembaca layar aksesibilitas.")
 
     hbox:
         label "Shift+A"
-        text _("Opens the accessibility menu.")
+        text _("Buka menu aksesibilitas.")
 
 
 screen mouse_help():
@@ -682,7 +689,7 @@ screen gamepad_help():
         label _("Y/Top Button")
         text _("Sembunyikan antarmuka.")
 
-    textbutton _("Calibrate") action GamepadCalibrate()
+    textbutton _("Kalibrasi") action GamepadCalibrate()
 
 
 style help_button is gui_button
@@ -694,9 +701,14 @@ style help_text is gui_text
 style help_button:
     properties gui.button_properties("help_button")
     xmargin gui.scale(8)
+    yminimum 108
+    background Solid("#e3f7ff")
+    hover_background Solid("#176f96")
 
 style help_button_text:
     properties gui.text_properties("help_button")
+    color "#153d5a"
+    hover_color "#ffffff"
 
 style help_label:
     xsize gui.scale(250)
@@ -706,6 +718,13 @@ style help_label_text:
     size gui.text_size
     xalign 1.0
     textalign 1.0
+    font "fonts/NotoSans-Regular.ttf"
+    color "#176f96"
+
+style help_text:
+    font "fonts/NotoSans-Regular.ttf"
+    color "#153d5a"
+    size 30
 
 
 
@@ -730,7 +749,7 @@ screen confirm(message, yes_action, no_action):
 
     style_prefix "confirm"
 
-    add "gui/overlay/confirm.png"
+    add Solid("#061d35bd")
 
     frame:
 
@@ -794,7 +813,7 @@ screen skip_indicator():
         hbox:
             spacing gui.scale(6)
 
-            text _("Skipping")
+            text _("Melewati")
 
             text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
             text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"

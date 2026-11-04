@@ -1,0 +1,130 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2b5d61f4 id.wynndev.madoromi/org.renpy.android.PythonSDLActivity filter 263b4f7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        21533d1d id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 1d316059
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        2e7e0b92 id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 32b55ca0
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        381d9963 id.wynndev.madoromi/androidx.profileinstaller.ProfileInstallReceiver filter 373dc191
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        2ee8a960 id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 1737541e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        3ceb8e19 id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 2b6424ff
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        2ee8a960 id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 1737541e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE:
+        35ed4ede id.wynndev.madoromi/com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver filter 29ac11a3
+          Action: "com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        381d9963 id.wynndev.madoromi/androidx.profileinstaller.ProfileInstallReceiver filter 1660121b
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      android.intent.action.BATTERY_LOW:
+        21533d1d id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 1d316059
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        21c668bf id.wynndev.madoromi/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 1923a2cc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        21c668bf id.wynndev.madoromi/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 1923a2cc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        381d9963 id.wynndev.madoromi/androidx.profileinstaller.ProfileInstallReceiver filter 284e1fb8
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        381d9963 id.wynndev.madoromi/androidx.profileinstaller.ProfileInstallReceiver filter 1d6bc8f6
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        21c668bf id.wynndev.madoromi/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 1923a2cc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        2e7e0b92 id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 32b55ca0
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        181efb8c id.wynndev.madoromi/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 3080942a
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        101df2d5 id.wynndev.madoromi/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 58ea915
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Permissions:
+  Permission [id.wynndev.madoromi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (227b7aea):
+    sourcePackage=id.wynndev.madoromi
+    uid=10053 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{902d1db id.wynndev.madoromi/10053}
+    perm=Permission{1c864478 id.wynndev.madoromi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  id.wynndev.madoromi/org.renpy.android.RenPyFileProvider:
+    Provider{3ad7e751 id.wynndev.madoromi/org.renpy.android.RenPyFileProvider}
+  id.wynndev.madoromi/androidx.startup.InitializationProvider:
+    Provider{100e5bb6 id.wynndev.madoromi/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [id.wynndev.madoromi.fileprovider]:
+    Provider{3ad7e751 id.wynndev.madoromi/org.renpy.android.RenPyFileProvider}
+      applicationInfo=ApplicationInfo{1ad2b0b7 id.wynndev.madoromi}
+  [id.wynndev.madoromi.androidx-startup]:
+    Provider{100e5bb6 id.wynndev.madoromi/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{1ad2b0b7 id.wynndev.madoromi}
+
+Key Set Manager:
+  [id.wynndev.madoromi]
+      Signing KeySets: 8
+
+Packages:
+  Package [id.wynndev.madoromi] (902d1db):
+    userId=10053 gids=[1028, 1015]
+    pkg=Package{2173024 id.wynndev.madoromi}
+    codePath=/data/app/id.wynndev.madoromi-1
+    resourcePath=/data/app/id.wynndev.madoromi-1
+    legacyNativeLibraryDir=/data/app/id.wynndev.madoromi-1/lib
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    versionCode=1793730293 targetSdk=36
+    versionName=1.0.0
+    applicationInfo=ApplicationInfo{1ad2b0b7 id.wynndev.madoromi}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/data/id.wynndev.madoromi
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-11-04 01:04:19
+    firstInstallTime=2026-11-04 01:04:35
+    lastUpdateTime=2026-11-04 01:04:35
+    signatures=PackageSignatures{1462a78d [211c7d42]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      enabledComponents:
+      androidx.work.impl.background.systemalarm.SystemAlarmService
+    grantedPermissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.VIBRATE
+      id.wynndev.madoromi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.WRITE_EXTERNAL_STORAGE

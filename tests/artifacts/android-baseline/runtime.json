@@ -1,0 +1,23 @@
+{
+  "build_role": "pre-art/pre-AudioTrack-fix diagnostic baseline",
+  "source_apk_sha256": "55f805e5ca6c3d344af0cba1acdee928be7f4b6857e41c2799b7031e45440490",
+  "original_version_code": 1793730293,
+  "android_api": 21,
+  "screen": [
+    1280,
+    720
+  ],
+  "density_dpi": 240,
+  "default_OpenSLES": "partial play followed by input stall",
+  "later_flow_driver": "external SDL_AUDIODRIVER=android (AudioTrack); APK unchanged",
+  "checks": {
+    "installation": "PASS",
+    "title_and_chapter": "PASS",
+    "phone_messages_1_to_5": "PASS",
+    "manual_save_load": "PASS with AudioTrack override; message 5 back to message 4",
+    "home_resume": "PASS with AudioTrack override; same PID and message count",
+    "fresh_choice_autosave": "NOT VERIFIED; no fresh file after first choice"
+  },
+  "native_test_runner_used": false,
+  "audio_features_muted": false
+}

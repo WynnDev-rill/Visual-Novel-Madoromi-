@@ -1,0 +1,2 @@
+Before first choice: no automatic save files. Only QA manual slot 1 exists.
+-rwxrwx--- u0_a53   sdcard_r    69522 2026-11-04 06:25 1-1-LT1.save

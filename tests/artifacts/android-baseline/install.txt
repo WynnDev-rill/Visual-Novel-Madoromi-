@@ -1,0 +1,8 @@
+Baseline APK: dist/Madoromi-1.0.0-android.apk
+SHA-256: 55f805e5ca6c3d344af0cba1acdee928be7f4b6857e41c2799b7031e45440490
+Bytes: 79200445
+2026-11-04: boot completed = 1
+Pre-install pm path returned no package.
+adb push: 1 file pushed, 0 skipped; 79200445 bytes.
+adb shell pm install -r /sdcard/Madoromi-baseline.apk
+Success

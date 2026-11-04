@@ -1,9 +1,9 @@
 {
   "apk": "dist/Madoromi-1.0.0-android.apk",
-  "bytes": 79200445,
-  "sha256": "55f805e5ca6c3d344af0cba1acdee928be7f4b6857e41c2799b7031e45440490",
+  "bytes": 80009790,
+  "sha256": "2e5c03f925a188249a1aed87992241be00c7fc1447f88cb667b3fba0dc8f0253",
   "verified_source_asset_counts": {
-    "images": 90,
+    "images": 33,
     "audio": 10,
     "fonts": 4,
     "gui": 59
@@ -16,6 +16,9 @@
     "armeabi-v7a": 1,
     "x86_64": 1
   },
+  "native_libraries_compressed": true,
+  "extract_native_libraries": true,
+  "zip_alignment_verified": true,
   "minimum_64bit_ELF_load_alignment": 16384,
   "certificate_sha256": "c51521e99fee25ec47b14827d36fa0788d1774b554d5623d9b7f77808450f481",
   "network_permission": false,

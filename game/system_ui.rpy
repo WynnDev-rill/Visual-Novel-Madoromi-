@@ -1,33 +1,44 @@
-# Warm, readable system screens. All progress and settings use Ren'Py actions.
+# Coastal blue system screens. All progress/settings use native Ren'Py actions.
 init offset = 3
 
 init python:
+    def madoromi_system_panel(fill, border="#79cde5"):
+        # A crisp frame made from native displayables; no copied UI graphics.
+        return Frame(Composite((8, 8), (0, 0), Solid(border, xysize=(8, 8)),
+            (1, 1), Solid(fill, xysize=(6, 6))), 2, 2)
+
     def madoromi_history_color(who):
         name = renpy.filter_text_tags(who or "", allow=set()).split(" · ", 1)[0]
         return {
-            "Aoi": "#963f4b",
-            "Ren": "#285d79",
-            "Sora": "#596c35",
-            "Mio": "#73518a",
-        }.get(name, "#2c4052")
+            "Aoi": "#ffcfb5",
+            "Ren": "#a9deff",
+            "Sora": "#daedb7",
+            "Mio": "#ddc6f5",
+        }.get(name, "#f3faff")
 
     def madoromi_slot_excerpt(slot):
         excerpt = renpy.filter_text_tags(FileSaveName(slot), allow=set())
         excerpt = " ".join(excerpt.split())
         if not excerpt:
             return "Bagian cerita tersimpan."
-        return excerpt if len(excerpt) <= 94 else excerpt[:91].rstrip() + "…"
+        return excerpt if len(excerpt) <= 64 else excerpt[:61].rstrip() + "…"
 
 
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
     style_prefix "system"
+    $ history_mode = title == "Riwayat"
 
-    add Solid("#f5f1e9")
-    text title style "system_heading" xpos 90 ypos 40
+    add Solid("#eff9ff")
+    add "images/originals/courtyard.webp" alpha (.22 if history_mode else .08)
+    if history_mode:
+        add Solid("#082d42df")
+    add Solid("#22779f" if not history_mode else "#071f2d") xysize (1920, 190)
+    add Transform("images/originals/courtyard.webp", crop=(0, 0, 1920, 600), xysize=(1920, 190), alpha=.18)
+    text ("Kenangan" if title == "Bab & kenangan" else title) style "system_heading" xpos 70 ypos 30 xanchor 0.0 yanchor 0.0
 
     hbox:
-        xpos 90
-        ypos 130
+        xpos 550
+        ypos 76
         spacing 0
 
         textbutton "Simpan":
@@ -64,13 +75,13 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
             selected title == "Bantuan"
             sensitive renpy.has_screen("help")
 
-    add Solid("#c8d1cd") xpos 90 ypos 244 xysize (1740, 2)
+    add Solid("#79cde5") ypos 188 xysize (1920, 2)
 
     frame:
         style "system_content_frame"
         xpos 100
-        ypos 270
-        xysize (1720, 652)
+        ypos 220
+        xysize (1720, 690)
 
         if scroll == "viewport":
             viewport:
@@ -103,10 +114,12 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
         else:
             transclude
 
+    add Solid("#082d42f0" if history_mode else "#f6fcfff2") ypos 936 xysize (1920, 144)
+    add Solid("#79cde5") ypos 936 xysize (1920, 2)
     textbutton "Kembali":
         style "system_footer_button"
         xpos 90
-        ypos 940
+        ypos 952
         action Return()
 
     if not main_menu:
@@ -114,10 +127,20 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
             style "system_footer_button"
             xalign 1.0
             xoffset -90
-            ypos 940
+            ypos 952
             action MainMenu()
     else:
         key "game_menu" action ShowMenu("main_menu")
+
+
+screen system_setting_heading(caption):
+    vbox:
+        spacing 8
+        hbox:
+            spacing 12
+            add Solid("#47b6dc") xysize (10, 10) yalign .5
+            text caption style "system_section_heading"
+        add Solid("#9cd5e5") xysize (760, 1)
 
 
 screen preferences():
@@ -135,8 +158,9 @@ screen preferences():
                         selected preference_tab == tab
 
             viewport:
+                style_prefix "system"
                 ypos 132
-                xysize (1720, 520)
+                xysize (1720, 558)
                 scrollbars "vertical"
                 mousewheel True
                 draggable True
@@ -152,7 +176,7 @@ screen preferences():
                                 xsize 760
                                 spacing 18
 
-                                text "Ukuran teks" style "system_text"
+                                use system_setting_heading("Ukuran teks")
                                 hbox:
                                     spacing 16
                                     textbutton "Standar":
@@ -164,13 +188,13 @@ screen preferences():
                                         action SetField(persistent, "text_size", 42)
                                         selected persistent.text_size == 42
 
-                                text "Kecepatan teks" style "system_text"
+                                use system_setting_heading("Kecepatan teks")
                                 bar:
                                     style "system_slider"
                                     value Preference("text speed")
                                     alt "Kecepatan teks"
 
-                                text "Jeda mode otomatis" style "system_text"
+                                use system_setting_heading("Jeda mode otomatis")
                                 bar:
                                     style "system_slider"
                                     value Preference("auto-forward time")
@@ -220,7 +244,7 @@ screen preferences():
                                         text "Transisi" style "system_toggle_button_text"
                                         text ("Aktif" if _preferences.transitions else "Nonaktif") style "system_toggle_button_text" xalign 1.0
 
-                                text "Kurangi gerakan menenangkan pergerakan latar dan karakter." style "system_note" xsize 740 yoffset 8
+                                text "Gerak latar dan karakter dibuat lebih tenang." style "system_note" xsize 740 yoffset 8
 
                     elif preference_tab == "Suara":
                         hbox:
@@ -230,19 +254,19 @@ screen preferences():
                                 xsize 760
                                 spacing 18
 
-                                text "Musik" style "system_text"
+                                use system_setting_heading("Musik")
                                 bar:
                                     style "system_slider"
                                     value Preference("music volume")
                                     alt "Volume musik"
 
-                                text "Efek suara" style "system_text"
+                                use system_setting_heading("Efek suara")
                                 bar:
                                     style "system_slider"
                                     value Preference("sound volume")
                                     alt "Volume efek suara"
 
-                                text "Suasana lingkungan" style "system_text"
+                                use system_setting_heading("Suasana lingkungan")
                                 bar:
                                     style "system_slider"
                                     value Preference("mixer ambience volume")
@@ -338,23 +362,25 @@ screen file_slots(title):
 
                         button:
                             style "system_slot_button"
+                            background madoromi_system_panel("#f6fcff" if occupied else "#48749a")
+                            hover_background madoromi_system_panel("#ddf5ff" if occupied else "#376b98", "#1776a1")
                             action FileAction(slot)
                             alt ("Muat slot %02d" % slot if title == "Muat" else "Simpan slot %02d" % slot)
 
-                            add FileScreenshot(slot, empty=Solid("#e1e2d9")) xpos 22 ypos 20 xysize (264, 148)
-
-                            vbox:
-                                xpos 344
-                                ypos 20
-                                xsize 470
-                                spacing 12
-
-                                text ("Slot %02d" % slot) style "system_slot_number"
-                                text FileTime(slot, format="%d/%m/%Y  %H:%M", empty="Slot kosong") style "system_slot_date"
-                                if occupied:
+                            if occupied:
+                                add FileScreenshot(slot) xpos 22 ypos 20 xysize (264, 148)
+                                vbox:
+                                    xpos 316
+                                    ypos 20
+                                    xsize 354
+                                    spacing 8
+                                    text ("Slot %02d" % slot) style "system_slot_number"
+                                    text FileTime(slot, format="%d/%m/%Y  %H:%M") style "system_slot_date"
                                     text madoromi_slot_excerpt(slot) style "system_slot_excerpt" substitute False
-                                else:
-                                    text ("Ketuk untuk menyimpan." if title == "Simpan" else "Belum ada simpanan.") style "system_slot_excerpt"
+                            else:
+                                text ("Slot %02d" % slot) style "system_slot_number" color "#e6f7ff" xpos 26 ypos 16
+                                text "Belum ada simpanan" style "system_slot_empty" xpos 26 ypos 58
+                                text ("Ketuk untuk menyimpan." if title == "Simpan" else "Pilih halaman lain untuk mencari simpanan.") size 24 color "#ffffff" xpos 26 ypos 130
 
                             key "save_delete" action FileDelete(slot)
 
@@ -362,12 +388,12 @@ screen file_slots(title):
                             textbutton "Hapus":
                                 style "system_delete_button"
                                 xpos 692
-                                ypos 4
+                                ypos 78
                                 action FileDelete(slot)
 
             hbox:
                 xalign .5
-                ypos 544
+                ypos 566
                 spacing 12
 
                 textbutton "Sebelum":
@@ -398,7 +424,7 @@ screen history():
 
                 frame:
                     style "system_history_row"
-                    background Solid("#fcf9f3" if index % 2 == 0 else "#f0ece4")
+                    background Solid("#0c3d57c8" if index % 2 == 0 else "#154b65a8")
 
                     hbox:
                         spacing 24
@@ -423,53 +449,65 @@ screen history():
             vbox:
                 spacing 20
                 null height 150
-                text "Belum ada dialog dalam riwayat." style "system_section_heading"
-                text "Dialog yang sudah dibaca akan tercatat di sini." style "system_text"
+                text "Belum ada dialog dalam riwayat." style "system_section_heading" color "#ffffff"
+                text "Dialog yang sudah dibaca akan tercatat di sini." style "system_text" color "#d5ecf6"
 
 
 style system_text is text:
     font "fonts/NotoSans-Regular.ttf"
     size 30
-    color "#2c4052"
+    color "#153d5a"
     line_spacing 6
 
 style system_heading is system_text:
-    font "fonts/NotoSerif-Regular.ttf"
-    size 52
+    font "fonts/NotoSans-Regular.ttf"
+    size 72
+    color "#ffffff"
+    outlines [(1, "#153d5a50", 0, 1)]
 
-style system_section_heading is system_heading:
+style system_section_heading is system_text:
     size 34
+    color "#153d5a"
 
 style system_note is system_text:
     size 26
-    color "#526269"
+    color "#385f78"
 
 style system_button is button:
     xminimum 72
     ysize 108
     padding (24, 12)
-    background Solid("#e7e6dd")
-    hover_background Solid("#35738b")
-    selected_background Solid("#35738b")
-    selected_hover_background Solid("#2c6278")
-    insensitive_background Solid("#e9e6df")
+    background madoromi_system_panel("#f8fdff")
+    hover_background madoromi_system_panel("#176f96", "#176f96")
+    selected_background madoromi_system_panel("#176f96", "#176f96")
+    selected_hover_background madoromi_system_panel("#135d80", "#135d80")
+    insensitive_background madoromi_system_panel("#e1edf3", "#b5ced9")
 
 style system_button_text is system_text:
-    color "#2c4052"
-    hover_color "#fffaf3"
-    selected_color "#fffaf3"
-    selected_hover_color "#fffaf3"
-    insensitive_color "#939991"
+    color "#153d5a"
+    hover_color "#ffffff"
+    selected_color "#ffffff"
+    selected_hover_color "#ffffff"
+    insensitive_color "#617d8e"
     xalign .5
     yalign .5
 
 style system_tab_button is system_button:
-    xsize 248
-    background None
-    selected_background Solid("#35738b")
-    selected_hover_background Solid("#2c6278")
+    xsize 180
+    padding (12, 12)
+    background madoromi_system_panel("#1e648a", "#79cde5")
+    hover_background madoromi_system_panel("#2a7ba3", "#bcefff")
+    selected_background madoromi_system_panel("#f5fcff", "#a7e4f3")
+    selected_hover_background madoromi_system_panel("#ffffff", "#79cde5")
+    insensitive_background madoromi_system_panel("#236384", "#4e8daa")
 
-style system_tab_button_text is system_button_text
+style system_tab_button_text is system_button_text:
+    size 26
+    color "#ffffff"
+    hover_color "#ffffff"
+    selected_color "#153d5a"
+    selected_hover_color "#153d5a"
+    insensitive_color "#b8d3e0"
 
 style system_subtab_button is system_button:
     xsize 248
@@ -491,13 +529,29 @@ style system_toggle_button_text is system_button_text:
 
 style system_footer_button is system_button:
     xminimum 248
-    background None
-    selected_background Solid("#35738b")
+    background madoromi_system_panel("#176f96", "#79cde5")
 
-style system_footer_button_text is system_button_text
+style system_footer_button_text is system_button_text:
+    color "#ffffff"
 
 style system_content_frame is empty:
     padding (0, 0)
+
+style confirm_frame:
+    background madoromi_system_panel("#f3faff")
+    padding (56, 44)
+
+style confirm_prompt_text:
+    color "#153d5a"
+    size 36
+    xmaximum 1320
+    line_spacing 8
+
+style confirm_button is system_button:
+    xsize 300
+    ysize 108
+
+style confirm_button_text is system_button_text
 
 style system_viewport is viewport:
     xfill True
@@ -508,9 +562,9 @@ style system_side is side:
 
 style system_vscrollbar is vscrollbar:
     xsize 72
-    base_bar Frame(Composite((72, 12), (33, 0), Solid("#cdd1c8", xysize=(6, 12))), 0, 0)
-    thumb Frame(Composite((72, 12), (24, 0), Solid("#35738b", xysize=(24, 12))), 0, 0)
-    hover_thumb Frame(Composite((72, 12), (24, 0), Solid("#285d79", xysize=(24, 12))), 0, 0)
+    base_bar Frame(Composite((72, 12), (33, 0), Solid("#a6cee0", xysize=(6, 12))), 0, 0)
+    thumb Frame(Composite((72, 12), (24, 0), Solid("#47b6dc", xysize=(24, 12))), 0, 0)
+    hover_thumb Frame(Composite((72, 12), (24, 0), Solid("#2086b5", xysize=(24, 12))), 0, 0)
     top_gutter 0
     bottom_gutter 0
     thumb_offset 0
@@ -519,10 +573,10 @@ style system_vscrollbar is vscrollbar:
 style system_slider is bar:
     xsize 760
     ysize 108
-    left_bar Solid("#35738b", ysize=8)
-    right_bar Solid("#c8cec4", ysize=8)
-    thumb Composite((24, 108), (0, 28), Solid("#35738b", xysize=(24, 52)))
-    hover_thumb Composite((24, 108), (0, 28), Solid("#285d79", xysize=(24, 52)))
+    left_bar Solid("#2086b5", ysize=6)
+    right_bar Solid("#b0d8e6", ysize=6)
+    thumb Composite((28, 108), (0, 32), Solid("#176f96", xysize=(28, 44)), (2, 34), Solid("#47b6dc", xysize=(24, 40)))
+    hover_thumb Composite((28, 108), (0, 32), Solid("#153d5a", xysize=(28, 44)), (2, 34), Solid("#176f96", xysize=(24, 40)))
     thumb_shadow None
     thumb_offset 0
     thumb_align .5
@@ -533,14 +587,14 @@ style system_slider is bar:
 style system_page_name_button is system_button:
     xsize 1100
     background None
-    hover_background Solid("#e7e6dd")
+    hover_background madoromi_system_panel("#e3f7ff")
     selected_background None
 
 style system_page_name_text is system_text:
     size 28
     yalign .5
-    color "#2c4052"
-    hover_color "#35738b"
+    color "#153d5a"
+    hover_color "#176f96"
 
 style system_page_button is system_button:
     xysize (108, 108)
@@ -558,33 +612,37 @@ style system_page_arrow_button_text is system_button_text:
 style system_slot_button is system_button:
     xysize (848, 190)
     padding (0, 0)
-    background Solid("#fcf9f3")
-    hover_background Solid("#e2ebe8")
-    selected_background Solid("#e2ebe8")
-    insensitive_background Solid("#eeebe3")
+    background madoromi_system_panel("#f6fcff")
+    hover_background madoromi_system_panel("#ddf5ff", "#2086b5")
+    selected_background madoromi_system_panel("#ddf5ff", "#2086b5")
+    insensitive_background madoromi_system_panel("#e1edf3")
 
 style system_slot_number is system_text:
     size 25
-    color "#35738b"
+    color "#176f96"
 
 style system_slot_date is system_text:
     size 24
-    color "#526269"
+    color "#385f78"
 
 style system_slot_excerpt is system_text:
     size 24
     line_spacing 3
-    xsize 470
+    xsize 354
+
+style system_slot_empty is system_text:
+    size 40
+    color "#ffffff"
 
 style system_delete_button is system_button:
     xysize (148, 108)
     padding (16, 12)
-    background None
-    hover_background Solid("#a65f4b")
+    background madoromi_system_panel("#f6fcff")
+    hover_background madoromi_system_panel("#8a4253", "#8a4253")
 
 style system_delete_button_text is system_button_text:
     size 26
-    color "#94503f"
+    color "#854052"
 
 style system_history_row is empty:
     xfill True
@@ -599,11 +657,13 @@ style system_history_text is system_text:
     xsize 1060
     min_width 1060
     line_spacing 9
+    color "#ffffff"
+    outlines [(1, "#082d4260", 0, 1)]
 
 style system_history_jump_button is system_button:
     xsize 176
-    background None
-    selected_background Solid("#35738b")
+    background madoromi_system_panel("#176f96", "#79cde5")
 
 style system_history_jump_button_text is system_button_text:
     size 26
+    color "#ffffff"

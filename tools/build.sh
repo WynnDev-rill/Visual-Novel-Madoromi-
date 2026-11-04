@@ -100,6 +100,7 @@ require_engine() {
 
 lint() {
     require_engine
+    python3 "$ROOT/tests/check_assets.py"
     "$RENPY_SDK/renpy.sh" "$ROOT" lint --error-code
 }
 
@@ -171,7 +172,7 @@ archive = namespace['Archive'](str(temporary))
 images = root / 'game/images'
 files = sorted(p for p in images.rglob('*') if p.is_file())
 if not files:
-    raise SystemExit('No runtime visuals: run tools/acquire_visuals.py first.')
+    raise SystemExit('No runtime visuals: restore the committed game/images/originals assets.')
 for path in files:
     archive.add(path.relative_to(root / 'game').as_posix(), str(path))
 archive.close()

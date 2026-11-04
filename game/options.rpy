@@ -30,7 +30,8 @@ MADOROMI — Sepuluh Detik
 Adaptasi romance dari cerita pendek pengguna. Produksi: WynnDev.
 Naskah, penyutradaraan, dan integrasi dikembangkan dengan bantuan AI.
 
-Karakter: Potat0Master. Musik: Kevin MacLeod (incompetech.com), CC BY 4.0.
+Desain tokoh: pengguna. Pengembangan ilustrasi: bantuan AI.
+Musik: Kevin MacLeod (incompetech.com), CC BY 4.0.
 Efek antarmuka: Kenney, CC0. Font: Noto, SIL Open Font License.
 Kredit lengkap dan ketentuan aset tersedia dalam menu Kredit.
 

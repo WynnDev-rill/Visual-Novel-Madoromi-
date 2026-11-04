@@ -1,0 +1,6 @@
+{
+  "apk": "dist/Madoromi-1.0.0-android.apk",
+  "bytes": 80009790,
+  "sha256": "2e5c03f925a188249a1aed87992241be00c7fc1447f88cb667b3fba0dc8f0253",
+  "metadata_package_line": "package: name='id.wynndev.madoromi' versionCode='1793774665' versionName='1.0.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'"
+}

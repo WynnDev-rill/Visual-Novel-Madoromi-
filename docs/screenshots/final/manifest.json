@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-04",
+  "platform": "Native RenPy desktop GL2,1280x720; not Android screenshots",
+  "captures": [
+    {
+      "file": "docs/screenshots/final/title.webp",
+      "native_source": "01-title.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "f4df02d9577a8388945e89763330a8254de31a7f4dcf2472a10e84599e9dcf45",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/settings.webp",
+      "native_source": "02-preferences.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "66db1de0a1b4b8af8de81f3ab973c972a9a7e8058af760149af332ec1ade856b",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/dialogue.webp",
+      "native_source": "21-aoi-confession-gesture.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "5542a082241dbf82c5e38951981d8ee4dbc661a5e2dff1d74aa192f4e5c5d1ad",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/choices.webp",
+      "native_source": "14-cafeteria.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "1379014618d2ab45154954130d70440b1d2a78cecd00050c42fbd5a3c30cf948",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/save.webp",
+      "native_source": "06-save.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "bcbb9877c7ecd3ab00a435043d6e0bae707f6b42cfeb3daf26b81f17d4a9f882",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/history.webp",
+      "native_source": "05-phone-history.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "19ccd54dd780441ecaccd8d7b329776a8ceba695dd6aae541ea2af5457b7662a",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/sora.webp",
+      "native_source": "18-sora-gesture.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "b720bceb4ae6d1c336d8500f4f03cc9c57a64a6faf2305e942f2b775cd333ec7",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/mio.webp",
+      "native_source": "19-mio-gesture.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "ac05093a29b3c335c79e8f2719ad0192f0b6d6b5bb28c13213c0263e61e3446f",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/casual.webp",
+      "native_source": "20-casual-epilogue.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "ac731da686d513c3b4397d1a923cbbeafc73b3ae8e5abf281e6aebfa5c0eb400",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/jeans.webp",
+      "native_source": "11-keepsake.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "2cf31a8c8594c6a89c2e87f73830626de59a35214858e73ec40967b9b5fb22b9",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/ending.webp",
+      "native_source": "12-ending.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "e17f2bb8a104fc146a7d81b66252b139c2edc59da8040c4bf5c9fc72bea95a12",
+      "adaptation": "WebP conversion only; no retouching"
+    },
+    {
+      "file": "docs/screenshots/final/load.webp",
+      "native_source": "heading-check/menu-load.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "bac81e4613cef31cc8e21a4bfdd982629f639f0f2655dfc7ab1b46463c5fe1bc",
+      "adaptation": "WebP conversion only; explicit heading anchors checked in focused test"
+    }
+  ]
+}

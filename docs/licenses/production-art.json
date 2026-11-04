@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "conversion_recipe": 1,
+  "production_date": "2026-11-04",
+  "complete": true,
+  "expected_count": 33,
+  "notes": "Project-specific artwork used under the user's explicit instruction. AI-generated expansions, poses, outfits, environments and prop are disclosed; no exclusive copyright or independent clearance of supplied source concepts is asserted. Original JPG research references and private Drive files are not redistributed.",
+  "assets": [
+    {
+      "runtime_path": "game/images/originals/bedroom.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "6b8e953c0112283cd64821ac68afaa8f4dc75adffc67e69787f7e536215e7894",
+      "source_file": "bedroom.png",
+      "source_sha256": "9ab2329446317d040be161beec5bf94ac5322ec4fbf87748167c319a3bfeb063",
+      "source_size": [
+        1671,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/bedroom_day.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "0ce9f9291ff4badc402254cc9d4b81d5594eae7c4a05d918c9ef1cda05c851e1",
+      "source_file": "bedroom_day.png",
+      "source_sha256": "a2d34332700e4dc843cc563aacd32d1627e74b404d905aabf490dee7b90e92c3",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/cafeteria.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "3a019a7bc5919f4684d627a1aa02ff24c0d395ad747ceb65db06689da0fe2df1",
+      "source_file": "cafeteria.png",
+      "source_sha256": "232cc6240a6495d021f2e99b97c33f2fe8dc4ed0ce7d2ec10cf78578649c33ce",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/street.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "65ced6397d3f0a4d06269e4878648fcfdb7d05de2c406eea5d76a670f3db1557",
+      "source_file": "street.png",
+      "source_sha256": "5f8ee7008a4fe2f167e0a79c3247b3a84c5680566cd0cdca8a16836e6a1d5e09",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/stage.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "50da8b72480f8afc9e043e112f639eef39fd64d06775cfa7ae1be2148d37cbcd",
+      "source_file": "stage.png",
+      "source_sha256": "f6859c6b1e2aca2c9e87d0367f74703f2cf08c13c6cbd3f541917d896048c005",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/night.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "6b296033f00db56b8479db5b323d1233d179a83b6f12f88aafaa216868b14a74",
+      "source_file": "night.png",
+      "source_sha256": "ed713abdde1a0bad06270bc301bd098e1f11efcfbbd07f39e3b8b695dadd3fb7",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/courtyard.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "016f371b3d1e17be3ecea2557a42894126a4bacd45e1002eabd824560426b87c",
+      "source_file": "courtyard.png",
+      "source_sha256": "b490671d4d1be787973f79de4602332b141d7d8216472bf643b1894f840ff443",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/bakery.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "c56da05a2a4ba91b91172315626bd1840b90363f56e2a20515fd89e2c379c7a7",
+      "source_file": "bakery.png",
+      "source_sha256": "e4f6284ad5db94904434761d78e8cbbd6f67a8593b5779ac948270ffea92af60",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/lounge.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "299d1aa4f955b3e8153d9b5087d4e5e5d07a62d167c56446058190880a8ffffa",
+      "source_file": "lounge.png",
+      "source_sha256": "5a03f6ce9947c7695b9fd2682b876e93122e61e4e17bda8b829a189a35fbae69",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/jeans.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "60bd282857017264844dac1d7a3d36fb0e635a7e7dd5a677c4b3f8a9efa7d255",
+      "source_file": "jeans.png",
+      "source_sha256": "35d504811fc55e0cad062d965a145a18ca786237e05b61172240e632ec97dbb7",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/musicroom.webp",
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "ee303c05ec7000d432d12841108242548a7c58bc58ec2ccd8b4fd99129db1647",
+      "source_file": "musicroom.png",
+      "source_sha256": "8f9da620850ada7e42c160e9a811c6ccd7bdc42a8e80b2d2637630b03d70374b",
+      "source_size": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_neutral.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "93fe99e685641947e494eea1abb950652e6e5bde9db0d821a260ff7275ca81ed",
+      "source_file": "school_neutral.png",
+      "source_sha256": "4b86ab9a6e22008893f99cee6d6912e1a7c80739add0bce4f6b771363589c802",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_smile.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "10fca7a53d69da62d11abb5606159d85cbc2517bba42ab75789ea9da750980ba",
+      "source_file": "school_smile.png",
+      "source_sha256": "f3e7ec18606706af73f2eeef2ed6b4cfd07452f8aa182164f51100a6792f67de",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_shy.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "ac523e4cbd82430a42a2acdf8df1e05e233f4c9febf14419607ff0e6039b87a5",
+      "source_file": "school_shy.png",
+      "source_sha256": "c67958a38bdfe87e687b849d98be77d67718ea4dfbcedc960be844e43a29d868",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_sad.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "15139bf0619d41e37ed2c68a124a5aa1e20e8d50b65e5edd4d5bd2d41761388f",
+      "source_file": "school_sad.png",
+      "source_sha256": "b8f93c475a72f03fed0cc65277a8d3a5ca24fc3538bd3457760a8fcb7d1eaed7",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_surprised.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "8b01527849675771b8f399306d95c93032ecee0049e16c570e72d892c8c7349d",
+      "source_file": "school_surprised.png",
+      "source_sha256": "7e4330a47486e1d84b26ca1a89af36f06572aa8fd264bf9326e0b932772a4490",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_laugh.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "a7c975c4b17042f87be2e38853d3e67b2b527e65fd4fd8b325af65f539a00c1b",
+      "source_file": "school_laugh.png",
+      "source_sha256": "48322e23791416fb2196d19acfd07cc517fd8104d7b37f1bfce089281dbb57c8",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_shy_clasp.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "ab91035687629aa816ee173e7245219f30afaffd2a43cfaf6ab0048aa55cc25f",
+      "source_file": "school_shy_clasp.png",
+      "source_sha256": "817da4203d15fbc1427b35b6dcd44c863c80e3d2673b8cf80f42bb8daf3a2bc1",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_laugh_open.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "9776298e46a49885549b8471ffd692dbf44185accc31c71658cbe9f3efde1062",
+      "source_file": "school_laugh_open.png",
+      "source_sha256": "082f4951e29ec1cdf3309632e2a7d7fa85e0305e34b90add76acc67c3fdf042a",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/school_tender_heart.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "e0d3249f0f0ecd5f576969477fb7f2995d9e1035d7295dcc01dab4183a70da07",
+      "source_file": "school_tender_heart.png",
+      "source_sha256": "2684650b66d5958f99153228f343a107a00246ef1ff8b138ed5e4f07815792e5",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/aoi/casual_smile.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "5225b78b88f3ab1906a8617341bac7e066c7f5ae1ab7b1ba283c2fb90bcedd50",
+      "source_file": "casual_smile.png",
+      "source_sha256": "780d29bfe58fd4ea9144f68aa87952a6f34ee1f28d9384d06406ec186221eda6",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/mio/neutral.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "9fc13da91fa78de7618ef57a87468c3c000db728b3fcf9ab26ed0d69a0e17113",
+      "source_file": "neutral.png",
+      "source_sha256": "e7d0936bd66c0ee1e11cde84d284ade021310743342e14bc052bb0c76b4c96c2",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/mio/smile.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "1c2fa367e8e016b0b0f7568c88de6f3eb3bac5cd518084ea8ab947503cd0e4c4",
+      "source_file": "smile.png",
+      "source_sha256": "01a941db3ce9992765f71b0fc0b0644c0fe9d89ffd430fed476d177064e1a69b",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/mio/concerned.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "9498a5f826c7b2d211ebbc75465e4a5818fee5ccf662fc69f6a6f10561ba4548",
+      "source_file": "concerned.png",
+      "source_sha256": "ad48c37aa1f936cecd146ab0936c846df2ebbf45eb62e933f16b96064b4ee614",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/mio/thoughtful.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "5e89e55e55ea7b83d562f895cd8bb9fdc259d2a534bd5e71e3a723022fc96b07",
+      "source_file": "thoughtful.png",
+      "source_sha256": "31ab6c0856f680aaca89824cb73f2c916c278cfbe01b79727a39ec41761b6a22",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/sora/neutral.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "d6e489d06fd0ad4b3c08a7fe65323a7091609c9e6963d55b81fd8de2a82a4533",
+      "source_file": "neutral.png",
+      "source_sha256": "faa7848fa9bf9c254b396fae13033337a042c52bedc07e876bc26576ff5933f1",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/sora/smile.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "f35356de0ed67e477294b8dd24628e0f7130d734b7d653e0fbf003e9c216c93f",
+      "source_file": "smile.png",
+      "source_sha256": "1091363850d780e80cfb9bbe7fa6968f3f28eb4cfbd6e64c6de864fed5f80099",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/sora/concerned.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "4ec9e3e761405af528f0525f5af504ab5769bb9fe8cee129af781d669b293191",
+      "source_file": "concerned.png",
+      "source_sha256": "2c24c9b0b022c3cab6e17e903b81ed9ba00abddfec073c178ff3482af76951a2",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/characters/sora/easy.webp",
+      "runtime_size": [
+        720,
+        1080
+      ],
+      "runtime_sha256": "3cb86cdcff91cfd4ca9ad3e5b236d83b0a843e2624dfd12bcec495d71acdde69",
+      "source_file": "easy.png",
+      "source_sha256": "75521b884dc89c41ed04a7e9222a2505b68ff830475463a7cb224dda6f5a52cf",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "OpenAI image generation for MADOROMI; user canonical designs anchor character identity and finish"
+    },
+    {
+      "runtime_path": "game/images/originals/cast/aoi.webp",
+      "runtime_size": [
+        210,
+        280
+      ],
+      "runtime_sha256": "b2ad9912d3c042eeca080e68908d49c7b8b01b18f8a9f5a9fc6632ebff7f086c",
+      "source_file": "aoi_base_bust_v1.png",
+      "source_sha256": "6ab9dc42e55107be574a3b6f612feee55542f491fa27257cb21070293a3c7f64",
+      "source_size": [
+        1200,
+        1600
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "user-provided canonical concept"
+    },
+    {
+      "runtime_path": "game/images/originals/cast/ren.webp",
+      "runtime_size": [
+        210,
+        280
+      ],
+      "runtime_sha256": "7e0d171eacde3a5fec223cb8db7d42e3e831383a84aaa9d2389e083352e52084",
+      "source_file": "ren_base_bust_v1.png",
+      "source_sha256": "e8104393ac4f966dd4b79d5af6db4e89af09caa63b290795ed24df9b9e07c309",
+      "source_size": [
+        1200,
+        1600
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "user-provided canonical concept"
+    },
+    {
+      "runtime_path": "game/images/originals/cast/mio.webp",
+      "runtime_size": [
+        210,
+        280
+      ],
+      "runtime_sha256": "5badd6e0c24c5186885ce95006362cf5a03f8bfc69cfa079070c1926a259ec61",
+      "source_file": "mio_base_bust_v1.png",
+      "source_sha256": "da917fec73d022c4f61978f0759d872063b2371407d357e42da37ac85631dc04",
+      "source_size": [
+        1200,
+        1600
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "user-provided canonical concept"
+    },
+    {
+      "runtime_path": "game/images/originals/cast/sora.webp",
+      "runtime_size": [
+        210,
+        280
+      ],
+      "runtime_sha256": "8ebf65286c7015fb4c696fcd33f10021e889e5faca97bfadea4a25084d84075f",
+      "source_file": "sora_base_bust_v1.png",
+      "source_sha256": "fad1dc0248ebe5e6bdfe8caaced82f163519508b1ce8e81551b5856f25d49719",
+      "source_size": [
+        1200,
+        1600
+      ],
+      "alpha_required": true,
+      "adaptation": "Full-canvas Lanczos resize and WebP conversion only",
+      "origin": "user-provided canonical concept"
+    }
+  ]
+}

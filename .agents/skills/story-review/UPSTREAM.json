@@ -1,0 +1,89 @@
+{
+  "repository": "https://github.com/haowjy/creative-writing-skills",
+  "commit": "1cb520f9c61e79ce2b1c56dba18601b2d6873433",
+  "retrieved_utc": "2026-11-04",
+  "license": "Apache-2.0",
+  "scope": "Project-local unmodified source skill and its resources. No global packages, Mars/Meridian/Claude installation, hooks, agents, project scaffold, or game runtime dependency.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "SKILL.md",
+      "upstream": "skills/story-review/SKILL.md",
+      "sha256": "495217aaaa444a72b4a17fa86257754961a757a22e63aeeffd9669ae78b9275e"
+    },
+    {
+      "path": "resources/copyedit.md",
+      "upstream": "skills/story-review/resources/copyedit.md",
+      "sha256": "99600e56a1d6e9c7cac297f04b85e194318b9017c49c420fb158fcb3e7d4d640"
+    },
+    {
+      "path": "resources/developmental-edit.md",
+      "upstream": "skills/story-review/resources/developmental-edit.md",
+      "sha256": "b6317b7c8ef68943ab4ad10d3abfdc8ce5fbdbbfcfeb2ab3fe69c6733ed51667"
+    },
+    {
+      "path": "resources/editorial-review.md",
+      "upstream": "skills/story-review/resources/editorial-review.md",
+      "sha256": "d731f237daa15d8df9513521bec5b7836d1f5393421018ca8d82a12511c66fbc"
+    },
+    {
+      "path": "resources/line-edit.md",
+      "upstream": "skills/story-review/resources/line-edit.md",
+      "sha256": "9b98ee377b359a4858708a4ada2c361d3d3612bcf6486d2ee4e922f4d59e1020"
+    },
+    {
+      "path": "resources/proofreading.md",
+      "upstream": "skills/story-review/resources/proofreading.md",
+      "sha256": "9f59f9ce71c2722e23e10cf7b69d7073afbd6748aa6101ba9911cb4b1e000a04"
+    },
+    {
+      "path": "resources/prose-critique/analyze.py",
+      "upstream": "skills/story-review/resources/prose-critique/analyze.py",
+      "sha256": "8b11ebc4c855587d5131a8349df1dcc17a2d05e99a7c61c4433c341300538fe8"
+    },
+    {
+      "path": "resources/prose-critique/baseline.md",
+      "upstream": "skills/story-review/resources/prose-critique/baseline.md",
+      "sha256": "cbb08099cd4ecf8a5462a8f553b2ce72dc46e60174bd09064196d287322811bf"
+    },
+    {
+      "path": "resources/prose-critique/character.md",
+      "upstream": "skills/story-review/resources/prose-critique/character.md",
+      "sha256": "18b1b8f75ec64aba29e58a8ecb389f2c4abee7381b1050a83d771a2e0aa0229e"
+    },
+    {
+      "path": "resources/prose-critique/continuity.md",
+      "upstream": "skills/story-review/resources/prose-critique/continuity.md",
+      "sha256": "20bc3bdddb783e2cc2ce79e86031163ed77d051ff7b769111c9f3237a576e426"
+    },
+    {
+      "path": "resources/prose-critique/prose.md",
+      "upstream": "skills/story-review/resources/prose-critique/prose.md",
+      "sha256": "71fccfaecdc64b1b74cb2ea448bf6bec8669a457306e29039f0445640da592cf"
+    },
+    {
+      "path": "resources/prose-critique/structure.md",
+      "upstream": "skills/story-review/resources/prose-critique/structure.md",
+      "sha256": "785481adbbdf5672d93b0c0bf0774b8479476e496dc314b1244b3e4ee34bb490"
+    },
+    {
+      "path": "resources/prose-critique/voice.md",
+      "upstream": "skills/story-review/resources/prose-critique/voice.md",
+      "sha256": "23554d2011c13b942dae08b71177ffbac5d6a9d8c285d7e8ac35c8704cc8ae97"
+    },
+    {
+      "path": "resources/prose-critique.md",
+      "upstream": "skills/story-review/resources/prose-critique.md",
+      "sha256": "dd3efbc70f01980847f0b3b32d699f07ca9b117154770b8ad7ed9973c6e5ff6a"
+    },
+    {
+      "path": "resources/reader-sim-signal.md",
+      "upstream": "skills/story-review/resources/reader-sim-signal.md",
+      "sha256": "f25b4421ce0cb67e95a181aa0cc01aec27aac252a1502bb948ddf93ecf39568a"
+    }
+  ]
+}

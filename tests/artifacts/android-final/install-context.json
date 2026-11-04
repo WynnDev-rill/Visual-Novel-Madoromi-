@@ -1,0 +1,8 @@
+{
+  "first_update_attempt": "INSTALL_FAILED_INSUFFICIENT_STORAGE",
+  "emulator_data_partition_mb": 512,
+  "fallback": "pm uninstall -k id.wynndev.madoromi, then pm install -r /sdcard/Madoromi-final.apk",
+  "data_preserved": true,
+  "diagnostic_wrap_property_cleared_before_install": true,
+  "debug_app_cleared_before_install": true
+}

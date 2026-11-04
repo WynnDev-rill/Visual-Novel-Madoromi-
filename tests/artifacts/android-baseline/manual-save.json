@@ -1,0 +1,25 @@
+{
+  "file": "1-1-LT1.save",
+  "bytes": 69522,
+  "sha256": "f4a573d6216b8fba8f7eb859caa263964dc213001e0723a6ece6df73ba01b29a",
+  "members": [
+    "screenshot.png",
+    "extra_info",
+    "json",
+    "renpy_version",
+    "log",
+    "signatures"
+  ],
+  "metadata": {
+    "_save_name": "",
+    "_renpy_version": [
+      8,
+      5,
+      3,
+      26051504
+    ],
+    "_version": "1.0.0",
+    "_game_runtime": 22.1368408203125,
+    "_ctime": 1793773505.8445158
+  }
+}

@@ -1,8 +1,9 @@
 # Native Ren'Py story state and display aliases.
-define r = Character("Ren", color="#285d79")
-define a = Character("Aoi", color="#963f4b")
-define s = Character("Sora", color="#596c35")
-define m = Character("Mio", color="#73518a")
+define r = Character("Ren", color="#c6eaff")
+define a = Character("Aoi", color="#f7f9ff")
+define s = Character("Sora", color="#d9f3dc")
+define m = Character("Mio", color="#e2e6ff")
+define portrait_dissolve = Dissolve(.22)
 default persistent.completed = False
 default persistent.chapter_unlocked = 1
 default persistent.text_size = 36
@@ -22,10 +23,20 @@ define audio.bell = "audio/sfx/bell.ogg"
 init python:
     config.overlay_screens.append("quick_menu")
     renpy.music.register_channel("ambience", mixer="ambience", loop=True)
-    for _bg in ("bedroom", "bedroom_day", "cafeteria", "artroom", "artroom_evening", "cafe", "cafe_evening", "school", "school_evening", "street", "street_evening", "stage", "night", "nature", "courtyard", "bakery", "lounge"):
-        renpy.image("bg " + _bg, "images/" + ("originals/" if _bg in ("courtyard", "bakery", "lounge") else "backgrounds/") + _bg + ".webp")
-    for _expression in ("neutral", "smile", "shy", "sad", "surprised", "laugh", "angry", "tears"):
-        renpy.image("aoi " + _expression, DynamicDisplayable(lambda st, at, exp=_expression: (Image("images/characters/aoi/" + aoi_outfit + "_" + exp + ".webp"), None)))
+    for _bg in ("bedroom", "bedroom_day", "cafeteria", "street", "stage", "musicroom", "night", "courtyard", "bakery", "lounge"):
+        renpy.image("bg " + _bg, "images/originals/" + _bg + ".webp")
+
+    def madoromi_aoi(st, at, expression):
+        # The epilogue has one authored casual pose. Earlier saves retain the
+        # native outfit variable, so resolve it without inventing missing files.
+        name = "casual_smile" if aoi_outfit == "blouse" else "school_" + expression
+        return Image("images/originals/characters/aoi/" + name + ".webp"), None
+
+    for _expression in ("neutral", "smile", "shy", "sad", "surprised", "laugh", "shy_clasp", "laugh_open", "tender_heart"):
+        renpy.image("aoi " + _expression, DynamicDisplayable(madoromi_aoi, expression=_expression))
+    for _person, _expressions in (("mio", ("neutral", "smile", "concerned", "thoughtful")), ("sora", ("neutral", "smile", "concerned", "easy"))):
+        for _expression in _expressions:
+            renpy.image(_person + " " + _expression, "images/originals/characters/" + _person + "/" + _expression + ".webp")
 
 transform heroine:
     xalign .62
@@ -34,10 +45,12 @@ transform heroine:
     on show:
         alpha 0.0
         xoffset 20
-        ease (0.0 if persistent.reduce_motion else .35) alpha 1.0 xoffset 0
+        easein (0.0 if persistent.reduce_motion else .32) alpha 1.0 xoffset 0
     on replace:
         alpha 1.0
         xoffset 0
+    on hide:
+        easeout (0.0 if persistent.reduce_motion else .20) alpha 0.0 xoffset -12
 
 transform closeup:
     xalign .62
@@ -46,8 +59,17 @@ transform closeup:
     yoffset 170
 
 transform leftside:
-    xalign .28
+    xalign .12
     yalign 1.0
+    on show:
+        alpha 0.0
+        xoffset -18
+        easein (0.0 if persistent.reduce_motion else .32) alpha 1.0 xoffset 0
+    on replace:
+        alpha 1.0
+        xoffset 0
+    on hide:
+        easeout (0.0 if persistent.reduce_motion else .20) alpha 0.0 xoffset -12
 
 transform title_character:
     xalign .84

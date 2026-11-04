@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/haowjy/creative-writing-skills",
+  "commit": "1cb520f9c61e79ce2b1c56dba18601b2d6873433",
+  "retrieved_utc": "2026-11-04",
+  "license": "Apache-2.0",
+  "scope": "Project-local unmodified source skill and its resources. No global packages, Mars/Meridian/Claude installation, hooks, agents, project scaffold, or game runtime dependency.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "SKILL.md",
+      "upstream": "skills/writing-principles/SKILL.md",
+      "sha256": "ec58cf9d95e1de63125908c408e3e066ff33e7b4a2f25f9b746fa78f7f4ba608"
+    },
+    {
+      "path": "resources/antipatterns.md",
+      "upstream": "skills/writing-principles/resources/antipatterns.md",
+      "sha256": "a8c6a6024d38cdefd1ae4b800743035064ffc38a3c5041d3e9b9be1fd3302892"
+    },
+    {
+      "path": "resources/citations.md",
+      "upstream": "skills/writing-principles/resources/citations.md",
+      "sha256": "56dc0d42609604826b63b3380fc46d998e26bb6e8b853d90827f8f4c5b4855a2"
+    },
+    {
+      "path": "resources/failure-modes.md",
+      "upstream": "skills/writing-principles/resources/failure-modes.md",
+      "sha256": "82da42f04e6c06864f679dc29ad67d90c89eca42006c1c4941a6dfe951e084ea"
+    }
+  ]
+}

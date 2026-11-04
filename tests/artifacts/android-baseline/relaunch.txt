@@ -1,0 +1,8 @@
+Starting: Intent { cmp=id.wynndev.madoromi/org.renpy.android.PythonSDLActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+Activity: com.android.launcher/com.android.launcher2.Launcher
+ThisTime: 193
+TotalTime: 193
+WaitTime: 1269
+Complete

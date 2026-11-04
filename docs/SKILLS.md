@@ -75,8 +75,46 @@ upstream tidak disalin menjadi aset game.
   expression switch dan ATL adalah pilihan implementasi proyek; teknik
   internal game referensi hanya disebut bila ada bukti primer.
 
-Graphify tetap tidak dipasang: pada sumber yang diperiksa, classifier tidak
-mengenali `.rpy`, dan kebutuhan proyek tidak menuntut graph/parser tambahan.
+Permintaan lanjutan pengguna menambahkan Graphify. Graphify **0.9.102** sekarang
+terpasang dalam environment pengembangan terpisah, dengan skill Codex asli,
+lisensi dan provenance di `.agents/skills/graphify/`. Classifier upstream tetap
+tidak mengenali `.rpy`; adapter proyek memberi evidence Ren'Py ke pipeline
+build/cluster/export/query Graphify asli. Python memakai AST upstream. Graph,
+query dengan kutipan baris, pemeriksaan freshness dan integrasi AI coding
+didokumentasikan dalam [KNOWLEDGE_GRAPH.md](KNOWLEDGE_GRAPH.md).
 Shader, backend, SEO, physics, dan tooling 3D tidak memiliki kebutuhan mekanik
 di VN ini. Jumlah skill tidak menjadi ukuran kualitas; build, alur interaksi,
 render, dan audio yang diuji menjadi bukti hasil.
+
+## Creative Writing Skills (haowjy)
+
+Pada 4 November 2026, permintaan eksplisit pengguna mengubah keputusan lama
+untuk hanya membaca tautan: empat skill asli **sudah dipasang dan digunakan**
+di `.agents/skills`. Sumber
+[haowjy/creative-writing-skills](https://github.com/haowjy/creative-writing-skills/tree/1cb520f9c61e79ce2b1c56dba18601b2d6873433)
+dipin pada `1cb520f9c61e79ce2b1c56dba18601b2d6873433`, Apache-2.0.
+
+| Skill lokal | Metode yang diterapkan pada naskah lengkap |
+|---|---|
+| [writing-principles](../.agents/skills/writing-principles/SKILL.md) | *Trust the Reader*, *Economy*, `failure-modes` dan `antipatterns`: kurangi kesimpulan setelah gestur, jaga detail yang mengembangkan tokoh sekaligus menyiapkan payoff. |
+| [creative-writing-craft](../.agents/skills/creative-writing-craft/SKILL.md) | `prose-modes` (*Revision*, *Line Polish*), `scene-construction`, dan `genre/romance`: revisi permukaan terkecil yang memperbaiki masalah, pertahankan kecanggungan, dialog timbal balik, dan tindakan konkret. |
+| [story-review](../.agents/skills/story-review/SKILL.md) | Editorial sebelum line edit; review character, voice, continuity. Satu reviewer terpisah membaca semua adegan/sumber, lalu memeriksa diff akhir. |
+| [story-memory](../.agents/skills/story-memory/SKILL.md) | `fact-extraction`: catat perubahan fakta per adegan, urutan pengakuan/pelukan/hadiah, pengetahuan tokoh, jadwal, benda, dan flag pilihan dalam story bible yang sudah ada. |
+
+Keempat direktori memuat **37 berkas skill/resource upstream tanpa perubahan**,
+empat salinan LICENSE, dan empat `UPSTREAM.json` berisi asal setiap berkas serta
+SHA-256. Manifest lokal terpisah ini melengkapi indeks instalasi awal; indeks
+lama tidak mengklaim mencakup instalasi baru. Lihat
+[lisensi dan verifikasi instalasi](licenses/creative-writing-skills.md).
+
+Tidak memasang Mars, Meridian, plugin Claude, agent upstream, hook, paket
+Python/npm, CLI global, atau scaffold proyek; game tetap memakai Ren’Py dan
+naskah yang sudah ada. Rujukan slash-command di skill adalah jalur baca
+upstream, bukan klaim bahwa seluruh ekosistem terpasang. Script analisis
+berbasis pola bahasa Inggris tidak dipakai sebagai skor mutu bahasa Indonesia.
+
+Hasil pemakaian berupa audit **12 adegan / 3 bab / epilog**, revisi terarah
+pada semua bagian itu, dan [STORY_AUDIT.md](STORY_AUDIT.md) dengan contoh
+sebelum/sesudah. Lima menu, flag, label, callback pengujian, dan urutan sumber
+tetap dipertahankan. Tidak ada klaim angka peningkatan kualitas atau durasi
+pemain yang belum diukur.

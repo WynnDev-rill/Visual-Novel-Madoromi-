@@ -10,7 +10,7 @@ Peristiwa cerpen dipertahankan. Nama, percakapan, latar sekolah, alasan proyek g
 
 | Peristiwa sumber | Implementasi dan pengembangan |
 |---|---|
-| Kedekatan selama sekitar satu setengah bulan | Adegan 1 menyatakan enam minggu; adegan 11 mengungkap perkenalan melalui gambar tali sepatu dan percakapan pertama. |
+| Kedekatan selama sekitar satu setengah bulan | Adegan 1 menyatakan hampir satu setengah bulan; adegan 3 menyebut enam minggu. Adegan 11 mengungkap perkenalan melalui gambar tali sepatu seusai kegiatan liburan dan percakapan pertama. |
 | Pesan hampir setiap malam dan selamat malam sampai pukul dua | Adegan 1 memakai percakapan ponsel 01.43–02.00. Kantuk punya akibat di kantin, lalu mereka belajar berhenti lebih awal. |
 | Satu jam membicarakan semut | Foto remah dan jalur semut membuka cerita. Ren mendengarkan atau ikut bertanya, dengan callback saat pengakuan dan motif pada jeans. |
 | Tiket untuk menonton band protagonis | Tiket sudah dibeli sebelum pembuka. Adegan 5 memperlihatkan pertunjukan kecil dan Aoi menyimpan potongan tiket bergambar ikan buatan Ren. |
@@ -20,9 +20,9 @@ Peristiwa cerpen dipertahankan. Nama, percakapan, latar sekolah, alasan proyek g
 | Kamis ingin mengaku, teman terus ikut tanpa sadar | Adegan 6. Sora perlu bantuan kabel yang sebelumnya dijanjikan Ren. Ia menerima isyarat samar sebagai percakapan biasa, lalu meminta maaf setelah menyadarinya. |
 | Menyiapkan jeans dengan hal-hal favorit heroine | Adegan 8. Jeans bekas dibeli setelah Aoi memeriksa label ukurannya; dicuci, dicat, dikeringkan, diberi perlakuan sesuai petunjuk cat, lalu disertai kartu perawatan. |
 | Senin, toko roti, pohon di luar katedral | Adegan 9–10. Katedral dan kota fiktif, halaman terbuka, tidak memakai ruang ibadah sebagai latar adegan ramai atau mengklaim fakta bangunan nyata. |
-| Sepuluh menit berbasa-basi, mengaku gugup dan cinta | Adegan 10. Pilihan mengubah pembuka kalimat; kedua versi tetap menyampaikan cinta dan permintaan berpacaran secara jelas. |
+| Sepuluh menit berbasa-basi, mengaku gugup dan cinta | Adegan 10. Pilihan mengubah pembuka kalimat; kedua versi mengakui kegugupan, menyampaikan cinta, dan meminta berpacaran secara jelas. |
 | Wajah merah dan perasaan dibalas | Aoi mengakui sangat menyukai Ren, lalu menjelaskan inisiatif dan alasannya sendiri. |
-| Bicara tentang perkenalan, kapan jatuh cinta, sulit menemukan kata | Adegan 11. Penjelasan dibagi bersama tindakan dan jeda; tidak perlu mengucapkan semua hal pada hari yang sama. |
+| Bicara tentang perkenalan, kapan jatuh cinta, sulit menemukan kata | Adegan 11. Keduanya membandingkan kapan perasaan mulai tumbuh: Aoi dari kebiasaan menunggu balasan, Ren dari keinginan agar waktu di kantin lebih panjang. Penjelasan dibagi bersama tindakan dan jeda; tidak perlu mengucapkan semua hal pada hari yang sama. |
 | Gemetar dan pelukan | Aoi melihat tangan Ren, meminta izin memeluk, lalu menunggu napasnya tenang. Bukan hasil angka afeksi. |
 | Sekitar satu setengah jam, lalu kembali mengikuti kegiatan sekolah | 11.45–13.15 di bawah pohon. Jadwal khusus sekolah memberi izin makan di luar 11.30–13.30; mereka kembali sebelum giliran kerja kelompok. |
 | Pertanyaan resmi apakah sekarang berpacaran | Di akhir percakapan, Aoi meminta kepastian dan Ren menjawab eksplisit. |
@@ -32,7 +32,7 @@ Peristiwa cerpen dipertahankan. Nama, percakapan, latar sekolah, alasan proyek g
 
 **Premis.** Dua siswa yang sudah dekat belum tahu bagaimana menamai hubungan mereka. Pertanyaan sederhana membuat Ren sadar bahwa perhatian yang selama ini diberinya telah menjadi harapan. Ia belajar meminta waktu berdua dan mengatakan apa yang diinginkan, sambil memberi Aoi ruang untuk memilih dan berbicara dengan kecepatannya sendiri.
 
-**Tempat dan waktu.** Kazehama adalah kota pesisir fiktif di Jepang; SMA Minato juga fiktif. Pertengahan September. Cerita tidak mengidentifikasi kota, denominasi katedral, stasiun, atau aturan sekolah nyata. Izin keluar sekolah Senin adalah kebijakan acara yang secara khusus diumumkan dan disetujui, bukan pernyataan tentang kebiasaan seluruh sekolah Jepang. Tempat-tempat berada dalam lingkungan yang bisa ditempuh berjalan kaki; toko roti dan halaman sekitar delapan menit dari gerbang sekolah.
+**Tempat dan waktu.** Kazehama adalah kota pesisir fiktif di Jepang; SMA Minato juga fiktif. Pertengahan September. Perkenalan sekitar satu setengah bulan sebelumnya berlangsung seusai kegiatan liburan di sekolah, sehingga tidak mengandaikan pelajaran biasa pada awal Agustus. Cerita tidak mengidentifikasi kota, denominasi katedral, stasiun, atau aturan sekolah nyata. Izin keluar sekolah Senin adalah kebijakan acara yang secara khusus diumumkan dan disetujui, bukan pernyataan tentang kebiasaan seluruh sekolah Jepang. Tempat-tempat berada dalam lingkungan yang bisa ditempuh berjalan kaki; toko roti dan halaman sekitar delapan menit dari gerbang sekolah.
 
 **Sudut pandang dan nada.** Orang pertama Ren; pemain hanya mengetahui apa yang ia alami atau yang kemudian diceritakan kepadanya. Hangat, ringan, dan canggung secara konkret. Taruhan utamanya keberanian memberi nama pada kedekatan. Tidak ada penyakit, kematian, cinta segitiga, sabotase, atau salah paham yang berkepanjangan.
 
@@ -80,16 +80,19 @@ Semua flag memakai `default` native Ren'Py dan tersimpan bersama save. Memulai d
 
 Naskah memakai staging eksplisit: delapan alias latar, enam ekspresi Aoi, posisi biasa dan close-up, perubahan pakaian sekolah/akhir pekan, fade/dissolve, pergantian musik per suasana, kartu bab, layar ponsel, dan insert ilustrasi jeans. Pelukan disampaikan lewat close-up dan narasi tindakan; tidak mengklaim adanya CG pelukan yang tidak dibuat. Tidak ada voice acting karakter.
 
-Hitungan draft selesai: **8.299 kata pada seluruh string berpetik**, termasuk menu dan beberapa identifier teknis, sekitar **8.100 kata yang dibaca pemain**. Hitungan ini bukan durasi yang telah diukur. Perkiraan baca 40–60 menit bergantung kecepatan, jeda, dan pilihan; verifikasi waktu nyata harus dicatat terpisah dari perkiraan ini.
+Hitungan setelah polish 4 November 2026: **8.248 kata pada seluruh string berpetik**, termasuk menu dan identifier teknis; **7.540 kata narasi/dialogue** menurut pemeriksa kontrak cerita, yang tidak menghitung isi panggilan layar ponsel. Angka tersebut mencakup teks alternatif dari kedua opsi, bukan jumlah kata dalam satu jalur. Lint Ren’Py memakai tokenisasi lain dan melaporkan 7.518 kata dalam 732 blok dialogue. Perbedaan metode ini tidak dipakai untuk mengklaim durasi.
+
+Perkiraan baca tetap 40–60 menit bergantung kecepatan, jeda, dan pilihan; belum merupakan durasi sesi pemain yang diukur.
 
 ## Pemeriksaan editorial dan skill
 
-Menggunakan subset read-only dari [haowjy/creative-writing-skills](https://github.com/haowjy/creative-writing-skills), tanpa memasang plugin Claude, mengganti model, mewawancarai pengguna lagi, atau menarik dependency runtime:
+Empat skill asli dari [haowjy/creative-writing-skills](https://github.com/haowjy/creative-writing-skills/tree/1cb520f9c61e79ce2b1c56dba18601b2d6873433) **dipasang lokal**, lalu dipakai untuk audit dan revisi seluruh naskah yang sudah ada. Ini menggantikan keputusan lama yang hanya membaca subset lewat tautan. Instalasi memakai commit `1cb520f9c61e79ce2b1c56dba18601b2d6873433`, mempertahankan 37 berkas skill/resource upstream tanpa perubahan, menyertakan LICENSE Apache-2.0 dan manifest asal/SHA-256 di tiap direktori.
 
-- [writing-principles](https://github.com/haowjy/creative-writing-skills/blob/main/skills/writing-principles/SKILL.md): percaya pembaca, detail yang menjalankan lebih dari satu fungsi, tidak menjelaskan setiap emosi setelah aksi.
-- [creative-writing-craft](https://github.com/haowjy/creative-writing-skills/blob/main/skills/creative-writing-craft/SKILL.md), khususnya [scene-construction](https://github.com/haowjy/creative-writing-skills/blob/main/skills/creative-writing-craft/resources/scene-construction.md) dan [prose-modes](https://github.com/haowjy/creative-writing-skills/blob/main/skills/creative-writing-craft/resources/prose-modes.md): masuk melalui tindakan, suara tokoh berbeda, setiap adegan mengubah keadaan, dan revisi berdasarkan masalah yang teramati.
-- [story-review](https://github.com/haowjy/creative-writing-skills/blob/main/skills/story-review/SKILL.md): peninjauan struktur dan kontinuitas sebelum proofreading. Reviewer terpisah memeriksa urutan sumber, waktu sekolah, motif/ukuran jeans, agency Aoi, dan callback.
+- [writing-principles](../.agents/skills/writing-principles/SKILL.md): *Trust the Reader* dan *Economy* untuk memangkas penjelasan sesudah aksi yang sudah jelas; `failure-modes` dan `antipatterns` untuk memeriksa suara yang terlalu lancar, penutup yang merangkum pelajaran, serta gerak emosional berulang.
+- [creative-writing-craft](../.agents/skills/creative-writing-craft/SKILL.md): mode *Revision* dan *Line Polish*, `scene-construction`, serta addendum `genre/romance` untuk chemistry lewat tindakan, dialog yang bekerja lebih dari satu fungsi, dan perubahan hubungan per adegan.
+- [story-review](../.agents/skills/story-review/SKILL.md): membaca dua belas adegan sampai selesai sebelum diagnosis, kemudian editorial/line review dan pemeriksaan character, voice, serta continuity. Reviewer terpisah membaca keseluruhan snapshot awal dan diff akhir.
+- [story-memory](../.agents/skills/story-memory/SKILL.md): `fact-extraction` untuk mempertahankan fakta waktu, benda, pengetahuan tokoh, perubahan hubungan, dan callback dalam story bible serta ledger ini.
 
-Yang diterapkan adalah metode penulisan dan audit, bukan instruksi setup ekosistem upstream. Subset ini berguna tanpa salinan skill lokal karena tidak ada alat atau referensi runtime yang dibutuhkan game. Tidak ada klaim pengukuran kualitas sebelum/sesudah penggunaan skill.
+[AUDIT lengkap](STORY_AUDIT.md) mencatat penilaian setiap adegan, masalah sebelum revisi, perubahan konkret, keputusan yang dipertahankan, dan batas verifikasi. [Bukti lisensi/instalasi](licenses/creative-writing-skills.md) serta [catatan penerapan](SKILLS.md#creative-writing-skills-haowjy) memisahkan tooling editorial dari runtime game. Tidak ada CLI global, scaffold baru, dependency game, hook, atau pergantian model.
 
-Ledger dan indeks di atas adalah audit adaptasi, bukan pengganti lint, pemeriksaan semua jalur pilihan, bukti screenshot, atau pembacaan pemain. Hasil teknis/build dicatat dalam laporan verifikasi proyek.
+Audit editorial tidak menggantikan pengujian pemain. Kontrak sumber dan lint setelah revisi lulus; hasil pengujian engine/build terbaru dicatat terpisah dalam [VERIFICATION.md](VERIFICATION.md).

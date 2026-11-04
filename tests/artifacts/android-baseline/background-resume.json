@@ -1,0 +1,8 @@
+{
+  "pid_before": "2483",
+  "pid_after": "2483",
+  "same_process": true,
+  "driver_override": "android (AudioTrack)",
+  "home_input": "Android KEYCODE_HOME",
+  "resume_activity": "Starting: Intent { cmp=id.wynndev.madoromi/org.renpy.android.PythonSDLActivity }\nWarning: Activity not started, its current task has been brought to the front\nStatus: ok\nActivity: id.wynndev.madoromi/org.renpy.android.PythonSDLActivity\nThisTime: 2978\nTotalTime: 2978\nWaitTime: 3017\nComplete"
+}

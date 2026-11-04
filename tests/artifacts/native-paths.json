@@ -1,0 +1,31 @@
+{
+  "engine": "Ren'Py 8.5.3.26051504",
+  "completed_routes": [
+    {
+      "route": "00000",
+      "choices": [
+        "Dengarkan apa yang membuatnya penasaran.",
+        "Duduk tenang sampai ia menemukan kalimatnya.",
+        "Biru, seperti air ketika angin sudah reda.",
+        "Dengan kalimat sederhana yang bisa kuucapkan utuh.",
+        "Jaga ucapan selamat malam kami."
+      ],
+      "callbacks_verified": 5,
+      "chapter_unlocked": 3,
+      "completed": true
+    },
+    {
+      "route": "11111",
+      "choices": [
+        "Ajukan pertanyaan yang sungguh ingin kutahu.",
+        "Tawarkan diri sebagai pembaca pertamanya.",
+        "Kuning, seperti lampu toko menjelang tutup.",
+        "Katakan bahwa aku gugup, lalu tetap lanjutkan.",
+        "Simpan sebagian cerita untuk pagi."
+      ],
+      "callbacks_verified": 5,
+      "chapter_unlocked": 3,
+      "completed": true
+    }
+  ]
+}

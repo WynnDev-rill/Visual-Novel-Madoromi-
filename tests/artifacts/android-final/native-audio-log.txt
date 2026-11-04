@@ -1,0 +1,59 @@
+--------- beginning of main
+--------- beginning of system
+V/SDL     ( 3065): Device: generic_x86_64
+V/SDL     ( 3065): Model: Android SDK built for x86_64
+V/SDL     ( 3065): onCreate()
+V/SDL     ( 3065): nativeSetupJNI()
+V/SDL     ( 3065): AUDIO nativeSetupJNI()
+V/SDL     ( 3065): CONTROLLER nativeSetupJNI()
+V/SDL     ( 3065): onStart()
+V/SDL     ( 3065): onResume()
+V/SDL     ( 3065): surfaceCreated()
+V/SDL     ( 3065): surfaceChanged()
+V/SDL     ( 3065): Window size: 1217x682
+V/SDL     ( 3065): Device size: 1217x682
+V/SDL     ( 3065): Running main function SDL_main from library /data/app/id.wynndev.madoromi-1/lib/x86_64/librenpython.so
+V/SDL     ( 3065): nativeRunMain()
+V/SDL     ( 3065): onWindowFocusChanged(): true
+I/python  ( 3065): extracting private.mp3 to /data/data/id.wynndev.madoromi/files
+I/python  ( 3065): Logging start.
+I/python  ( 3065): Opening APK '/data/app/id.wynndev.madoromi-1/base.apk'
+I/python  ( 3065): Manufacturer unknown model Android SDK built for x86_64
+I/python  ( 3065): Screen diagonal is 5.812780757854961 inches.
+I/python  ( 3065): Version: Ren'Py 8.5.3.26051504
+I/python  ( 3065): Mobile search paths: /data/data/id.wynndev.madoromi/files/game
+I/python  ( 3065): Opening APK '/data/app/id.wynndev.madoromi-1/base.apk'
+I/python  ( 3065): Opening APK '/data/app/id.wynndev.madoromi-1/base.apk'
+I/python  ( 3065): Early init took 3075 ms
+I/python  ( 3065): Loading error handling took 354 ms
+I/python  ( 3065): Loading script took 2581 ms
+I/python  ( 3065): Saving to /storage/sdcard/Android/data/id.wynndev.madoromi/files/saves
+I/python  ( 3065): Saving to /storage/sdcard/Android/data/id.wynndev.madoromi/files/saves
+I/python  ( 3065): Loading save slot metadata took 435 ms
+I/python  ( 3065): Loading persistent took 5 ms
+I/python  ( 3065): Running init code took 1140 ms
+I/python  ( 3065): Loading analysis data took 117 ms
+I/python  ( 3065): Analyze and compile ATL took 76 ms
+I/python  ( 3065): Reloading save slot metadata took 59 ms
+I/python  ( 3065): Dump and make backups took 8 ms
+I/python  ( 3065): Cleaning cache took 3 ms
+I/python  ( 3065): Making clean stores took 7 ms
+I/python  ( 3065): Initial gc took 891 ms
+I/python  ( 3065): Creating interface object took 53 ms
+I/python  ( 3065): Init translation took 9 ms
+I/python  ( 3065): Cleaning stores took 3 ms
+I/python  ( 3065): Load screen analysis took 5 ms
+I/python  ( 3065): Analyze screens took 335 ms
+I/python  ( 3065): Save screen analysis took 278 ms
+I/python  ( 3065): Save pyanalysis took 4 ms
+I/python  ( 3065): Save bytecode took 4 ms
+I/python  ( 3065): Running _start took 33 ms
+V/SDL     ( 3065): SDL audio: opening device for output
+V/SDLAudio( 3065): Opening playback, requested 2048 frames of 2 channel float audio at 48000 Hz
+V/SDLAudio( 3065): Opening playback, got 2229 frames of 2 channel float audio at 48000 Hz
+I/python  ( 3065): Interface start took 28216 ms
+V/SDL     ( 3065): surfaceChanged()
+V/SDL     ( 3065): Window size: 1280x720
+V/SDL     ( 3065): Device size: 1280x720
+I/python  ( 3065): Total time until interface ready: 47.60087776184082s.
+I/python  ( 3065): Hid presplash.

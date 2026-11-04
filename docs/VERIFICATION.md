@@ -1,66 +1,27 @@
-# Verification — baseline checked 2026-11-04
+# Production verification — 4 November2026
 
-This report distinguishes native desktop play, static source checks, and Android
-verification. This is the working baseline before the user's new character
-replacement and haowjy full-script polish. It does not claim those new revisions
-are finished.
+Current signedAPK:80,009,790bytes, SHA-256 `2e5c03f925a188249a1aed87992241be00c7fc1447f88cb667b3fba0dc8f0253`.
 
-## Recorded evidence
+| Check | Recorded result |
+|---|---|
+| Story contracts | PASS:12scenes,7540 narrative/menu words, five binary choices; source beats retained. |
+| Native functional suite | PASS:12executed cases,79assertions,185.281seconds; one optional software-GL autosave diagnostic skipped. |
+| Complete story paths | PASS:`00000` and`11111`; every option and all five later callbacks verified. All32combined paths were not executed. |
+| Native persistence/UI | PASS:manualsave/load, rollback, phone history/no duplication, automaticreading, skip, settings, menus, confirmationcancel and authored actor poses. |
+| Motion-enabled acting | PASS:one focusedcase,6assertions;42.873seconds; actual desktop screen recording retained. This is not physical Android frame-rate evidence. |
+| Final menu/heading check | PASS:five focusedcases,6assertions;19.716seconds. |
+| Visual review | Actual1280×720 captures inspected for title, dialogue, gestures, pairedactors, choices, phone, save/load, backlog, settings, gift, casualcostume andending. Twelve compressed own-game captures are in docs/screenshots/final. |
+| Production artwork | PASS:exact33image inventory, source/outputhashes, dimensions and alpha. No earlier character/background pack is included in this selection. |
+| SignedAPK | PASS:signature, exact33image/10audio/4font/59GUI hashes, API21–36 metadata, threeABIs,16KB64bitELF alignment and no INTERNET permission. |
+| Android install/render | PASS:current APK installed; canonicaltitle/newphone rendered on preserved API21x86_64 softwaredevice. Product AudioTrack selector worked without externalwrapper ordebug-app setting. |
+| Android lifecycle/autosave | Ordinary final-build checks still being completed; baseline results do not substitute for them. See ANDROID_VERIFICATION.md. |
+| Desktop bundle | PASS:71,001,940bytes; ZIPCRC and all33nativeRPA image hashes match sources; projecttests/tools excluded. |
+| Graphify | Real0.9.102build/cluster/export/query, citedpath traversal, freshness guard and browserviewer exercised. Ren’Py uses the documented projectadapter; this is not upstreamnative.rpy support. |
 
-| Check | Result | Evidence |
-| --- | --- | --- |
-| Story preservation | PASS | `python3 tests/check_story.py`: 12 scenes, 7,601 narrative/dialogue words; required source beats and sequence intact. |
-| Native desktop baseline | PASS | Final revised UI: Ren'Py 8.5.3.26051504; 11 executed cases, 71 assertions, 95.988 seconds; one optional autosave diagnostic skipped. |
-| Both contrasting complete paths | PASS | `00000` and `11111`, each with all five later callbacks, completed ending and chapter 3 unlocked. |
-| Manual save/load and phone backlog | PASS | Native tests restored a selected story branch and the fourth phone message; speaker/text history and no duplicate next message were asserted. |
-| Automatic reading, skip and preferences | PASS | Native AFM reached phone presentation, skip stopped at a choice; text/motion and separate audio mixer settings responded. |
-| Native menu destinations | PASS | Help, credits, load, chapters and engine information screens opened and returned. |
-| Branch rollback | PASS | Fresh native save/load and rollback assertions passed. Ordinary Android autosave remains a separate device check. |
-| Revised UI verification | PASS | 23 real 1280×720 captures inspected; offscreen window anchor, active-tab contrast, history columns, face occlusion and target size were corrected. |
-| Android package | PASS | 79,200,445 bytes; source inventory/signature/16KB alignment verified in tests/artifacts/android-build.json. |
-| Android device runtime | Pending | Recovering existing emulator installation/launch evidence; no physical-device result claimed. |
-| New story/art pass | In progress | User requested higher-quality replacement character, coherent art and installed haowjy audit on 2026-11-04. Rebuild/regression required afterward. |
+Exact logs and routes: tests/artifacts/native-production.log, native-motion.log, native-heading-check.log and native-paths.json. APK audit: tests/artifacts/android-build.json. Desktop audit: tests/artifacts/desktop-build.json. Source verification commands are in tests/README.md and docs/BUILD.md.
 
-Baseline report and screenshots are at
-`/workspace/downloads/madoromi-tests/touch/`. Representative captures are in
-`docs/screenshots/baseline/`. Validation command:
+The optional headless autosave test is affected by Ren’Py’s one-second background screenshot deadline under software rendering. Selecting a suite explicitly also enables its disabled children; normal regression uses the global suite so the optional diagnostic remains separate. Final Android autosave must be reported from actual ordinary play.
 
-```sh
-python3 tests/check_story.py \
-  --coverage /workspace/downloads/madoromi-tests/touch/native-paths.json \
-  --coverage-mode choices \
-  --report /workspace/downloads/madoromi-tests/touch/native.log
-```
+The Android environment has noKVM and usesTCG/softwareGL. First native interface startup took47.6seconds after installation on that environment. This does not establish startup time, smoothness, audio quality or compatibility on physical phones. No physical-device test is claimed.
 
-The contrasting paths exercise every choice option and callback. The optional
-32-combination matrix has not been run and is not claimed as covered.
-
-## Baseline screenshot review
-
-Actual engine captures were inspected for cafeteria, beanbag lounge, courtyard
-confession, painted-jeans keepsake, history, save and ending. The expected scene
-art and Indonesian text rendered; the ending displayed `TAMAT`. Choice buttons
-covered the heroine's face in this baseline, which the final UI revision moves
-lower. Desktop captures were 1739×978 pixels on a 1920×1080 virtual canvas and
-are not Android readability evidence.
-
-## Harness correction
-
-Ren'Py 8.5.3 queues a test `click` before processing its input. Immediately using
-`skip fast until screen "choice"` could therefore match the choice that had
-just been clicked. Waiting for that choice screen to close fixes the harness
-race. The old 60-second testcase limit also interrupted complete-route tests;
-the suite now allows 420 seconds per case and bounded waits for interactions.
-
-The test harness now excludes `game/saves`, which Ren'Py normally includes even
-when `--savedir` is given. A fresh-slot check diagnosed Ren'Py's one-second
-background screenshot timeout under software GL. This remains an optional
-diagnostic, not an accepted ordinary-device autosave result. No custom product
-save system is introduced.
-
-Earlier failed reports in `/workspace/downloads/madoromi-tests/native.log`
-precede those corrections and do not describe the recorded passing baseline.
-The native report's final `Status: PASSED` is required; a process exit of zero
-alone is not accepted as test evidence.
-
-See [tests/README.md](../tests/README.md) for reproduction and coverage scope.
+Earlier baseline commits/reports predate the canonical cast, haowjy prose polish, final jeans and azure interface. Their results are historical evidence rather than proof of this revision.

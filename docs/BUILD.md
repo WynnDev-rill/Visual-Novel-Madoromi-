@@ -9,14 +9,18 @@ Use a 64-bit Linux machine with Bash, Python 3, `curl`, `tar`, `bzip2`, `unzip`,
 ```bash
 tools/build.sh bootstrap
 python3 -m pip install Pillow
-python3 tools/acquire_visuals.py --cache "${XDG_CACHE_HOME:-$HOME/.cache}/madoromi/visuals"
+python3 tests/check_assets.py
 tools/build.sh lint
 tools/build.sh run
 tools/build.sh test
 tools/build.sh desktop
 ```
 
-The visual acquisition step downloads the licensed free source packs from their official creator pages and derives the selected runtime images. Licensed character images stay outside Git. Desktop distributions bundle game images in Ren'Py's visual archive, created with the pinned SDK's own `Archive` class. Android uses RAPT's native packaging: game images are assets inside the signed APK, which is an integrated game bundle. RAPT disables RPA creation and its asset loader reads those images directly. See the asset-license documentation for sources and restrictions. A clean checkout needs acquisition before lint or packaging.
+The production runtime illustrations are committed under `game/images/originals/`. They extend the user's canonical character concepts and use a coherent generated 2D environment family. A clean checkout does not need the earlier itch.io acquisition step or an image-generation service. `tests/check_assets.py` verifies the selected production files against their manifest and also runs before lint. Pillow is therefore required for development lint/packaging, not for playing the game. See `docs/licenses/visual-art.md` and `docs/licenses/production-art.json` for provenance and transformations. `tools/prepare_art.py` is the production-only full-canvas resize/conversion tool; ordinary builds use the committed WebPs.
+
+`tools/acquire_visuals.py`, `visual-assets.json` and the creator-page evidence remain the historical baseline acquisition audit. They are not required for the current production selection; do not repopulate the old character/background directories into a final build.
+
+Desktop distributions bundle game images in Ren'Py's visual archive, created with the pinned SDK's own `Archive` class. Android uses RAPT's native packaging: game images are assets inside the signed APK. RAPT disables RPA creation and its asset loader reads those images directly. Preserve this native packaging rather than adding a second extraction layer.
 
 On a headless Linux host:
 
@@ -63,3 +67,11 @@ Both engines compiled and ran the same small Indonesian dialogue/choice probe. G
 Ren'Py's SDK GUI already connects rollback, history, skip, auto, save/load and preferences to native engine actions. The Godot base scene needed custom controls/callbacks and did not provide those VN systems. Both are viable; Ren'Py fits this project with less custom game logic and no dialogue add-on. Probe logs are retained outside Git at `/workspace/toolchains/probes/` in the development workspace.
 
 API/signature validation does not establish device runtime compatibility. See the verification report for the final game's actual testcase, screenshot and Android launch results. The cloud machine has no `/dev/kvm`; Android emulation, if used, runs through software CPU emulation.
+
+## Final artifact and development graph checks
+
+`python3 tests/check_apk.py` verifies the built release APK against exact current source asset hashes, native ABIs, signature,16KB alignment and API/permission metadata. It uses Android build-tools35.0.0 from `--sdk` or `ANDROID_SDK_ROOT`; see `tests/README.md` for native coverage.
+
+Android selects SDL’s native `android` (Java AudioTrack) audio driver in `game/android_audio.rpy` before audio initialization. This avoids the OpenSLES mutex stall observed on the API21 software emulator without disabling music, ambience or SFX. Final testing must clear diagnostic `wrap.id.wynndev.madoromi` and debug-app overrides before launch.
+
+Graphify is development-only. On a new machine, use `tools/knowledge_graph.sh setup`; after changing graph inputs use `tools/knowledge_graph.sh build` and `python3 tests/check_knowledge_graph.py`. CLI query/path/explain commands reject stale graph inputs. See [KNOWLEDGE_GRAPH.md](KNOWLEDGE_GRAPH.md).

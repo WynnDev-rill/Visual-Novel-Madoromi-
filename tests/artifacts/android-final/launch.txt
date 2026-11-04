@@ -1,0 +1,5 @@
+Starting: Intent { cmp=id.wynndev.madoromi/org.renpy.android.PythonSDLActivity }
+Status: timeout
+Activity: id.wynndev.madoromi/org.renpy.android.PythonSDLActivity
+WaitTime: 18412
+Complete

@@ -28,10 +28,11 @@ jobs:
           path: ../madoromi-toolchains/downloads
           key: renpy-8.5.3-linux-x64
       - run: tools/build.sh bootstrap
-      - name: Acquire licensed runtime visuals
+      - name: Verify committed production art
         run: |
           python3 -m pip install Pillow
-          python3 tools/acquire_visuals.py --cache "$RUNNER_TEMP/madoromi-visuals"
+          python3 tests/check_assets.py
+          python3 tests/check_knowledge_graph.py
       - run: tools/build.sh lint
       - run: xvfb-run -a tools/build.sh test
       - run: tools/build.sh desktop
@@ -52,10 +53,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: tools/build.sh bootstrap-android
-      - name: Acquire licensed runtime visuals
+      - name: Verify committed production art
         run: |
           python3 -m pip install Pillow
-          python3 tools/acquire_visuals.py --cache "$RUNNER_TEMP/madoromi-visuals"
+          python3 tests/check_assets.py
       - run: tools/build.sh android
       - uses: actions/upload-artifact@v4
         with:

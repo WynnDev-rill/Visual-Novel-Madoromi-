@@ -1,0 +1,14 @@
+{
+  "source_apk_sha256": "55f805e5ca6c3d344af0cba1acdee928be7f4b6857e41c2799b7031e45440490",
+  "backend": "enabled QEMU WAV output",
+  "channels": 2,
+  "sample_rate": 44100,
+  "sample_bits": 16,
+  "sample_seconds": 12.0,
+  "sample_count": 1058400,
+  "nonzero_samples": 154949,
+  "rms_pcm16": 393.628,
+  "peak_pcm16": 6926,
+  "retained_external_sample": "/workspace/toolchains/android-baseline-audio-sample.wav",
+  "audio_features_muted": false
+}

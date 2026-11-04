@@ -1,0 +1,953 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "user_concepts": [
+    {
+      "filename": "ren_base_bust_v1.png",
+      "sha256": "e8104393ac4f966dd4b79d5af6db4e89af09caa63b290795ed24df9b9e07c309",
+      "size": [
+        1200,
+        1600
+      ],
+      "source": "User-provided Google Drive / MADOROMI — Visual Novel / 02 - Aset & Lisensi / Karakter — MADOROMI",
+      "authorization": "User explicitly instructed use and development of expressions, costumes and body language.",
+      "rights_note": "Not an independent audit of commercial rights; no exclusive AI copyright asserted."
+    },
+    {
+      "filename": "sora_base_bust_v1.png",
+      "sha256": "fad1dc0248ebe5e6bdfe8caaced82f163519508b1ce8e81551b5856f25d49719",
+      "size": [
+        1200,
+        1600
+      ],
+      "source": "User-provided Google Drive / MADOROMI — Visual Novel / 02 - Aset & Lisensi / Karakter — MADOROMI",
+      "authorization": "User explicitly instructed use and development of expressions, costumes and body language.",
+      "rights_note": "Not an independent audit of commercial rights; no exclusive AI copyright asserted."
+    },
+    {
+      "filename": "mio_base_bust_v1.png",
+      "sha256": "da917fec73d022c4f61978f0759d872063b2371407d357e42da37ac85631dc04",
+      "size": [
+        1200,
+        1600
+      ],
+      "source": "User-provided Google Drive / MADOROMI — Visual Novel / 02 - Aset & Lisensi / Karakter — MADOROMI",
+      "authorization": "User explicitly instructed use and development of expressions, costumes and body language.",
+      "rights_note": "Not an independent audit of commercial rights; no exclusive AI copyright asserted."
+    },
+    {
+      "filename": "aoi_base_bust_v1.png",
+      "sha256": "6ab9dc42e55107be574a3b6f612feee55542f491fa27257cb21070293a3c7f64",
+      "size": [
+        1200,
+        1600
+      ],
+      "source": "User-provided Google Drive / MADOROMI — Visual Novel / 02 - Aset & Lisensi / Karakter — MADOROMI",
+      "authorization": "User explicitly instructed use and development of expressions, costumes and body language.",
+      "rights_note": "Not an independent audit of commercial rights; no exclusive AI copyright asserted."
+    }
+  ],
+  "production": {
+    "aoi": {
+      "created_utc": "2026-11-04 02:36:45 UTC",
+      "character": "Aoi",
+      "canonical_user_source": "supplied-concepts/aoi_base_bust_v1.png",
+      "approved_master": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+      "user_authorization": "User supplied canonical PNG character and explicitly requested production development including expression and body-language variants; root delegated these edits. No original internal JPGs used.",
+      "third_party_image_references": false,
+      "parent_manifest": "production-inputs/character-production/aoi/parent-provenance.json",
+      "scope_note": "Six faces neutral/smile/shy/sad/surprised/laugh, three authored body-language poses shy_clasp/laugh_open/tender_heart, and casual_smile epilogue. Angry/tears omitted as unused story scope per root.",
+      "product_files_modified": false,
+      "assets": [
+        {
+          "expression": "neutral",
+          "generated_original": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "output": "production-inputs/character-production/aoi/school_neutral.png",
+          "sha256": "4b86ab9a6e22008893f99cee6d6912e1a7c80739add0bce4f6b771363589c802",
+          "method": "image_gen.imagegen",
+          "reference": "aoi_base_bust_v1.png",
+          "production_intent": "Expand supplied canonical Aoi bust to head-to-mid-thigh transparent standing master, matching blonde swept low side bun, two dark hairpins, metal glasses, amber eyes, navy gold-piped uniform with ivory vest and dark bow; relaxed complete arms/hands.",
+          "prompt_note": "Production intent reconstructed from parent handoff; not a verbatim original prompt.",
+          "asset_id": "aoi_school_neutral",
+          "generated_original_sha256": "4b86ab9a6e22008893f99cee6d6912e1a7c80739add0bce4f6b771363589c802",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            184,
+            20,
+            848,
+            1536
+          ],
+          "file_bytes": 2027613
+        },
+        {
+          "expression": "smile",
+          "generated_original": "generated-originals/exec-b50f1c93-db8e-42ed-bcb8-7f8a69647996.png",
+          "output": "production-inputs/character-production/aoi/school_smile.png",
+          "sha256": "f3e7ec18606706af73f2eeef2ed6b4cfd07452f8aa182164f51100a6792f67de",
+          "method": "image_gen.imagegen",
+          "reference": "exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "production_intent": "Face-only smile expression edit of accepted master; identical canvas, identity, outfit and body pose.",
+          "prompt_note": "Production intent reconstructed from parent handoff; not a verbatim original prompt.",
+          "asset_id": "aoi_school_smile",
+          "generated_original_sha256": "f3e7ec18606706af73f2eeef2ed6b4cfd07452f8aa182164f51100a6792f67de",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            182,
+            18,
+            850,
+            1536
+          ],
+          "file_bytes": 1988317
+        },
+        {
+          "expression": "shy",
+          "generated_original": "generated-originals/exec-8d867d3d-e60f-4ce3-89de-1b6b1a6f49f2.png",
+          "output": "production-inputs/character-production/aoi/school_shy.png",
+          "sha256": "c67958a38bdfe87e687b849d98be77d67718ea4dfbcedc960be844e43a29d868",
+          "method": "image_gen.imagegen",
+          "reference": "exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "production_intent": "Face-only shy expression edit of accepted master; identical canvas, identity, outfit and body pose.",
+          "prompt_note": "Production intent reconstructed from parent handoff; not a verbatim original prompt.",
+          "asset_id": "aoi_school_shy",
+          "generated_original_sha256": "c67958a38bdfe87e687b849d98be77d67718ea4dfbcedc960be844e43a29d868",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            183,
+            19,
+            849,
+            1536
+          ],
+          "file_bytes": 1972136
+        },
+        {
+          "expression": "surprised",
+          "generated_original": "generated-originals/exec-f58df712-d784-47cf-89bc-ff031c73a2ce.png",
+          "output": "production-inputs/character-production/aoi/school_surprised.png",
+          "sha256": "7e4330a47486e1d84b26ca1a89af36f06572aa8fd264bf9326e0b932772a4490",
+          "method": "image_gen.imagegen",
+          "reference": "exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "production_intent": "Face-only surprised expression edit of accepted master; identical canvas, identity, outfit and body pose.",
+          "prompt_note": "Production intent reconstructed from parent handoff; not a verbatim original prompt.",
+          "asset_id": "aoi_school_surprised",
+          "generated_original_sha256": "7e4330a47486e1d84b26ca1a89af36f06572aa8fd264bf9326e0b932772a4490",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            183,
+            20,
+            850,
+            1536
+          ],
+          "file_bytes": 1918081
+        },
+        {
+          "asset_id": "aoi_school_sad",
+          "expression": "school_sad",
+          "output": "production-inputs/character-production/aoi/school_sad.png",
+          "generated_original": "generated-originals/exec-660b89d5-31a7-4fdb-aabd-b02919bbca3f.png",
+          "method": "image_gen.imagegen",
+          "reference": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "prompt": "Edit ONLY the facial emotion of the provided approved Aoi production sprite to quiet sadness: brows gently lifted inward, amber eyes softly lowered but still open and directed toward the viewer, small closed mouth with subtly downturned corners; restrained and tender, no tears in this sad variation. This is the exact same user-authorized original character: pale blonde hair gathered in the low loose bun on viewer left, two charcoal parallel hairpins on viewer right, thin round dark glasses, golden amber eyes, delicate softly painted anime face. Preserve her identity, face proportions, eye color, exact glasses and hair, head angle, body placement, relaxed arms, hands, navy/gold school blazer, cream vest, striped navy bow, plaid skirt, detailed fabric painting, fine ink linework, lighting and all other pixels as closely as possible. Do not move or enlarge any body part. Do not change the uniform or pose. Keep the same 1024 by 1536 portrait canvas and identical complete head-to-mid-thigh framing. Only small facial features for this expression should change. One character on true transparent background with clean antialiased edges, no backdrop, no text, no symbols, no new accessories. Keep the reference's sophisticated high-detail delicate painted anime quality.",
+          "prompt_note": "Exact verbatim prompt submitted by character-production subagent.",
+          "transparent_background_requested": true,
+          "review": "Visually inspected. Canonical face, bun, two dark hairpins, glasses and painted style retained. Complete natural hands, consistent canvas. Body-language poses deliberately alter arm/shoulder posture. All creative edits performed by imagegen.",
+          "recovered_after_interrupted_tool_wait": true,
+          "sha256": "b8f93c475a72f03fed0cc65277a8d3a5ca24fc3538bd3457760a8fcb7d1eaed7",
+          "generated_original_sha256": "b8f93c475a72f03fed0cc65277a8d3a5ca24fc3538bd3457760a8fcb7d1eaed7",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            182,
+            18,
+            849,
+            1536
+          ],
+          "file_bytes": 1941532
+        },
+        {
+          "asset_id": "aoi_school_laugh",
+          "expression": "school_laugh",
+          "output": "production-inputs/character-production/aoi/school_laugh.png",
+          "generated_original": "generated-originals/exec-504c5e12-92be-4015-a00f-2866b8afb9bf.png",
+          "method": "image_gen.imagegen",
+          "reference": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "prompt": "Edit ONLY the facial emotion of the provided approved Aoi production sprite to a warm joyful laugh: eyes pleasantly curved into smiling crescent shapes behind the unchanged round glasses, a small naturally open smiling mouth, gentle happy blush; subtle and elegant, no exaggerated comedy symbols. This is the exact same user-authorized original character: pale blonde hair gathered in the low loose bun on viewer left, two charcoal parallel hairpins on viewer right, thin round dark glasses, golden amber eyes, delicate softly painted anime face. Preserve her identity, face proportions, eye color, exact glasses and hair, head angle, body placement, relaxed arms, hands, navy/gold school blazer, cream vest, striped navy bow, plaid skirt, detailed fabric painting, fine ink linework, lighting and all other pixels as closely as possible. Do not move or enlarge any body part. Do not change the uniform or pose. Keep the same 1024 by 1536 portrait canvas and identical complete head-to-mid-thigh framing. Only small facial features for this expression should change. One character on true transparent background with clean antialiased edges, no backdrop, no text, no symbols, no new accessories. Keep the reference's sophisticated high-detail delicate painted anime quality.",
+          "prompt_note": "Exact verbatim prompt submitted by character-production subagent.",
+          "transparent_background_requested": true,
+          "review": "Visually inspected. Canonical face, bun, two dark hairpins, glasses and painted style retained. Complete natural hands, consistent canvas. Body-language poses deliberately alter arm/shoulder posture. All creative edits performed by imagegen.",
+          "sha256": "48322e23791416fb2196d19acfd07cc517fd8104d7b37f1bfce089281dbb57c8",
+          "generated_original_sha256": "48322e23791416fb2196d19acfd07cc517fd8104d7b37f1bfce089281dbb57c8",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            183,
+            21,
+            849,
+            1536
+          ],
+          "file_bytes": 1958220
+        },
+        {
+          "asset_id": "aoi_school_shy_clasp",
+          "expression": "school_shy_clasp",
+          "output": "production-inputs/character-production/aoi/school_shy_clasp.png",
+          "generated_original": "generated-originals/exec-9c583f36-2a2f-49f0-b55c-5117f3975d05.png",
+          "method": "image_gen.imagegen",
+          "reference": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "prompt": "Edit the provided approved Aoi character sprite into a shy affectionate body-language pose: warm shy blush, a small bashful closed-mouth smile, shoulders drawn inward just slightly, both hands gently clasped together in front at her waist just below her chest. Two complete natural hands, fingers gently resting together rather than tangled. Keep her face around its current position and height. This is a meaningful modest shy pose, not merely a new facial expression. Preserve EXACTLY the same user-authorized original character identity: pale blonde hair gathered in the low loose bun on viewer left, two charcoal parallel hairpins on viewer right, exact thin round dark glasses, golden amber eyes, delicate softly painted anime face and same face proportions. Keep the same complete head-to-mid-thigh 1024 by 1536 portrait canvas. Preserve her reference costume faithfully: navy blazer with fine gold piping and gold crest, cream knitted vest, cream-white school shirt, large striped navy bow, navy plaid pleated skirt. Match the same sophisticated fine ink lines, softly painted shading, subtle fabric texture and delicate hair detail. Keep her body scale and head placement very close to reference, while changing arm, hand and shoulder posture naturally as specified. Exactly two arms and two natural hands, anatomically coherent sleeves and fingers, fully clothed modest school romance sprite. One person on true transparent background, all hair and hands inside frame, no backdrop, no text or symbols. No new accessories. This pose must feel alive through a natural small acting gesture, not a different camera framing.",
+          "prompt_note": "Exact verbatim prompt submitted by character-production subagent.",
+          "transparent_background_requested": true,
+          "review": "Visually inspected. Canonical face, bun, two dark hairpins, glasses and painted style retained. Complete natural hands, consistent canvas. Body-language poses deliberately alter arm/shoulder posture. All creative edits performed by imagegen.",
+          "sha256": "817da4203d15fbc1427b35b6dcd44c863c80e3d2673b8cf80f42bb8daf3a2bc1",
+          "generated_original_sha256": "817da4203d15fbc1427b35b6dcd44c863c80e3d2673b8cf80f42bb8daf3a2bc1",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            189,
+            18,
+            829,
+            1536
+          ],
+          "file_bytes": 2000046
+        },
+        {
+          "asset_id": "aoi_school_laugh_open",
+          "expression": "school_laugh_open",
+          "output": "production-inputs/character-production/aoi/school_laugh_open.png",
+          "generated_original": "generated-originals/exec-3917453c-db37-412a-8bb9-53747785921c.png",
+          "method": "image_gen.imagegen",
+          "reference": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "prompt": "Edit the provided approved Aoi character sprite into a genuine warm joyful laugh expressed with body language: eyes softly closed in a happy smile behind her glasses, a small naturally open laughing mouth, one hand resting lightly near her upper chest while the opposite arm bends slightly outward with a relaxed open palm near her waist. Both hands complete with five natural fingers each; small unforced gesture, not theatrical. Keep her head around its current position and height. Preserve EXACTLY the same user-authorized original character identity: pale blonde hair gathered in the low loose bun on viewer left, two charcoal parallel hairpins on viewer right, exact thin round dark glasses, golden amber eyes, delicate softly painted anime face and same face proportions. Keep the same complete head-to-mid-thigh 1024 by 1536 portrait canvas. Preserve her reference costume faithfully: navy blazer with fine gold piping and gold crest, cream knitted vest, cream-white school shirt, large striped navy bow, navy plaid pleated skirt. Match the same sophisticated fine ink lines, softly painted shading, subtle fabric texture and delicate hair detail. Keep her body scale and head placement very close to reference, while changing arm, hand and shoulder posture naturally as specified. Exactly two arms and two natural hands, anatomically coherent sleeves and fingers, fully clothed modest school romance sprite. One person on true transparent background, all hair and hands inside frame, no backdrop, no text or symbols. No new accessories. This pose must feel alive through a natural small acting gesture, not a different camera framing.",
+          "prompt_note": "Exact verbatim prompt submitted by character-production subagent.",
+          "transparent_background_requested": true,
+          "review": "Visually inspected. Canonical face, bun, two dark hairpins, glasses and painted style retained. Complete natural hands, consistent canvas. Body-language poses deliberately alter arm/shoulder posture. All creative edits performed by imagegen.",
+          "sha256": "082f4951e29ec1cdf3309632e2a7d7fa85e0305e34b90add76acc67c3fdf042a",
+          "generated_original_sha256": "082f4951e29ec1cdf3309632e2a7d7fa85e0305e34b90add76acc67c3fdf042a",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            170,
+            17,
+            981,
+            1536
+          ],
+          "file_bytes": 2065048
+        },
+        {
+          "asset_id": "aoi_school_tender_heart",
+          "expression": "school_tender_heart",
+          "output": "production-inputs/character-production/aoi/school_tender_heart.png",
+          "generated_original": "generated-originals/exec-0547acba-1ba0-4a72-954b-1c24262280ec.png",
+          "method": "image_gen.imagegen",
+          "reference": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "prompt": "Edit the provided approved Aoi character sprite into an earnest tender reciprocal-confession body-language pose: a soft sincere closed-mouth smile, warm open amber eyes directed at the viewer, one complete natural hand gently placed over her upper chest at the collarbone, her other arm relaxed at her side with a complete natural hand. A very slight modest forward lean conveys openness, while her face stays around the same canvas position and height. Warm sincere emotion, no exaggerated gesture. Preserve EXACTLY the same user-authorized original character identity: pale blonde hair gathered in the low loose bun on viewer left, two charcoal parallel hairpins on viewer right, exact thin round dark glasses, golden amber eyes, delicate softly painted anime face and same face proportions. Keep the same complete head-to-mid-thigh 1024 by 1536 portrait canvas. Preserve her reference costume faithfully: navy blazer with fine gold piping and gold crest, cream knitted vest, cream-white school shirt, large striped navy bow, navy plaid pleated skirt. Match the same sophisticated fine ink lines, softly painted shading, subtle fabric texture and delicate hair detail. Keep her body scale and head placement very close to reference, while changing arm, hand and shoulder posture naturally as specified. Exactly two arms and two natural hands, anatomically coherent sleeves and fingers, fully clothed modest school romance sprite. One person on true transparent background, all hair and hands inside frame, no backdrop, no text or symbols. No new accessories. This pose must feel alive through a natural small acting gesture, not a different camera framing.",
+          "prompt_note": "Exact verbatim prompt submitted by character-production subagent.",
+          "transparent_background_requested": true,
+          "review": "Visually inspected. Canonical face, bun, two dark hairpins, glasses and painted style retained. Complete natural hands, consistent canvas. Body-language poses deliberately alter arm/shoulder posture. All creative edits performed by imagegen.",
+          "sha256": "2684650b66d5958f99153228f343a107a00246ef1ff8b138ed5e4f07815792e5",
+          "generated_original_sha256": "2684650b66d5958f99153228f343a107a00246ef1ff8b138ed5e4f07815792e5",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            143,
+            15,
+            834,
+            1536
+          ],
+          "file_bytes": 2042904
+        },
+        {
+          "asset_id": "aoi_casual_smile",
+          "expression": "casual_smile",
+          "output": "production-inputs/character-production/aoi/casual_smile.png",
+          "generated_original": "generated-originals/exec-16bb94a9-8ed5-4797-a141-fc2d0979e817.png",
+          "method": "image_gen.imagegen",
+          "reference": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+          "prompt": "Edit the provided approved Aoi character sprite into her casual epilogue outfit with a gentle warm closed-mouth smile. Preserve EXACTLY the same user-authorized original character identity: pale blonde hair gathered in the low loose bun on viewer left, two charcoal parallel hairpins on viewer right, thin round dark glasses, golden amber eyes, delicate softly painted anime face, same head angle, same face proportions and same high-detail painting. Keep the identical 1024 by 1536 head-to-mid-thigh canvas, head position, natural body scale, relaxed arm pose and complete hands. Replace the school uniform with a modest soft ivory open-front cardigan over a buttoned dusty-blue blouse, and comfortable medium-blue denim jeans. Jeans have a few small hand-painted whimsical motifs clustered near one hip: a tiny ant, little loaf of bread, small cloud and a simple window, subtle brush-painted fabric details rather than large stickers or text. Natural flattering relaxed fit, fully covered waist, no exposed midriff, no revealing clothes. Preserve the reference's fine ink, delicate fabric folds, sophisticated soft painted anime shading and luminous hair. One character only, true transparent background, no backdrop, no floor, no text or symbols floating outside clothes. Do not redesign the face, hair, glasses or body.",
+          "prompt_note": "Exact verbatim prompt submitted by character-production subagent.",
+          "transparent_background_requested": true,
+          "review": "Visually inspected. Canonical face, bun, two dark hairpins, glasses and painted style retained. Complete natural hands, consistent canvas. Body-language poses deliberately alter arm/shoulder posture. All creative edits performed by imagegen.",
+          "sha256": "cd99f27378fae52bfb6d82fa0f897bdf3c73968302f469a62aa44d612bbd9a43",
+          "generated_original_sha256": "cd99f27378fae52bfb6d82fa0f897bdf3c73968302f469a62aa44d612bbd9a43",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "solid_alpha_bbox_127": [
+            158,
+            20,
+            850,
+            1536
+          ],
+          "file_bytes": 2346439
+        }
+      ],
+      "canonical_user_source_sha256": "6ab9dc42e55107be574a3b6f612feee55542f491fa27257cb21070293a3c7f64",
+      "approved_master_sha256": "4b86ab9a6e22008893f99cee6d6912e1a7c80739add0bce4f6b771363589c802"
+    },
+    "support_characters": {
+      "created_utc": "2026-11-04 02:12:31 UTC",
+      "user_authorization": "Root reports user explicitly authorized use and development of supplied canonical Mio/Sora PNG designs. Original internal JPGs not used or uploaded.",
+      "third_party_references_used": false,
+      "product_files_modified": false,
+      "records": [
+        {
+          "character": "mio",
+          "expression": "neutral",
+          "canonical_source": "supplied-concepts/mio_base_bust_v1.png",
+          "reference": "supplied-concepts/mio_base_bust_v1.png",
+          "generated_original": "generated-originals/exec-85a8e015-b4b3-46f7-97b9-b5ec314b5db7.png",
+          "output": "production-inputs/character-production/mio/neutral.png",
+          "prompt": "Edit the provided canonical Mio PNG into a final production visual-novel character sprite. Preserve the SAME character identity faithfully: delicate softly painted anime face, exact round thin dark glasses, pale blue eyes, same blue-black shoulder-length wavy hair with straight bangs and one braid at viewer left, same face proportions and serious gentle neutral expression. Match the reference's sophisticated fine ink lines, delicately painted cool shadows, translucent fine hair highlights and soft skin; do not simplify or redesign her. Expand the existing bust downward into one complete head-to-mid-thigh standing sprite in a tall portrait canvas, with comfortable margins on all sides. Same head angle, slight three-quarter stance toward viewer right, eyes looking toward viewer. Show both shoulders, arms, wrists and hands completely, arms resting naturally at her sides with relaxed fingers. Keep the same modest Japanese school uniform: navy blazer with fine gold piping, cream-white shirt, gray V-neck knitted vest, dark navy bow, small gold crest; extend into matching knee-length navy pleated skirt, cropped only at mid-thigh. Entire hair silhouette and all hands must fit in frame. One character only, neutral expression, no words, no backdrop, no floor, no props. True transparent background with clean antialiased alpha edges, with all stray background matte pixels from the concept removed. Canonical reference is the supplied PNG only, not any existing copyrighted game character. This is a clean school romance portrait, fully clothed and nonsexual. Maintain the understated painterly quality and delicate physical proportions of the reference. Render as high quality as possible.",
+          "transparent_background_requested": true,
+          "method": "image_gen.imagegen; user-supplied canonical PNG; expression variants edited from one neutral expanded master",
+          "review": "Viewed every generation; face identity, glasses, hair and uniform preserved; natural complete hands; root reviews before integration",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "alpha_nonzero_bbox": [
+            43,
+            0,
+            892,
+            1536
+          ],
+          "sha256": "e7d0936bd66c0ee1e11cde84d284ade021310743342e14bc052bb0c76b4c96c2",
+          "canonical_source_sha256": "da917fec73d022c4f61978f0759d872063b2371407d357e42da37ac85631dc04"
+        },
+        {
+          "character": "mio",
+          "expression": "smile",
+          "canonical_source": "supplied-concepts/mio_base_bust_v1.png",
+          "reference": "production-inputs/character-production/mio/master-v1.png",
+          "generated_original": "generated-originals/exec-1a94129d-c275-4ed6-93aa-dfb7e193bc6e.png",
+          "output": "production-inputs/character-production/mio/smile.png",
+          "prompt": "Edit ONLY the facial expression of this already approved transparent production sprite. Change it to Mio's small warm, reserved CLOSED-MOUTH smile with subtly softened eyes. Keep EXACTLY the same identity, eye color, delicate fine painted face, glasses frame, hairstyle, head angle and placement. Do not change pose, hands, hair, clothing, headphones if present, body, lighting, crop, canvas size, silhouette or palette. Keep the entire rest of the picture unchanged as precisely as possible. Preserve high quality delicate painted anime rendering. One character, true transparent background; no scenery, glow, cast shadow, text or new accessories. The reference is a user-authorized canonical original character. Use exactly the same 1024 by 1536 portrait canvas and same head-to-mid-thigh framing.",
+          "transparent_background_requested": true,
+          "method": "image_gen.imagegen; user-supplied canonical PNG; expression variants edited from one neutral expanded master",
+          "review": "Viewed every generation; face identity, glasses, hair and uniform preserved; natural complete hands; root reviews before integration",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "alpha_nonzero_bbox": [
+            41,
+            0,
+            1010,
+            1536
+          ],
+          "sha256": "01a941db3ce9992765f71b0fc0b0644c0fe9d89ffd430fed476d177064e1a69b",
+          "canonical_source_sha256": "da917fec73d022c4f61978f0759d872063b2371407d357e42da37ac85631dc04"
+        },
+        {
+          "character": "mio",
+          "expression": "concerned",
+          "canonical_source": "supplied-concepts/mio_base_bust_v1.png",
+          "reference": "production-inputs/character-production/mio/master-v1.png",
+          "generated_original": "generated-originals/exec-7ea94def-4386-4b8e-9647-f4a0421dd8a0.png",
+          "output": "production-inputs/character-production/mio/concerned.png",
+          "prompt": "Edit ONLY the facial expression of this already approved transparent production sprite. Change it to Mio's quietly concerned, slightly apologetic expression: inner eyebrows gently lifted, eyes attentive and soft, small closed mouth with the faintest downturned corners; very restrained, not crying. Keep EXACTLY the same person, eye color, delicate fine painted face, glasses frame, hairstyle, head angle and placement. Do not change pose, hands, hair, clothing, headphones if present, body, lighting, crop, canvas size, silhouette or palette. Keep the entire rest of the picture unchanged as precisely as possible. Preserve high quality delicate painted anime rendering. One character, true transparent background; no scenery, glow, cast shadow, text or new accessories. The reference is a user-authorized canonical original character. Use exactly the same 1024 by 1536 portrait canvas and same head-to-mid-thigh framing.",
+          "transparent_background_requested": true,
+          "method": "image_gen.imagegen; user-supplied canonical PNG; expression variants edited from one neutral expanded master",
+          "review": "Viewed every generation; face identity, glasses, hair and uniform preserved; natural complete hands; root reviews before integration",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "alpha_nonzero_bbox": [
+            57,
+            0,
+            994,
+            1536
+          ],
+          "sha256": "ad48c37aa1f936cecd146ab0936c846df2ebbf45eb62e933f16b96064b4ee614",
+          "canonical_source_sha256": "da917fec73d022c4f61978f0759d872063b2371407d357e42da37ac85631dc04"
+        },
+        {
+          "character": "sora",
+          "expression": "neutral",
+          "canonical_source": "supplied-concepts/sora_base_bust_v1.png",
+          "reference": "supplied-concepts/sora_base_bust_v1.png",
+          "generated_original": "generated-originals/exec-4a91b33c-180e-4c33-b920-41263ee05579.png",
+          "output": "production-inputs/character-production/sora/neutral.png",
+          "prompt": "Edit the provided canonical Sora PNG into a final production visual-novel character sprite. Preserve the SAME character identity faithfully: fine softly painted anime male face, exact thin dark round glasses, gray eyes, pale skin, same thick tousled black hair with slight blue cool highlights and long uneven bangs, same face proportions, small earring and quiet neutral expression. Match the reference's sophisticated fine ink lines, delicately painted cool shadows and subtle textured hair highlights; do not simplify or redesign him. Expand the existing bust downward into one complete head-to-mid-thigh standing sprite on a tall portrait canvas, with comfortable margins on all sides. Preserve his reference head angle and three-quarter orientation toward viewer right, eyes looking toward viewer. Show both shoulders, arms, wrists and hands completely, arms resting naturally at his sides with relaxed fingers. Keep the same modest Japanese school uniform: navy blazer with fine gold piping and small gold crest, cream-white shirt, dark navy slightly loose tie, matching navy trousers. Keep the same dark over-ear headphones resting around his neck. Remove the drumstick bag, drumsticks and shoulder straps so he is ready for ordinary school conversations; no backpack. Entire hair silhouette and all hands fit in frame. One character only, neutral expression, no words, no backdrop, no floor. True transparent background, clean antialiased alpha edges, all stray matte pixels removed. Canonical reference is the supplied PNG only, not any existing copyrighted game character. Fully clothed nonsexual school romance portrait, preserve understated painterly quality and delicate proportions. Render as high quality as possible.",
+          "transparent_background_requested": true,
+          "method": "image_gen.imagegen; user-supplied canonical PNG; expression variants edited from one neutral expanded master",
+          "review": "Viewed every generation; face identity, glasses, hair and uniform preserved; natural complete hands; root reviews before integration",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "alpha_nonzero_bbox": [
+            0,
+            0,
+            990,
+            1536
+          ],
+          "sha256": "faa7848fa9bf9c254b396fae13033337a042c52bedc07e876bc26576ff5933f1",
+          "canonical_source_sha256": "fad1dc0248ebe5e6bdfe8caaced82f163519508b1ce8e81551b5856f25d49719"
+        },
+        {
+          "character": "sora",
+          "expression": "smile",
+          "canonical_source": "supplied-concepts/sora_base_bust_v1.png",
+          "reference": "production-inputs/character-production/sora/master-v1.png",
+          "generated_original": "generated-originals/exec-74c0099e-4ec2-4dd9-8897-9aff57b58798.png",
+          "output": "production-inputs/character-production/sora/smile.png",
+          "prompt": "Edit ONLY the facial expression of this already approved transparent production sprite. Change it to Sora's small relaxed, slightly wry CLOSED-MOUTH smile with subtly softened eyes. Keep EXACTLY the same identity, eye color, delicate fine painted face, glasses frame, hairstyle, head angle and placement. Do not change pose, hands, hair, clothing, headphones if present, body, lighting, crop, canvas size, silhouette or palette. Keep the entire rest of the picture unchanged as precisely as possible. Preserve high quality delicate painted anime rendering. One character, true transparent background; no scenery, glow, cast shadow, text or new accessories. The reference is a user-authorized canonical original character. Use exactly the same 1024 by 1536 portrait canvas and same head-to-mid-thigh framing.",
+          "transparent_background_requested": true,
+          "method": "image_gen.imagegen; user-supplied canonical PNG; expression variants edited from one neutral expanded master",
+          "review": "Viewed every generation; face identity, glasses, hair and uniform preserved; natural complete hands; root reviews before integration",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "alpha_nonzero_bbox": [
+            0,
+            4,
+            1008,
+            1536
+          ],
+          "sha256": "1091363850d780e80cfb9bbe7fa6968f3f28eb4cfbd6e64c6de864fed5f80099",
+          "canonical_source_sha256": "fad1dc0248ebe5e6bdfe8caaced82f163519508b1ce8e81551b5856f25d49719"
+        },
+        {
+          "character": "sora",
+          "expression": "concerned",
+          "canonical_source": "supplied-concepts/sora_base_bust_v1.png",
+          "reference": "production-inputs/character-production/sora/master-v1.png",
+          "generated_original": "generated-originals/exec-37d2e6de-e798-4f2b-ba27-3f0e3aa78f3d.png",
+          "output": "production-inputs/character-production/sora/concerned.png",
+          "prompt": "Edit ONLY the facial expression of this already approved transparent production sprite. Change it to Sora's mildly concerned, thoughtful expression: inner eyebrows subtly drawn upward, eyes attentive, relaxed small closed mouth with no smile; restrained and sympathetic, not angry. Keep EXACTLY the same person, eye color, delicate fine painted face, glasses frame, hairstyle, head angle and placement. Do not change pose, hands, hair, clothing, headphones if present, body, lighting, crop, canvas size, silhouette or palette. Keep the entire rest of the picture unchanged as precisely as possible. Preserve high quality delicate painted anime rendering. One character, true transparent background; no scenery, glow, cast shadow, text or new accessories. The reference is a user-authorized canonical original character. Use exactly the same 1024 by 1536 portrait canvas and same head-to-mid-thigh framing.",
+          "transparent_background_requested": true,
+          "method": "image_gen.imagegen; user-supplied canonical PNG; expression variants edited from one neutral expanded master",
+          "review": "Viewed every generation; face identity, glasses, hair and uniform preserved; natural complete hands; root reviews before integration",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "alpha_nonzero_bbox": [
+            0,
+            0,
+            1006,
+            1536
+          ],
+          "sha256": "2c24c9b0b022c3cab6e17e903b81ed9ba00abddfec073c178ff3482af76951a2",
+          "canonical_source_sha256": "fad1dc0248ebe5e6bdfe8caaced82f163519508b1ce8e81551b5856f25d49719"
+        }
+      ]
+    },
+    "support_gestures": {
+      "date": "2026-11-04",
+      "purpose": "Body-language pose variants of user-supplied MADOROMI character designs; no product edits.",
+      "tool": "OpenAI image generation",
+      "assets": [
+        {
+          "character": "Mio",
+          "pose": "thoughtful",
+          "source": "production-inputs/character-production/mio/master-v1.png",
+          "generated_original": "generated-originals/exec-989afa05-0ce3-4bb4-87aa-33a3b1603c31.png",
+          "output": "production-inputs/character-production/mio/thoughtful.png",
+          "prompt": "Edit the supplied finished visual novel character sprite into ONE thoughtful body-language pose, preserving this exact character identity. Keep Mio's exact blue-black medium slightly wavy hair, rounded thin metal glasses, pale blue eyes, face shape, navy school blazer with fine gold piping and crest, grey V-neck sweater vest, white shirt, dark bow, pleated skirt. Maintain the same finely painted matte 2D anime illustration finish, head size and mostly exact head location, and 1024x1536 head-to-upper-thigh transparent canvas. Change the arm pose naturally: one hand delicately touches the outer rim of her glasses near her temple as if considering a practical library question; her other forearm gently supports that elbow across her middle. She has a focused calm thoughtful expression, subtly raised inner brow, lips softly closed. Slight natural shoulder asymmetry, believable relaxed hands with five fingers, no exaggerated gesture. No new accessories, no book, no environment, no text, no photo/3D, no costume change, no face redesign. Preserve clean transparent edges; retain the complete silhouette and hands within the canvas.",
+          "source_sha256": "e7d0936bd66c0ee1e11cde84d284ade021310743342e14bc052bb0c76b4c96c2",
+          "output_sha256": "31ab6c0856f680aaca89824cb73f2c916c278cfbe01b79727a39ec41761b6a22",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "silhouette_bbox_alpha_gt_127": [
+            181,
+            9,
+            828,
+            1536
+          ],
+          "visual_review": "Accepted: identity, uniform, glasses and head position consistent; complete natural visible hand anatomy, restrained intentional gesture. Minor repaint shading variation versus master is inherent to generated pose editing."
+        },
+        {
+          "character": "Sora",
+          "pose": "easy",
+          "source": "production-inputs/character-production/sora/master-v1.png",
+          "generated_original": "generated-originals/exec-6e213490-5774-415d-a8b9-1cad9fbf5db7.png",
+          "output": "production-inputs/character-production/sora/easy.png",
+          "prompt": "Edit the supplied finished visual novel character sprite into ONE reassuring easy body-language pose, preserving this exact character identity. Keep Sora's exact messy black hair, rounded thin black glasses, grey eyes, face shape, navy school blazer with fine gold piping and crest, white shirt and loose dark tie, dark trousers, and large dark headphones around his neck. Maintain the same finely painted matte 2D anime illustration finish, head size and mostly exact head location, and 1024x1536 head-to-upper-thigh transparent canvas. Change the body pose naturally: one hand loosely touches the headphone earcup around his neck, with relaxed fingers; his other hand rests casually in his uniform trouser pocket, thumb visible at the opening. Slight easy weight shift and relaxed shoulders, an understated warm half smile as a dependable drummer friend reassuring someone. Believable arms and hands with five fingers where visible, no exaggerated gesture. No new accessories, no bag, no instrument, no environment, no text, no photo/3D, no costume change, no face redesign. Preserve clean transparent edges; retain the complete silhouette and visible hand within the canvas.",
+          "source_sha256": "faa7848fa9bf9c254b396fae13033337a042c52bedc07e876bc26576ff5933f1",
+          "output_sha256": "75521b884dc89c41ed04a7e9222a2505b68ff830475463a7cb224dda6f5a52cf",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "silhouette_bbox_alpha_gt_127": [
+            141,
+            10,
+            921,
+            1536
+          ],
+          "visual_review": "Accepted: identity, uniform, glasses and head position consistent; complete natural visible hand anatomy, restrained intentional gesture. Minor repaint shading variation versus master is inherent to generated pose editing."
+        }
+      ]
+    },
+    "environments": {
+      "schema_version": 1,
+      "project": "MADOROMI — Kazehama environments",
+      "created_utc": "2026-11-04",
+      "tool": "image_gen.imagegen",
+      "original_art": true,
+      "notes": "Original generated 2D environment artwork. Reference is user canonical character upgrade, used for finish and palette only. No people or benchmark art. Raw originals remain outside repository.",
+      "style_reference": "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png",
+      "status": "Completed. Nine original backgrounds plus original jeans insert and one final same-layout continuity edit. Original jeans_prop.png preserved; jeans.png is final integration source.",
+      "images": [
+        {
+          "alias": "courtyard",
+          "raw_path": "production-inputs/environment-production/courtyard.png",
+          "original_tool_path": null,
+          "reference_paths": [
+            "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png"
+          ],
+          "prompt": "Create an original polished 2D Japanese visual-novel environment background for the fictional coastal town of Kazehama, Japan, mid-September. Wide 16:9 landscape composition, target 1920x1080 or highest available resolution. NO PEOPLE, NO HUMAN FIGURES, NO PORTRAITS, NO SILHOUETTES, no text, no lettering, no readable signs, no logos, no watermarks. Use the attached character artwork ONLY as a reference for its fine delicate anime line quality, sensitive hand-painted tonal transitions, sophisticated navy/ivory/warm-gold palette and restrained detail. Do not depict the character or any part of the character. The result must be visibly hand-drawn 2D anime key art: delicate precise contour lines, softly painted matte surfaces, fine illustrative detail, subtle paper-like painterly texture, and gentle soft-edged shadows. Beautiful calm slice-of-life drama, refined and intimate. Entirely painted 2D; avoid photorealism, photographic textures, 3D render appearance, game-engine lighting, glossy plastic, heavy black outlines, oversaturated greens, lens flares, dramatic fantasy scenery, and cinematic depth-of-field blur. Clear readable spatial composition at eye level, all objects grounded naturally, no fish-eye distortion. Warm afternoon sunlight, muted foliage, slate/navy shadows, cream highlights; restrained atmospheric perspective. ENVIRONMENT: Kazehama private-school courtyard above the coast. A dignified red-brick cathedral-style school chapel stands at the LEFT BACKGROUND, with a modest clockless square bell tower, pointed arched windows, cream stone trim and a dark navy slate roof; it must feel like a real historic Japanese mission-school chapel, not an enormous European palace. The chapel is behind a low brick wall and a short hedge; keep all detailed masonry in the upper-left and far-left edge, leave the lower-left foreground as quiet pale stone paving with soft shade so a menu logo placed there will read clearly. A huge mature camphor tree and a gently worn wooden bench occupy the RIGHT THIRD, the tree canopy arching across the upper right with soft patterned sunlight on the paving. A few ivy details, coastal wind, calm late-summer leaves. Beyond the middle background, small Japanese coastal-town rooftops and utility poles descend toward a narrow calm blue hint of sea on the horizon. Center-left and center foreground remain open and uncluttered for later visual-novel character overlays. Ground plane fills about the lower 45% of the frame, believable human scale. Inviting, tranquil, emotionally tender, beautifully finished original environment painting. No falling leaves crossing the foreground. No decorative border.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "b490671d4d1be787973f79de4602332b141d7d8216472bf643b1894f840ff443",
+          "bytes": 3166350
+        },
+        {
+          "alias": "bedroom_day",
+          "raw_path": "production-inputs/environment-production/bedroom_day.png",
+          "original_tool_path": "generated-originals/exec-0ea900e2-0fbd-4ca2-b3be-1088a1659263.png",
+          "reference_paths": [
+            "generated-originals/exec-cb17ec76-82a0-4d71-89c7-3f35d8f22211.png"
+          ],
+          "prompt": "Create an original polished 2D Japanese visual-novel environment background for the fictional coastal town of Kazehama, Japan, mid-September. Wide 16:9 landscape composition, target 1920x1080 or highest available resolution. NO PEOPLE, NO HUMAN FIGURES, NO PORTRAITS, NO SILHOUETTES, no text, no lettering, no readable signs, no logos, no watermarks. Use the attached character artwork ONLY as a reference for its fine delicate anime line quality, sensitive hand-painted tonal transitions, sophisticated navy/ivory/warm-gold palette and restrained detail. Do not depict the character or any part of the character. The result must be visibly hand-drawn 2D anime key art: delicate precise contour lines, softly painted matte surfaces, fine illustrative detail, subtle paper-like painterly texture, and gentle soft-edged shadows. Beautiful calm slice-of-life drama, refined and intimate. Entirely painted 2D; avoid photorealism, photographic textures, 3D render appearance, game-engine lighting, glossy plastic, heavy black outlines, oversaturated greens, lens flares, dramatic fantasy scenery, and cinematic depth-of-field blur. Clear readable spatial composition at eye level, all objects grounded naturally, no fish-eye distortion. Warm afternoon sunlight, muted foliage, slate/navy shadows, cream highlights; restrained atmospheric perspective. ENVIRONMENT: Ren's small cozy Japanese high-school student's bedroom, afternoon, in an ordinary older home in Kazehama. Fixed eye-level wide view from the doorway across an intimate rectangular room of about 9 square meters, entirely believable modest Japanese domestic architecture. Cream plaster walls, a light wood floor, one small sliding window on the BACK WALL slightly LEFT of center, pale linen curtains with a gentle sea breeze, warm afternoon sun from the window. A compact wooden art desk under the window LEFT OF CENTER with a closed sketchbook, two loose blank drawing sheets, a small cup of pencils and a simple small desk lamp; careful tidy lived-in details, no elaborate art studio equipment. A plain acoustic guitar rests safely on a black guitar stand beside the desk, clearly visible. RIGHT SIDE: a low single bed parallel to the right wall, slate-blue blanket, ivory pillow, simple wooden frame. Small low bookshelf against the back wall at right, neutral book spines without lettering, one plain corkboard with a small blank pinned note. Front left: a quiet open floor area. A single discreet ceiling light visible high up if naturally framed. Architectural layout should be exceptionally clear so an identical room can later be shown at night. Restrained warm wood, ivory walls, muted blue textile shadows, delicate brass accents. Cozy believable student bedroom, not an expensive loft, no massive windows, no western study, no floor-to-ceiling glass, no outdoor terrace, no dramatic architectural vaults. Keep a broad clear center foreground for character overlays and a calm lower strip for dialogue UI. No decorative border.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "a2d34332700e4dc843cc563aacd32d1627e74b404d905aabf490dee7b90e92c3",
+          "bytes": 2253889
+        },
+        {
+          "alias": "cafeteria",
+          "raw_path": "production-inputs/environment-production/cafeteria.png",
+          "original_tool_path": "generated-originals/exec-af054b9d-c39c-438b-974d-7ebe0999a338.png",
+          "reference_paths": [
+            "production-inputs/environment-production/courtyard.png"
+          ],
+          "prompt": "Original polished 2D Japanese visual-novel environment painting for MADOROMI, fictional coastal town Kazehama, Japan, mid-September. WIDE 16:9 landscape frame, target 1920x1080 or highest available resolution. NO PEOPLE, NO FIGURES, NO CHARACTERS, NO PORTRAITS, NO SILHOUETTES, NO TEXT, no readable lettering or numbers, no readable signs, no logos, no watermarks. The attached courtyard painting is the accepted master STYLE REFERENCE: match exactly its delicate fine anime contour lines, softly painted matte surfaces, exquisitely illustrated but restrained realistic objects, subtle paper-paint texture, nuanced warm ivory/gold light and soft slate/navy shadows, muted green foliage and refined quiet slice-of-life tone. Make this visibly a hand-drawn 2D anime background with precise drawing and subtle brushwork. NO 3D render appearance, NO photographic textures, NO photorealism, NO plastic gloss, NO heavy black outlines, NO fish-eye, NO dramatic lens blur. Do not reproduce the courtyard unless the scene asks for it. Keep the framing grounded at human eye-level, spatially clear, ordinary intimate Japanese architecture. All object silhouettes legible and naturally supported. Quiet clean foreground for later visual-novel character overlays and a calm lower strip for dialogue UI. No decorative border. SCENE: Interior of the modest historic Kazehama mission-school cafeteria in warm early-afternoon light. It belongs to the same red-brick school as the reference courtyard: cream plaster walls with modest dark-wood dado and a few pale red-brick window reveals, dark navy painted metal window frames, ordinary Japanese school architecture, no grand hall. A short serving counter with two small stainless steel trays and neatly stacked pale ceramic plates occupies the far-left background; no food labels or menu boards. Rows of simple honey-colored wood dining tables and chairs form natural receding perspective on both sides, leaving a broad open central aisle and clear foreground for heroine overlays. A nearer table corner bottom-left has a single glass of water and closed blank notebook, understated. Wide tall windows across the BACK and RIGHT show a soft glimpse of muted green camphor foliage, navy chapel roof and pale coastal sky, with gentle sunshine on the wooden floor. Fine quiet lived-in details: wall clock WITHOUT numbers, a simple potted fern, pale cream roller blinds. Warm inviting human-scale school lunch room, empty and serene after the lunchtime rush. No people, no colorful decoration or banners, no readable signage, no enormous luxury dining hall.",
+          "recovered_after_interruption": true,
+          "review": "Visually inspected; delicate 2D painted finish, no figures or readable text.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "232cc6240a6495d021f2e99b97c33f2fe8dc4ed0ce7d2ec10cf78578649c33ce",
+          "bytes": 2500094
+        },
+        {
+          "alias": "bedroom",
+          "raw_path": "production-inputs/environment-production/bedroom.png",
+          "original_tool_path": "generated-originals/exec-ee34032e-e7a6-41da-844b-41f3472252d8.png",
+          "reference_paths": [
+            "production-inputs/environment-production/bedroom_day.png",
+            "production-inputs/environment-production/courtyard.png"
+          ],
+          "prompt": "EDIT THE FIRST ATTACHED IMAGE (Ren's bedroom in daylight) into an identical-layout nighttime version. The SECOND attached image (courtyard) is a finish/style anchor only. Preserve EXACTLY the original camera, framing, room dimensions, perspective, window and curtain positions, sliding closet/door and handles on left, desk and chair, closed sketchbook and loose sheets and pencil cup and vase, guitar on its floor stand, right bookshelf and basket, bed and pillows and blanket folds, corkboard, all furnishings and object locations. Do not add, remove, relocate or redesign anything. Change ONLY lighting and exterior time: a serene clear late night in coastal Kazehama, dark muted blue sky and faint distant shoreline lights through the window, cool soft moonlight faintly grazing the room. Main ceiling lamp OFF. The brass desk lamp emits a small warm amber light pooling across the desk and chair, and the room stays readable with gentle cool navy/blue ambient fill. Ivory walls go soft pale slate-lavender, warm wood retains color, restrained cozy atmosphere during a private phone chat. Original hand-drawn 2D anime matte painting, identical fine line quality and detail to the day image and the accepted courtyard reference. No photographic or 3D lighting. Wide 16:9, target 1920x1080 or highest. No people, silhouettes, text, letters, logos, watermarks. Preserve empty foreground. Do not crop or alter camera.",
+          "review": "Visually inspected; fine-line 2D painted finish, no people or readable text.",
+          "width": 1671,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "9ab2329446317d040be161beec5bf94ac5322ec4fbf87748167c319a3bfeb063",
+          "bytes": 1799962
+        },
+        {
+          "alias": "lounge",
+          "raw_path": "production-inputs/environment-production/lounge.png",
+          "original_tool_path": "generated-originals/exec-ecb249b0-febd-4b0b-9083-b374885341b7.png",
+          "reference_paths": [
+            "production-inputs/environment-production/courtyard.png"
+          ],
+          "prompt": "Original polished 2D Japanese visual-novel environment painting for MADOROMI, fictional coastal town Kazehama, Japan, mid-September. WIDE 16:9 landscape frame, target 1920x1080 or highest available resolution. NO PEOPLE, NO FIGURES, NO CHARACTERS, NO PORTRAITS, NO SILHOUETTES, NO TEXT, no readable lettering or numbers, no readable signs, no logos, no watermarks. The attached courtyard painting is the accepted master STYLE REFERENCE: match exactly its delicate fine anime contour lines, softly painted matte surfaces, exquisitely illustrated but restrained realistic objects, subtle paper-paint texture, nuanced warm ivory/gold light and soft slate/navy shadows, muted green foliage and refined quiet slice-of-life tone. Make this visibly a hand-drawn 2D anime background with precise drawing and subtle brushwork. NO 3D render appearance, NO photographic textures, NO photorealism, NO plastic gloss, NO heavy black outlines, NO fish-eye, NO dramatic lens blur. Do not reproduce the courtyard unless the scene asks for it. Keep the framing grounded at human eye-level, spatially clear, ordinary intimate Japanese architecture. All object silhouettes legible and naturally supported. Quiet clean foreground for later visual-novel character overlays and a calm lower strip for dialogue UI. No decorative border. SCENE: A cozy reading corner INSIDE THE SCHOOL LIBRARY at Kazehama, NOT an art studio and NOT a bedroom. Same historic cream-walled red-brick mission-school interior, warm afternoon light, medium-height room. Two unmistakable soft beanbag chairs in the foreground-right and center: one desaturated navy-blue, the other dusty coral, arranged at an angle around a very low simple oval light-wood table. On the table: one small cup holding several pencils, one CLOSED ivory sketchbook and two neutral books without lettering, no paint or artist equipment. The beanbags are full-size and inviting with softly drawn cloth folds, clearly distinct blue and coral. Tall orderly wooden BOOKSHELVES filled with restrained ivory, slate and tan spines occupy the back wall, and a wood-framed simple fabric bulletin PANEL with two small blank pinned pages stands beside the shelves. Left wall has a tall school window with dark navy frames and a low windowsill, soft camphor foliage and a hint of pale sky outside. A compact wood reading table and chair sit unobtrusively far-left background, but keep the two beanbags as the focus. Open warm-wood floor center-left foreground for character overlays. Calm intimate space where two classmates could sit close to talk for ten seconds. No easels, no canvases, no paints, no atelier objects, no kitchen, no people, no signage, no lettering.",
+          "review": "Visually inspected; fine-line 2D painted finish, no people or readable text.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "5a03f6ce9947c7695b9fd2682b876e93122e61e4e17bda8b829a189a35fbae69",
+          "bytes": 2478376
+        },
+        {
+          "alias": "street",
+          "raw_path": "production-inputs/environment-production/street.png",
+          "original_tool_path": "generated-originals/exec-8ec92413-9506-451d-9660-5725776d67b7.png",
+          "reference_paths": [
+            "production-inputs/environment-production/courtyard.png"
+          ],
+          "prompt": "Original polished 2D Japanese visual-novel environment painting for MADOROMI, fictional coastal town Kazehama, Japan, mid-September. WIDE 16:9 landscape frame, target 1920x1080 or highest available resolution. NO PEOPLE, NO FIGURES, NO CHARACTERS, NO PORTRAITS, NO SILHOUETTES, NO TEXT, no readable lettering or numbers, no readable signs, no logos, no watermarks. The attached courtyard painting is the accepted master STYLE REFERENCE: match exactly its delicate fine anime contour lines, softly painted matte surfaces, exquisitely illustrated but restrained realistic objects, subtle paper-paint texture, nuanced warm ivory/gold light and soft slate/navy shadows, muted green foliage and refined quiet slice-of-life tone. Make this visibly a hand-drawn 2D anime background with precise drawing and subtle brushwork. NO 3D render appearance, NO photographic textures, NO photorealism, NO plastic gloss, NO heavy black outlines, NO fish-eye, NO dramatic lens blur. Do not reproduce the courtyard unless the scene asks for it. Keep the framing grounded at human eye-level, spatially clear, ordinary intimate Japanese architecture. All object silhouettes legible and naturally supported. Quiet clean foreground for later visual-novel character overlays and a calm lower strip for dialogue UI. No decorative border. SCENE: Quiet neighborhood shopping street in the coastal Japanese town of Kazehama, sunny late afternoon, intimate human scale. Eye-level view along a gently sloping narrow paved street toward a tiny distant hint of blue sea; no cars, no people, no bicycles blocking the center. A small believable Japanese local retail row, modest two-story timber/plaster buildings and subtle tiled roofs, utility poles and tidy overhead wires. LEFT FOREGROUND: a beloved neighborhood bakery with a warm honey-wood-framed glass storefront, muted cream canvas awning and slim muted navy edge, a small square sidelight window, light-wood door with one glass pane and simple brass handle; inside only a suggestion of a wood bread counter. No signs or lettering. MIDDLE LEFT: a compact art supply shop with muted indigo awning and simple glass display containing a few blank canvases/pencil tins. RIGHT MIDGROUND: a little second-hand clothing shop with sage-green sliding door and one simple plain beige garment displayed just inside; no readable signs, labels or lettering anywhere. Warm cream plaster, muted wood and brick details echo the school courtyard palette. Pots of restrained green plants by storefronts, modest hanging lamps OFF. Central and lower foreground street open and quiet for dialogue character overlays, detailed but uncluttered paving, calm sea breeze. Keep building geometry and shop facade layouts exceptionally clear so an identical view can be edited to blue hour later.",
+          "review": "Visually inspected; fine-line 2D painted finish, no people or readable text.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "5f8ee7008a4fe2f167e0a79c3247b3a84c5680566cd0cdca8a16836e6a1d5e09",
+          "bytes": 3056234
+        },
+        {
+          "alias": "stage",
+          "raw_path": "production-inputs/environment-production/stage.png",
+          "original_tool_path": "generated-originals/exec-b5894b96-d289-4137-90de-19e823830db3.png",
+          "reference_paths": [
+            "production-inputs/environment-production/courtyard.png"
+          ],
+          "prompt": "Original polished 2D Japanese visual-novel environment painting for MADOROMI, fictional coastal town Kazehama, Japan, mid-September. WIDE 16:9 landscape frame, target 1920x1080 or highest available resolution. NO PEOPLE, NO FIGURES, NO CHARACTERS, NO PORTRAITS, NO SILHOUETTES, NO TEXT, no readable lettering or numbers, no readable signs, no logos, no watermarks. The attached courtyard painting is the accepted master STYLE REFERENCE: match exactly its delicate fine anime contour lines, softly painted matte surfaces, exquisitely illustrated but restrained realistic objects, subtle paper-paint texture, nuanced warm ivory/gold light and soft slate/navy shadows, muted green foliage and refined quiet slice-of-life tone. Make this visibly a hand-drawn 2D anime background with precise drawing and subtle brushwork. NO 3D render appearance, NO photographic textures, NO photorealism, NO plastic gloss, NO heavy black outlines, NO fish-eye, NO dramatic lens blur. Do not reproduce the courtyard unless the scene asks for it. Keep the framing grounded at human eye-level, spatially clear, ordinary intimate Japanese architecture. All object silhouettes legible and naturally supported. Quiet clean foreground for later visual-novel character overlays and a calm lower strip for dialogue UI. No decorative border. SCENE: The small community hall music stage in Kazehama just before a student band performance, with no musicians, no audience, no crowd. Ordinary modest local community venue, NOT an arena or huge concert stage. Eye-level view from a few meters in front of the low stage, warm honey-wood wall panels, simple navy stage side-curtains and pale ivory ceiling above. Two restrained warm amber stage lamps cast soft shadows; lighting feels hand-painted and intimate. On the wooden stage: center microphone on a sturdy stand, one small black guitar amplifier at left and one at right, a solid-body muted navy electric guitar resting on a safe stand near the left amp, one natural-wood acoustic guitar on its stand at right, a simple compact drum kit toward back-center with navy/ivory shells and understated brass cymbals, tidy instrument cables. No brand logos or writing on equipment, no sheet music text. A couple of small floor monitor speakers sit low and near the stage edge. The lower foreground is clean empty darker wood floor, plenty of uncluttered space for character overlays. Delicate 2D anime linework, subtle matte painted wood grain, sophisticated soft gold light and slate/navy shadow as accepted courtyard. No neon lighting, no laser beams, no nightclub, no cavernous stage, no photorealism.",
+          "review": "Visually inspected; fine-line 2D painted finish, no people or readable text.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "f6859c6b1e2aca2c9e87d0367f74703f2cf08c13c6cbd3f541917d896048c005",
+          "bytes": 2443748
+        },
+        {
+          "alias": "night",
+          "raw_path": "production-inputs/environment-production/night.png",
+          "original_tool_path": "generated-originals/exec-032b72ac-35d6-4c30-ba43-f641b1bb3626.png",
+          "reference_paths": [
+            "production-inputs/environment-production/street.png",
+            "production-inputs/environment-production/courtyard.png"
+          ],
+          "prompt": "EDIT THE FIRST ATTACHED IMAGE (the completed Kazehama shopping street in daytime) into an IDENTICAL-LAYOUT blue-hour evening version, after a small community band gig. The SECOND attached image, the school courtyard, is a finish/style anchor only. Preserve EXACTLY the camera, perspective, vanishing point, street width and paving, all building outlines and facade layouts, timber/tile details, LEFT FOREGROUND bakery door/window/cream awning/brick base, MID-LEFT art shop with indigo awning and blank canvases/pencils, RIGHT second-hand clothing shop with sage-green glazed door and plain hanging beige shirts, every planter, utility pole and wire, tree branch, lamp location and distant sea horizon. Do not relocate, remove or redesign anything; change ONLY the time of day and lights. Soft deep periwinkle/blue evening sky just after sunset, gentle muted violet coastal distance, a couple of tiny pale early stars, warm gold interior lights now glow through bakery, art shop and thrift shop windows, the modest storefront hanging lamps light the entrances, warm pools of light fall onto the paving, gentle navy shadows remain fully readable. The tree leaves and wood retain subtle colors. A tender calm walk home after the concert, intimate and serene. NO PEOPLE, NO FIGURES, NO CHARACTERS, NO SILHOUETTES, no vehicles, no readable text/letters/signs, no watermarks. Original delicate hand-drawn 2D anime environment: fine drawn lines, matte painted texture, soft nuanced shadows and restrained gold/navy/ivory palette, exactly matching day street and courtyard. No photograph, no 3D-render appearance, no wet glossy road, no neon signs, no lens flare, no cinematic blur, no excessive darkness. Wide 16:9 target 1920x1080 or highest; no crop or camera change.",
+          "review": "Visually inspected; fine-line 2D painted finish, no people or readable text.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "ed713abdde1a0bad06270bc301bd098e1f11efcfbbd07f39e3b8b695dadd3fb7",
+          "bytes": 2838760
+        },
+        {
+          "alias": "bakery",
+          "raw_path": "production-inputs/environment-production/bakery.png",
+          "original_tool_path": "generated-originals/exec-83563c13-a7b8-49a7-927c-8d0ae5026735.png",
+          "reference_paths": [
+            "production-inputs/environment-production/courtyard.png",
+            "production-inputs/environment-production/street.png"
+          ],
+          "prompt": "Original polished 2D Japanese visual-novel environment painting for MADOROMI, fictional coastal town Kazehama, Japan, mid-September. WIDE 16:9 landscape frame, target 1920x1080 or highest available resolution. NO PEOPLE, NO FIGURES, NO CHARACTERS, NO PORTRAITS, NO SILHOUETTES, NO TEXT, no readable lettering or numbers, no readable signs, no logos, no watermarks. The attached courtyard painting is the accepted master STYLE REFERENCE: match exactly its delicate fine anime contour lines, softly painted matte surfaces, exquisitely illustrated but restrained realistic objects, subtle paper-paint texture, nuanced warm ivory/gold light and soft slate/navy shadows, muted green foliage and refined quiet slice-of-life tone. Make this visibly a hand-drawn 2D anime background with precise drawing and subtle brushwork. NO 3D render appearance, NO photographic textures, NO photorealism, NO plastic gloss, NO heavy black outlines, NO fish-eye, NO dramatic lens blur. Do not reproduce the courtyard unless the scene asks for it. Keep the framing grounded at human eye-level, spatially clear, ordinary intimate Japanese architecture. All object silhouettes legible and naturally supported. Quiet clean foreground for later visual-novel character overlays and a calm lower strip for dialogue UI. No decorative border. SCENE: Interior of the same cozy neighborhood Japanese bakery from Kazehama's street. This is a small modest long-established shop with honey-colored timber window/door frames, a muted cream canvas awning visible just beyond the front glazing, slim muted navy trim, simple brass door handle and cream plaster walls, matching the street bakery facade. Eye-level view looking diagonally across a waist-height light-wood bread counter with simple clean glass sneeze guard, into the front window and small glazed entrance on the left, while the counter recedes toward the back-right. Fresh clearly illustrated Japanese melon-pan with a delicate lattice crust, golden croissants, two small round rolls and a baguette in restrained woven baskets on the counter, a pair of silver tongs and a small empty cream tray. No price tags or labels at all. A compact bread shelf behind the counter, no cashier and no people. Warm afternoon light through the large honey-wood-framed front window makes soft gold bands across wood floor and counter; through glass see a quiet Japanese street, a muted sage shopfront and indistinct timber houses, matching Kazehama. Back wall pale cream with simple wood shelf, a small leafy plant, no lettering, no posters, no excessive display clutter. Inviting intimate place for a tender conversation, original delicate anime illustration. Clear quiet floor/front counter area where a character can later be overlaid. IMPORTANT: the SECOND ATTACHED image is the completed street master. The interior MUST plausibly belong inside its LEFT FOREGROUND BAKERY: same honey-wood door with tall narrow glass pane on the right side of the shop front as seen from outdoors, simple small brass handle, big main honey-wood-framed window to its left from outdoors, small square sidelight further left, muted cream canvas awning with slate/navy edge, red-brick base under front window. Viewed from inside these are naturally reversed. Across the street through the front glazing, show the same sage-green shopfront with plain beige hanging clothing. Match these real built details faithfully; the first courtyard reference controls painting finish and palette.",
+          "review": "Visually inspected; fine-line 2D painted finish, no people or readable text.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "e4f6284ad5db94904434761d78e8cbbd6f67a8593b5779ac948270ffea92af60",
+          "bytes": 2775309
+        },
+        {
+          "alias": "jeans_prop",
+          "kind": "prop_insert",
+          "raw_path": "production-inputs/environment-production/jeans_prop.png",
+          "original_tool_path": "generated-originals/exec-3598783a-7415-4723-8ca9-1b5a0a84b928.png",
+          "reference_paths": [
+            "production-inputs/environment-production/courtyard.png",
+            "production-inputs/environment-production/bedroom_day.png"
+          ],
+          "prompt": "Create an original detailed 2D anime visual-novel INSERT illustration. WIDE 16:9 landscape, target 1920x1080 or highest available. FIRST reference is the accepted courtyard master for the delicate fine contour lines, softly painted matte texture and refined ivory/gold/navy palette. SECOND reference is Ren's bedroom and wood art desk; use the SAME modest warm honey-wood desk surface, with a small suggestion of the ivory wall/window glow behind. Closeup looking down at a pair of beautifully hand-painted blue denim jeans folded neatly on Ren's wood desk as a tender personal gift. The folded upper portion including hip and pocket is clearly visible in the central composition; the lower legs fold underneath, no person wearing them and no body. The blue denim is hand-painted with small charming original little motifs near the hip and upper pocket: a tiny line of adorable ants, one little melon bread with lattice, a soft ivory cloud, and a tiny simple window shape; subtle delicate brush-painted decoration, tasteful and lovingly crafted, with NO legible text, NO lettering. Show natural denim seams and brass button, fine neat painting details, no dramatic rips and no brand marks. A closed ivory sketchbook and two pencils rest subtly in the far upper-left edge, secondary. Soft warm afternoon light and muted navy shadows, painted 2D anime precision matching the references. No people, hands, figures, portraits, silhouettes, no photographic textures, no 3D render, no heavy outlines, no watermarks. Warm quiet emotionally intimate composition. No decorative border.",
+          "review": "Visually inspected; folded denim on Ren's desk, ants/melon-bread/cloud/window painted near hip; no people or text.",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "sha256": "d53001e318719e3b6cc6e2e42f96891531407981bc4fbb5898d24c87612e462b",
+          "bytes": 3291903
+        },
+        {
+          "alias": "jeans",
+          "kind": "prop_insert_final_continuity_edit",
+          "raw_path": "production-inputs/environment-production/jeans.png",
+          "original_tool_path": "generated-originals/exec-51a3e4bb-71f9-4b29-8e28-4fa2225a62a0.png",
+          "tool": "image_gen.imagegen",
+          "reference_paths": [
+            "production-inputs/environment-production/jeans_prop.png"
+          ],
+          "lineage": {
+            "parent_alias": "jeans_prop",
+            "parent_raw_path": "production-inputs/environment-production/jeans_prop.png",
+            "edit_scope": "One imagegen edit, preserving scene/denim/folds/desk/light/existing motifs; adding tiny hand-painted fish beside seam plus railway station and waves on the visible folded leg.",
+            "parent_sha256": "d53001e318719e3b6cc6e2e42f96891531407981bc4fbb5898d24c87612e462b"
+          },
+          "prompt": "Make one precise continuity EDIT of the attached original 2D anime illustration of folded painted jeans on a wood desk. Preserve the ENTIRE image's exact camera and crop, denim garment shape and folds, seams and pocket and button and stitching, all denim texture, desk grain, sketchbook, pencils, curtain, window light and dappled warm shadows, original fine-line hand-painted matte finish, colors, and ALL EXISTING decorative motifs (two cute ants with their dotted trail, melon bread, cloud, arched window, small foliage). Do not replace, move, enlarge or redraw any existing object or motif. Add ONLY three small new hand-painted motifs in currently blank visible blue denim areas, as personalized artwork painted directly onto fabric: (1) a clear tiny cream-and-muted-gold FISH with one small round eye and a simple tail, beside the left descending jeans seam, below the existing leafy motif; (2) a tiny quaint Japanese coastal RAILWAY STATION on the visible lower-left folded leg panel, to the left of the pocket: clearly recognizable small pitched slate-blue roof, ivory station facade, two tiny window panes and a little platform canopy, with NO text or signs, modestly sized; (3) three short gently curling pale ivory/light-blue SEA WAVE strokes beside and just below the station so the fish and station share a tiny coastal vignette. Make every new motif delicately brush-painted onto denim, following fabric perspective and texture, with slightly imperfect pigment edges, matching the tenderness and scale of the existing painted motifs. They must NOT look like stickers, embroidery patches, 3D objects, printed graphics, or cutouts. Existing ants/bread/cloud/window stay clearly visible unchanged. Do not add any writing, numbers, logos, watermark, person, hands, figure, silhouette, new prop, border, new lighting effect, or photo textures. This is a surgical local paint addition, not a new scene or a full regeneration. Preserve the wide 16:9 framing and highest available resolution.",
+          "review": "Visually inspected: fish beside seam, clear station roof/windows/platform canopy and wave strokes added; ants, bread, cloud and window retained. Existing layout, denim folds, desk and warm matte 2D finish preserved. No people or readable text.",
+          "accepted_as_final_for_integration": true,
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "bytes": 3048703,
+          "sha256": "bb468e21bef0b5613687df9c40905feffe8f38478a88b070e370e6a436845d4d"
+        }
+      ],
+      "production_review": {
+        "finished_backgrounds": [
+          "courtyard",
+          "bedroom_day",
+          "bedroom",
+          "cafeteria",
+          "lounge",
+          "street",
+          "night",
+          "bakery",
+          "stage"
+        ],
+        "finished_inserts": [
+          "jeans"
+        ],
+        "style_anchor": "courtyard.png",
+        "continuity": [
+          "bedroom is a same-layout nighttime edit of bedroom_day",
+          "night is a same-layout blue-hour edit of street",
+          "bakery facade/window and view of sage shop reflect street",
+          "jeans final edit adds fish by seam, railway station and waves while retaining original ants/bread/cloud/window motifs"
+        ],
+        "integration_owner": "root",
+        "product_files_modified": false,
+        "preserved_previous_inserts": [
+          "jeans_prop"
+        ]
+      }
+    },
+    "musicroom": {
+      "date": "2026-11-04",
+      "asset": "musicroom",
+      "tool": "OpenAI image generation",
+      "purpose": "School music-club room to stage return-to-school dialogue at end of Act III.",
+      "references": [
+        "production-inputs/environment-production/courtyard.png",
+        "production-inputs/environment-production/bedroom_day.png"
+      ],
+      "generated_original": "generated-originals/exec-31beb21f-26df-4be3-be90-9d16d682c7d9.png",
+      "output": "production-inputs/musicroom-production/musicroom.png",
+      "prompt": "Create ONE finished visual novel background illustration for MADOROMI: the modest music-club room of a Japanese coastal high school in fictional Kazehama, midday in mid September. Use the TWO supplied environment illustrations strictly as the shared visual finish, palette and town continuity reference: exquisitely fine-line hand-painted matte 2D anime background, softly painted detailed surfaces, warm natural daylight, navy grey shadows, ivory walls, muted green foliage, quiet romantic slice-of-life atmosphere. This must feel painted by the exact same environment team as the references. A comfortably sized school club practice room viewed at standing eye level, wide 16:9 cinematic composition. Wood plank floor, cream walls, a few navy-grey fabric acoustic panels arranged sensibly on the back wall; small black guitar amplifiers and a neat low cable crate at the back left; two guitar stands with modest electric guitars near the wall; a compact believable drum kit at the back right with stool and cymbals. Tall school windows along the left side admit gentle midday light, showing green coastal hills, distant Japanese roofs and a faint blue sea glimpse consistent with the reference town. A plain clock and small blank notice board are acceptable but no readable writing. Leave the central foreground floor uncluttered for character sprites and dialogue, keep instruments toward the back, architectural perspective coherent and realistic for a Japanese school. Calm working clubroom, not a concert stage or bedroom, no luxury recording studio. No people, no silhouettes, no animals, no logos, no letters, no text, no watermark. No photographic materials, no 3D render, no glossy CGI, no heavy blur, no extreme wide-angle distortion. Highest available wide landscape image, target 16:9.",
+      "visual_review": "Accepted: consistent warm fine-line matte painted finish and coastal town view; modest school music-club interior with amplifiers, cable crate, guitar stands, drum kit, clear foreground and no people or readable text.",
+      "source_reference_sha256": {
+        "/workspace/downloads/environment-production/courtyard.png": "b490671d4d1be787973f79de4602332b141d7d8216472bf643b1894f840ff443",
+        "/workspace/downloads/environment-production/bedroom_day.png": "a2d34332700e4dc843cc563aacd32d1627e74b404d905aabf490dee7b90e92c3"
+      },
+      "output_sha256": "8f9da620850ada7e42c160e9a811c6ccd7bdc42a8e80b2d2637630b03d70374b",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    "jeans_continuity": {
+      "alias": "jeans",
+      "kind": "prop_insert_final_continuity_edit",
+      "raw_path": "production-inputs/environment-production/jeans.png",
+      "original_tool_path": "generated-originals/exec-51a3e4bb-71f9-4b29-8e28-4fa2225a62a0.png",
+      "tool": "image_gen.imagegen",
+      "reference_paths": [
+        "production-inputs/environment-production/jeans_prop.png"
+      ],
+      "lineage": {
+        "parent_alias": "jeans_prop",
+        "parent_raw_path": "production-inputs/environment-production/jeans_prop.png",
+        "edit_scope": "One imagegen edit, preserving scene/denim/folds/desk/light/existing motifs; adding tiny hand-painted fish beside seam plus railway station and waves on the visible folded leg.",
+        "parent_sha256": "d53001e318719e3b6cc6e2e42f96891531407981bc4fbb5898d24c87612e462b"
+      },
+      "prompt": "Make one precise continuity EDIT of the attached original 2D anime illustration of folded painted jeans on a wood desk. Preserve the ENTIRE image's exact camera and crop, denim garment shape and folds, seams and pocket and button and stitching, all denim texture, desk grain, sketchbook, pencils, curtain, window light and dappled warm shadows, original fine-line hand-painted matte finish, colors, and ALL EXISTING decorative motifs (two cute ants with their dotted trail, melon bread, cloud, arched window, small foliage). Do not replace, move, enlarge or redraw any existing object or motif. Add ONLY three small new hand-painted motifs in currently blank visible blue denim areas, as personalized artwork painted directly onto fabric: (1) a clear tiny cream-and-muted-gold FISH with one small round eye and a simple tail, beside the left descending jeans seam, below the existing leafy motif; (2) a tiny quaint Japanese coastal RAILWAY STATION on the visible lower-left folded leg panel, to the left of the pocket: clearly recognizable small pitched slate-blue roof, ivory station facade, two tiny window panes and a little platform canopy, with NO text or signs, modestly sized; (3) three short gently curling pale ivory/light-blue SEA WAVE strokes beside and just below the station so the fish and station share a tiny coastal vignette. Make every new motif delicately brush-painted onto denim, following fabric perspective and texture, with slightly imperfect pigment edges, matching the tenderness and scale of the existing painted motifs. They must NOT look like stickers, embroidery patches, 3D objects, printed graphics, or cutouts. Existing ants/bread/cloud/window stay clearly visible unchanged. Do not add any writing, numbers, logos, watermark, person, hands, figure, silhouette, new prop, border, new lighting effect, or photo textures. This is a surgical local paint addition, not a new scene or a full regeneration. Preserve the wide 16:9 framing and highest available resolution.",
+      "review": "Visually inspected: fish beside seam, clear station roof/windows/platform canopy and wave strokes added; ants, bread, cloud and window retained. Existing layout, denim folds, desk and warm matte 2D finish preserved. No people or readable text.",
+      "accepted_as_final_for_integration": true,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3048703,
+      "sha256": "bb468e21bef0b5613687df9c40905feffe8f38478a88b070e370e6a436845d4d"
+    },
+    "womens_jeans_refinement": {
+      "schema_version": 1,
+      "created_utc": "2026-11-04 06:25:58 UTC",
+      "project": "MADOROMI",
+      "change": "Refine Aoi's gift into coherent Japanese everyday women's high-rise relaxed-straight/soft-wide ankle jeans; full-garment prop and matching cropped casual portrait.",
+      "authorization": "User requested suitable jeans gift for Japanese high-school heroine; parent delegated two original imagegen edits. No external photographs/designs used.",
+      "method": "image_gen.imagegen; creative edits only in generator; files copied without visual postprocessing.",
+      "research_evidence": "production-inputs/jeans-fashion-research/evidence.json",
+      "fashion_reasoning": [
+        "UNIQLO Japan women’s range includes high-rise wide, wide-straight, and shorter-length variants; use generic construction, no branded design copying.",
+        "Chosen contoured natural high waist and relaxed hips/thighs make the modest casual garment legible; near-straight softly wide ankle legs are fully visible in unfolded flat-lay.",
+        "Kessler Ramirez craft guidance favors sturdy cotton denim and restrained small detail strokes; original story symbols remain sparse marks on indigo cloth.",
+        "No maker photos or artwork rights inferred. Public research supplied generic fashion/craft facts only, with all product imagery excluded from imagegen."
+      ],
+      "continuity": "Same soft indigo denim/golden seams across prop and casual sprite. Ant/bread/cloud/window clustered at viewer-right front hip/thigh, fish near same-side seam; coastal station/waves near lower leg are outside head-to-mid-thigh sprite crop.",
+      "review": "Both generated results visually inspected before final raw paths replaced. Complete garment/waist/both legs/ankle hems visible; Aoi face/bun/two hairpins/glasses/cardigan/blouse/pose retained closely. Motifs are small painted original symbols; their softly modeled illustration shading remains consistent with source painting. Old versions preserved. No product code or other agent manifests edited.",
+      "assets": [
+        {
+          "alias": "jeans",
+          "output": "production-inputs/environment-production/jeans.png",
+          "versioned_output": "production-inputs/environment-production/jeans-womens-v2.png",
+          "previous_version": "production-inputs/environment-production/jeans-prior-20261104-v1.png",
+          "generated_original": "generated-originals/exec-19be2dd7-2890-46f9-b520-a94ebc8b3e1b.png",
+          "references": [
+            "production-inputs/environment-production/jeans-prior-20261104-v1.png"
+          ],
+          "prompt": "Edit this original painted visual-novel prop illustration into a more suitable gift garment for a Japanese schoolgirl's everyday casual wardrobe. Keep the same polished delicate painted 2D anime illustration finish, warm ivory and soft indigo palette, afternoon sunlight through leaves on a wooden art desk, subtle denim brush texture and fine golden stitching. CHANGE THE PRESENTATION: unfold the jeans completely and lay the whole single pair FRONT SIDE UP flat on the wooden desk, with waistband, both legs and both finished ankle hems fully visible in a neat attractive flat-lay. Wide 16:9 landscape canvas, approximately 1672 by 941. Arrange the garment diagonally across the wide desk so its complete silhouette fits comfortably with margin; waistband toward upper left, two long legs extending to lower right, naturally adjacent but distinct. The garment is WOMEN'S high-rise relaxed-straight jeans, also described as a softly wide straight leg: a gently contoured narrower natural waist, comfortable room at the hips and seat, two relaxed nearly straight legs to clean ankle-length hems; wearable modest everyday Japanese casual fashion, not skinny, not men's work trousers, not oversized cargo, no distressing or ripped openings, no extreme cut, no mannequin or person. Soft medium indigo denim, realistic five-pocket construction and belt loops, normal button and zip fly. DELICATE ORIGINAL HAND-PAINTED ART: on the front upper hip panel on the right side of this front-view garment place a small quiet cluster of tiny ants, a little bread loaf, a cloud and simple arched window; a tiny fish near that leg's outer seam; farther down the same leg near the ankle, a very small coastal local train-station building above two thin wave strokes. These are fine flat opaque fabric-paint BRUSHSTROKES with a little natural unevenness and tiny color marks, understated and integrated with woven cloth, never puffy, embroidered, appliqued, sticker-like, emoji-like or large graphics. Keep the motifs small enough that the feminine jeans silhouette is the main reading, with plenty of clean denim. All motifs are original symbols described here, no external designer artwork or logos copied. A simple sketchbook, two pencils and one fine paintbrush may remain at desk edge, secondary to the complete garment. No text, logos, brand labels, human hands or faces, no folded garment covering the cut. A coherent finished game illustration, not a fashion photograph.",
+          "transparent_background_requested": false,
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "sha256": "35d504811fc55e0cad062d965a145a18ca786237e05b61172240e632ec97dbb7",
+          "previous_sha256": "bb468e21bef0b5613687df9c40905feffe8f38478a88b070e370e6a436845d4d",
+          "generated_original_sha256": "35d504811fc55e0cad062d965a145a18ca786237e05b61172240e632ec97dbb7",
+          "reference_sha256": {
+            "/workspace/downloads/environment-production/jeans-prior-20261104-v1.png": "bb468e21bef0b5613687df9c40905feffe8f38478a88b070e370e6a436845d4d"
+          }
+        },
+        {
+          "alias": "aoi_casual_smile",
+          "output": "production-inputs/character-production/aoi/casual_smile.png",
+          "versioned_output": "production-inputs/character-production/aoi/casual_smile-womens-jeans-v2.png",
+          "previous_version": "production-inputs/character-production/aoi/casual_smile-prior-20261104-v1.png",
+          "generated_original": "generated-originals/exec-6e7b47b4-8401-4938-af5c-2cb27b3765a7.png",
+          "references": [
+            "production-inputs/character-production/aoi/casual_smile-prior-20261104-v1.png",
+            "production-inputs/environment-production/jeans-womens-v2.png"
+          ],
+          "prompt": "Make a precise continuity EDIT of the FIRST attached original Aoi casual production sprite. Preserve her ENTIRE head, face, smile, golden amber eyes, thin round glasses, pale blonde low bun on viewer left, two charcoal hairpins on viewer right, every hair strand, skin, ivory knitted cardigan, dusty-blue buttoned blouse, complete hands, arm pose, head/body position, scale, lighting and original delicate painted anime finish as closely as possible. The image must remain the exact same 1024 by 1536 transparent head-to-mid-thigh portrait. Change ONLY the jeans below the waist so she is wearing the exact original garment illustrated in the SECOND image: women's natural high-rise with gently contoured narrower waist and comfortable relaxed hips/thighs, softly wide straight legs, soft medium indigo denim, golden five-pocket seams, no rips, no low-rise, no skin-tight fit, no exposed midriff. The cardigan and blouse remain identical and cover the same areas; do not shorten or remove clothing. On the viewer-right upper front hip/thigh use the second image's small coherent original painted motif arrangement, tiny ants with a thin dotted trail near a little bread loaf, small cloud and simple arched window, with a tiny fish beside the outer seam farther down on this same side if visible. All are understated flat fabric-paint brush marks with fine slightly uneven pigment edges integrated into woven denim, not puffy embroidery, applique, stickers or emoji. Keep generous plain denim around the motifs. The little coastal station and thin sea-wave motifs belong down near the ankle on the full garment, which is outside this portrait crop; do not move that lower-leg design up onto her thigh. This is the same personalized pair of jeans as the original second image, not a new garment or new design. Do not include the desk, background or any object from the second image. No words, logos, new props or accessories. True transparent background with clean alpha, preserve all identity/costume above waist and natural anatomy. Fully clothed modest everyday Japanese schoolgirl casual outfit, unsexualized.",
+          "transparent_background_requested": true,
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "sha256": "780d29bfe58fd4ea9144f68aa87952a6f34ee1f28d9384d06406ec186221eda6",
+          "previous_sha256": "cd99f27378fae52bfb6d82fa0f897bdf3c73968302f469a62aa44d612bbd9a43",
+          "generated_original_sha256": "780d29bfe58fd4ea9144f68aa87952a6f34ee1f28d9384d06406ec186221eda6",
+          "reference_sha256": {
+            "/workspace/downloads/character-production/aoi/casual_smile-prior-20261104-v1.png": "cd99f27378fae52bfb6d82fa0f897bdf3c73968302f469a62aa44d612bbd9a43",
+            "/workspace/downloads/environment-production/jeans-womens-v2.png": "35d504811fc55e0cad062d965a145a18ca786237e05b61172240e632ec97dbb7"
+          },
+          "alpha_extrema": [
+            0,
+            254
+          ]
+        }
+      ]
+    },
+    "fashion_research_text_only": {
+      "sources": [
+        "https://www.uniqlo.com/jp/ja/women/bottoms/jeans",
+        "https://www.uniqlo.com/uk/en/women/bottoms/jeans",
+        "https://www.kesslerramirez.com/blog/denim-painting-101-how-to-avoid-cracking",
+        "https://www.kesslerramirezart.com/blog/denim-painting-101-how-to-avoid-cracking",
+        "https://www.kesslerramirezart.com/blog/denim-painting-101-tips-for-painting-details"
+      ],
+      "observations_paraphrased": [
+        "UNIQLO Japan women’s range includes high-rise wide/straight and shorter-length cuts.",
+        "Individual denim artist Kessler Ramirez describes small, fine brush strokes on sturdy denim."
+      ],
+      "use": "Functional text research only. No external photographs or painted motif designs reused."
+    }
+  },
+  "note": "Exact new prompts are retained where available. Parent Aoi first four assets explicitly preserve reconstructed intent rather than inventing a verbatim prompt. Raw concepts, JPG research references and generated masters are not part of this public register. Current runtime hashes in production-art.json identify final selected assets; older lineage entries retain historical parent outputs."
+}

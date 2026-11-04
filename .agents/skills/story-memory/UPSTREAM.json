@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/haowjy/creative-writing-skills",
+  "commit": "1cb520f9c61e79ce2b1c56dba18601b2d6873433",
+  "retrieved_utc": "2026-11-04",
+  "license": "Apache-2.0",
+  "scope": "Project-local unmodified source skill and its resources. No global packages, Mars/Meridian/Claude installation, hooks, agents, project scaffold, or game runtime dependency.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "SKILL.md",
+      "upstream": "skills/story-memory/SKILL.md",
+      "sha256": "36a5a0ab81dc01804520cd75e5d9c4549dd2ff43cea06ba8e50aafef24df4a6e"
+    },
+    {
+      "path": "resources/fact-extraction.md",
+      "upstream": "skills/story-memory/resources/fact-extraction.md",
+      "sha256": "814e1a54270ec3ae7f3a0596f0f2ae99b1d25448a659f8ca0b8c2a80480d4564"
+    },
+    {
+      "path": "resources/kb-layout.md",
+      "upstream": "skills/story-memory/resources/kb-layout.md",
+      "sha256": "4b1ce22198f6f0bf8e3e3c6ccfadd9a06a2e3c1deab934c0d3b1055fdfbc7ee3"
+    },
+    {
+      "path": "resources/story-context.md",
+      "upstream": "skills/story-memory/resources/story-context.md",
+      "sha256": "8b3589b4ed32b56650282c7ee9720da8caf30c2890ffa7a13866de8fd0c27116"
+    },
+    {
+      "path": "resources/story-reference-writing.md",
+      "upstream": "skills/story-memory/resources/story-reference-writing.md",
+      "sha256": "41bc7cf15e1acdf3e6e627dae949f65bd921e0cfd6631b8215c19ddbf3d62b14"
+    },
+    {
+      "path": "resources/writing-artifacts.md",
+      "upstream": "skills/story-memory/resources/writing-artifacts.md",
+      "sha256": "c869742c98adc78a57080f60c4fce5607e9c8a0fbe15c31d537ad112c3f2ca04"
+    },
+    {
+      "path": "resources/writing-issues.md",
+      "upstream": "skills/story-memory/resources/writing-issues.md",
+      "sha256": "11c779dc7b4e3fb84a1fa8544f1da22785264705b967204a1610b85138c8ef81"
+    }
+  ]
+}

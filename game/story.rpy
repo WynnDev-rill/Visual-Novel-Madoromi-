@@ -35,7 +35,7 @@ label act_1:
     call phone_chat([("aoi", "Aku membaca sedikit soal jalur semut."), ("ren", "Definisi sedikit?"), ("aoi", "Tiga artikel."), ("aoi", "Dan satu video yang terlalu panjang."), ("ren", "Kita mulai membahas ini jam berapa?"), ("aoi", "Jangan lihat jam.")], "01.47")
     "Aku melihat jam. Tentu saja."
     "Nyaris satu jam sejak ia bilang, ‘Ada hal aneh di teras.’"
-    "Di grup band, Sora mengirim pesan agar kami tidak terlambat latihan besok. Aku menandainya sudah dibaca, lalu kembali ke percakapan Aoi."
+    "Di grup band, Sora mengirim pesan agar kami tidak terlambat latihan sore nanti. Aku menandainya sudah dibaca, lalu kembali ke percakapan Aoi."
     menu:
         "Aoi masih ingin bercerita."
         "Dengarkan apa yang membuatnya penasaran.":
@@ -47,7 +47,7 @@ label act_1:
             call phone_chat([("ren", "Kalau jalan mereka kita putar, apa yang terjadi?"), ("aoi", "Jangan mengganggu semut, Ren."), ("ren", "Aku bertanya secara ilmiah."), ("aoi", "Sekarang aku juga penasaran. Tunggu, kucari."), ("ren", "Besok saja. Nanti semutnya lulus sebelum kita.")], "01.49")
             "Tiga titik muncul, hilang, lalu muncul lagi. Aku membayangkan ia menahan tawa agar tidak terdengar dari kamar sebelah."
     call phone_chat([("aoi", "Besok kamu bawa poster band itu?"), ("ren", "Versi yang belum selesai."), ("aoi", "Aku mau lihat."), ("ren", "Tidak perlu beli tiket lagi. Kemarin kamu sudah beli satu."), ("aoi", "Aku mau lihat posternya, Ren."), ("aoi", "Tiketnya kusimpan baik-baik.")], "01.52")
-    "Tiket pertunjukan hari Rabu harganya tak sampai setara makan siang. Aku sudah beberapa kali mengatakan itu pada diri sendiri."
+    "Tiket pertunjukan hari Rabu lebih murah daripada makan siang di kantin. Aku sudah beberapa kali mengatakan itu pada diri sendiri."
     "Tetap saja, saat ia membelinya dari Sora tanpa menawar atau bertanya siapa lagi yang datang, aku menyetel gitar tiga kali padahal senarnya sudah benar."
     call phone_chat([("ren", "Kamu belum mengantuk?"), ("aoi", "Sedikit."), ("ren", "Sedikit yang mana? Tiga artikel?"), ("aoi", "Mataku sudah menutup sebelah."), ("ren", "Tidur, Aoi."), ("aoi", "Sebentar. Kamu belum bilang bagaimana posternya.")], "01.55")
     "Aku memotret kertas di meja. Sebuah gitar, nama band kecil kami, dan tiga bentuk yang seharusnya ombak."
@@ -63,6 +63,7 @@ label act_1:
     scene bg cafeteria with fade
     stop ambience fadeout 1.0
     play music audio.day fadeout 1.5 fadein 1.5
+    show sora easy at leftside with portrait_dissolve
     "Sora menyodorkan sekaleng teh ke pipiku."
     s "Kalau kamu jatuh ke mangkuk, aku tidak akan memancingmu."
     r "Aku cuma menunduk."
@@ -72,7 +73,8 @@ label act_1:
     r "Kabelnya di tas."
     s "Bagus. Sekarang masukkan juga kesadaranmu. Aku ke ruang musik."
     "Sora mengambil roti terakhir di bungkusnya dan pergi. Aku membawa baki ke tempat pengembalian, lalu melihat Aoi di dekat jendela."
-    show aoi neutral at heroine with dissolve
+    hide sora with portrait_dissolve
+    show aoi neutral at heroine with portrait_dissolve
     "Ia menahan halaman buku dengan kotak pensil. Di sebelahnya ada selembar rancangan berisi kotak-kotak kosong dan gambar daun kecil."
     "Segelas teh sudah dingin. Nasi bekalnya nyaris habis, kecuali potongan wortel yang disusun di pinggir."
     r "Kalau kamu sedang menghitung sesuatu, aku bisa pergi."
@@ -80,7 +82,7 @@ label act_1:
     a "Jangan. Duduk saja."
     "Ia menggeser kotak pensil, membuat ruang di sisi meja."
     r "Aku bisa duduk di meja lain."
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     a "Aku tahu. Aku minta kamu di sini."
     "Aku menarik kursi terlalu jauh. Kakinya berdecit, membuat dua orang menoleh. Aoi menutup mulut dengan punggung tangan."
     r "Kursinya punya pendapat sendiri."
@@ -146,16 +148,15 @@ label act_1:
     a "Jangan karena aku. Aku bisa menunggumu."
     "Aoi mengancingkan tas, menungguku berdiri."
     r "Jam lima. Di gerbang."
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     a "Baik. Bawa seniman telur dadarnya juga."
     "Ia berjalan di sampingku sampai persimpangan lorong. Aku baru sadar tidak satu pun soal matematikaku selesai."
-    "Entah mengapa, makan siang itu tetap terasa produktif."
 
     # SCENE 03 · Selasa sore · pertokoan dan toko roti.
     scene bg street with fade
     play ambience "audio/ambience/garden.ogg" fadeout 1.0 fadein 1.5 volume .3
     "Pukul lima lewat tujuh, Aoi sudah menungguku dengan dua lembar kertas karton di bawah lengan."
-    show aoi neutral at heroine with dissolve
+    show aoi neutral at heroine with portrait_dissolve
     a "Aku masuk toko sebentar. Lalu keluar membawa ini."
     r "Sebentar versi tiga artikel?"
     a "Aku masih perlu lem."
@@ -169,16 +170,16 @@ label act_1:
     a "Yang seperti ini enak untuk melukis. Tidak perlu memikirkan noda."
     r "Kamu memang butuh yang baru?"
     a "Yang di rumah sobek di lutut. Bukan sobek yang disengaja. Waktu aku jongkok, bunyinya mengkhawatirkan."
-    "Ia membandingkan label itu dengan pinggangnya, lalu mengembalikannya."
+    "Ia membentangkan bagian pinggang celana di depan tubuhnya, lalu mengembalikannya ke rak."
     r "Tidak jadi?"
     a "Anggaran minggu ini sudah berubah menjadi kertas."
-    "Ia mengetuk gulungan karton. Aku melihat label jeans itu tanpa sengaja mengingat angkanya."
+    "Ia mengetuk karton. Label jeans itu masih menghadap ke luar; angkanya gampang diingat."
     a "Nanti saja. Tidak akan lari."
     r "Kalau lari, itu berita besar."
     "Toko roti kecil di ujung blok hampir tutup. Penjaganya memasang nampan terakhir tepat ketika kami masuk."
     scene bg bakery at scene_drift with dissolve
     stop ambience fadeout 1.0
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     "Aoi mengambil roti gulung kacang merah. Aku mengambil roti garam, lalu terpaksa menaruhnya kembali karena hanya punya satu tangan bebas."
     a "Karton sini."
     r "Kamu juga membawa nampan."
@@ -198,7 +199,7 @@ label act_1:
     "Ia menatap roti di tangannya, memutar kertas pembungkus agar remah tidak jatuh ke rok."
     a "Aku ingin orang yang merasa gambarnya jelek juga mau menempelkan sesuatu. Tapi posterku malah terlalu rapi."
     r "Tambahkan ombakku."
-    show aoi laugh at heroine with dissolve
+    show aoi laugh_open at heroine with portrait_dissolve
     a "Sebagai peringatan?"
     r "Sebagai izin."
     "Aoi berhenti tertawa sebentar. Kemudian mengeluarkan pensil dari tas."
@@ -236,7 +237,7 @@ label act_1:
     play music audio.tender fadeout 1.5 fadein 1.5
     "Beanbag di sudut perpustakaan lebih kecil daripada yang terlihat dari pintu."
     "Aku baru mengetahui itu setelah duduk dan Aoi menjatuhkan diri di sisi sebelah."
-    show aoi neutral at closeup with dissolve
+    show aoi neutral at closeup with portrait_dissolve
     "Bahan kain melesak, mendorong kami ke tengah. Bahunya menyentuh lenganku. Kami memindahkan siku pada saat yang sama, lalu bertabrakan lagi."
     a "Sebentar. Kamu di situ saja."
     r "Aku sudah di sini."
@@ -266,25 +267,28 @@ label act_1:
     r "Mungkin banyak ganggang."
     "Ia tertawa, lalu menggunakan hijau yang sama untuk satu petak air. Kesalahanku menjadi bagian gambar."
     "Mio muncul membawa gunting dan beberapa penjepit. Ia meletakkannya di meja rendah, menatap papan di atas lutut kami, lalu mencari tempat duduk."
+    show mio neutral at leftside with portrait_dissolve
     m "Kalian sudah pacaran?"
     stop music fadeout 1.0
-    show aoi surprised at closeup with dissolve
+    show aoi surprised at closeup with portrait_dissolve
     "Pensilku berhenti tepat di luar garis."
     "Satu detik. Aku menatap warna hijau di ujungnya."
     "Dua. Bahu Aoi masih menempel di lenganku."
     "Di dekat pintu, roda troli buku berderit. Seseorang mengembalikan kamus dengan bunyi terlalu keras."
     "Aku seharusnya menjawab. Pertanyaannya pendek."
     "Kalau aku mengatakan tidak, apakah Aoi akan menggeser tubuhnya?"
-    "Kalau aku mengatakan iya, dari mana hakku mendapat jawaban itu?"
-    show aoi shy at closeup with dissolve
+    "Kalau aku mengatakan iya, bukankah aku menjawab untuk Aoi juga?"
+    show aoi shy_clasp at closeup with portrait_dissolve
     "Aoi menunduk ke gambar. Warna merambat ke telinganya. Aku bisa merasakan wajahku sendiri menghangat."
     "Mio melihat kami bergantian. Tangannya masih memegang sebatang lem."
     "Barangkali hanya sepuluh detik. Aku sempat menghafal seluruh lipatan bungkus lem itu."
-    m "Oh. Maaf. Aku tadi cuma mencari kursi."
+    show mio concerned at leftside with portrait_dissolve
+    m "Oh. Maaf. Aku boleh duduk?"
     "Ia menunjuk bangku kecil yang tertutup tas Aoi."
     a "Tasnya boleh dipindah."
     "Suara Aoi lebih pelan daripada biasanya. Aku ingin menoleh, tetapi kami terlalu dekat untuk melakukannya dengan santai."
     r "Ini hampir selesai."
+    show mio thoughtful at leftside with portrait_dissolve
     m "Bagus. Aku perlu gambar yang bisa bikin orang berani ikut, bukan yang membuat mereka menyerah."
     "Mio menarik bangku, membahas ukuran panel, lalu meminta Aoi mengecek daftar warna. Ia memberiku waktu untuk membuka tangan yang sejak tadi mengepal di atas lutut."
     play music audio.tender fadein 2.0
@@ -292,17 +296,18 @@ label act_1:
     a "Ren, yang kuning."
     "Aku menyerahkannya. Jari kami menyentuh kotak, lalu sama-sama mundur."
     "Setelah Mio pergi mengambil selotip, Aoi merapikan tepi kertas meskipun sudah lurus."
+    hide mio with portrait_dissolve
     a "Dia memang langsung bertanya begitu."
     r "Iya."
     a "Kamu tidak perlu merasa harus menjawab sekarang."
     "Aku menatapnya. Aoi masih melihat gambar."
     r "Kamu juga."
-    "Ia mengangguk sekali. Kami belum menjawab pertanyaan apa pun."
+    "Ia mengangguk sekali, lalu mengambil pensilnya lagi."
     "Saat bel berbunyi, aku berdiri lebih dulu agar beanbag tidak membuatnya jatuh. Aoi mengulurkan papan padaku, lalu meraih tanganku untuk bangkit."
     "Ia melepasnya setelah sudah berdiri. Bukan sebelumnya."
     a "Nanti malam, aku datang sebelum mulai."
     r "Tidak perlu terburu-buru."
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     a "Aku tahu. Aku tetap mau."
     "Ia membawa gambar itu ke meja Mio. Atap stasiun kami masih sedikit belang. Aku menyukainya begitu."
     jump act_2
@@ -316,6 +321,7 @@ label act_2:
     scene bg stage with fade
     stop ambience fadeout 1.0
     play music audio.day fadeout 1.5 fadein 2.0
+    show sora neutral at leftside with portrait_dissolve
     "Sora menghitung jumlah stik drumnya untuk ketiga kali. Semuanya masih ada."
     r "Sekarang kamu mengerti kenapa aku menyetel gitar terus."
     s "Tidak. Stik bisa hilang. Nada tidak bisa masuk tas orang."
@@ -324,29 +330,31 @@ label act_2:
     s "Kalau kamu lihat ke pintu lagi, gitarmu tidak akan ikut menoleh."
     r "Aku mencari jam."
     s "Jamnya di sebelah kanan. Sejak kita datang."
+    show sora easy at leftside with portrait_dissolve
     "Aku melihat ke kanan dengan patuh."
     "Tadi siang, pertanyaan Mio tinggal di kepalaku bahkan setelah kelas selesai. Di setiap kalimat biasa Aoi, aku mendengar kemungkinan jawaban yang belum ia berikan."
     "‘Kuningnya mana?’ bisa cuma soal pensil. ‘Aku tetap mau datang’ bisa cuma soal tiket."
     "Mengira semua itu tentangku terasa lancang. Berpura-pura tidak memikirkannya ternyata sama sulitnya."
-    show aoi neutral at heroine with dissolve
+    show aoi neutral at heroine with portrait_dissolve
     "Aoi masuk membawa tas kanvas dan botol minum. Rambutnya sedikit berantakan karena angin. Ia berhenti dekat deretan kursi, melihat panggung, lalu melambai dengan dua jari."
     "Aku lupa sedang memegang pick. Benda itu jatuh di antara kotak kabel."
     s "Sekarang nada mulai masuk tas orang."
     "Sora mengambilkan pick cadangan. Aku bergumam terima kasih."
     "Aoi memilih kursi di baris kedua. Ia tidak duduk tepat di tengah, tetapi dari tempatku berdiri, aku mudah menemukannya."
-    hide aoi with dissolve
+    hide aoi with portrait_dissolve
+    hide sora with portrait_dissolve
     "Lampu ruang penonton diredupkan. Suara obrolan turun, menyisakan dengung amplifier yang tak pernah benar-benar hilang."
     "Sora mengetukkan stik. Empat hitungan. Kali ini tanganku tahu apa yang harus dikerjakan."
     "Lagu pertama berjalan sedikit terlalu cepat. Pada lagu kedua, aku melewatkan satu nada dan berhasil kembali sebelum ada yang menoleh."
     "Lalu kami memainkan lagu ketiga. Bagian pembukanya hanya gitar."
     "Di sela dua akor, aku mendengar kursi bergeser. Kuregangkan jari, mengambil napas, dan membiarkan jedanya tetap ada."
-    "Dari baris kedua, Aoi menatap panggung tanpa sedang menyiapkan apa pun untuk dikatakan."
+    "Di baris kedua, tangan Aoi diam di atas tas. Wajahnya terangkat ke arah panggung."
     "Aku menyelesaikan bagian itu. Kali ini tidak dipercepat."
     "Dua puluh menit habis lebih cepat daripada sepuluh detik di perpustakaan."
     scene bg night with fade
     play ambience "audio/ambience/night.ogg" fadeout 1.0 fadein 1.5 volume .38
     play music audio.tender fadeout 2.0 fadein 2.0
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     "Di luar balai warga, Aoi menungguku di samping mesin minuman. Ia masih memegang potongan tiket yang sudah disobek."
     a "Lagu ketiga. Yang awalnya sendiri. Itu judulnya apa?"
     r "Belum punya. Di daftar kami tulis ‘Yang Ketiga’."
@@ -361,7 +369,7 @@ label act_2:
     "Aku biasanya mengingat pertunjukan berdasarkan kesalahan. Bagian kabel yang terinjak, nada yang meleset, rekaman ponsel yang ingin kuhapus."
     "Aoi mengingat tawa yang bahkan hampir kulupakan."
     r "Bagian pembuka itu sebenarnya masih perlu diperbaiki."
-    a "Kalau diperbaiki semua, nanti tidak ada versi yang kudengar hari ini."
+    a "Boleh. Tapi versi tadi jangan dihapus. Aku mau dengar lagi."
     r "Kamu menyimpan tiketnya untuk itu?"
     "Ia meraba saku tas, seolah baru sadar aku melihatnya."
     a "Sebagian. Dan gambar di belakangnya lucu."
@@ -369,9 +377,11 @@ label act_2:
     r "Aku bisa menggambar yang lebih bagus."
     a "Aku sudah suka yang ini."
     "Pintu balai terbuka. Sora memanggil namaku sambil mengangkat gulungan kabel."
+    show sora neutral at leftside with portrait_dissolve
     s "Ini punyamu atau inventaris?"
     r "Punyaku. Sebentar."
     "Ia meletakkan kabel di atas kotak dan kembali masuk. Aoi menggeser tas agar aku bisa menaruh sarung gitar di bangku."
+    hide sora with portrait_dissolve
     "Kami berdiri begitu dekat sehingga ujung tali tasnya menyentuh jariku."
     a "Soal tadi siang..."
     "Aku menoleh terlalu cepat."
@@ -389,11 +399,13 @@ label act_2:
     a "Di gerbang seperti kemarin?"
     r "Iya."
     "Busnya tiba beberapa menit kemudian. Aku membawa kotak peralatan kembali ke dalam dengan kabel yang belum sempat kugulung."
+    hide aoi with portrait_dissolve
+    show sora easy at leftside with portrait_dissolve
     s "Kamu tersenyum pada kabel."
     r "Besok aku mau bicara dengan Aoi."
     s "Bagus. Minta fotonya yang ada aku juga. Yang tadi dia ambil."
     "Aku membuka mulut, lalu menutupnya."
-    "Seharusnya itu kesempatan pertamaku untuk bicara lebih jelas."
+    "Ujung kabel itu terlepas dari gulungan. Aku mulai lagi dari awal."
 
     # SCENE 06 · Kamis sore · rencana yang tidak menjadi percakapan.
     scene bg street with fade
@@ -404,13 +416,14 @@ label act_2:
     "Terlalu seperti memanggil orang ke ruang guru."
     "‘Aku senang kalau bersamamu.’"
     "Bisa saja ia menjawab bahwa ia juga senang berjalan bersama Mio."
-    "Pada percobaan ketiga, tali sepatuku terlepas lagi. Sora berjongkok di sebelahku, memasukkan sepatu dalamnya ke loker."
+    "Pada percobaan ketiga, tali sepatuku terlepas lagi. Sora berjongkok di sebelahku, menyimpan sepatu dalam ruangan di lokernya."
+    show sora neutral at leftside with portrait_dissolve
     s "Aku ikut sampai pertokoan. Kabel semalam harus ditukar konektornya."
     r "Sekarang?"
     s "Besok tokonya tutup lebih cepat. Kamu bawa contoh kabelnya, kan?"
     "Memang kubawa. Semalam aku sendiri yang menawarkan membantu mencari ukuran."
     "Ketika melihat Aoi menunggu di dekat gerbang, aku mencoba memikirkan cara menjelaskan dua rencana yang sudah kutumpuk sendiri."
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     a "Sora ikut?"
     s "Sebentar. Ren tahu ukuran konektornya."
     r "Aku bisa tulis ukurannya."
@@ -431,12 +444,13 @@ label act_2:
     a "Untuk belakang gambar. Sisi satunya kosong. Pemiliknya bilang boleh."
     s "Kamu benar-benar bisa membuat kertas dari mana saja."
     a "Kertasnya sudah ada. Aku hanya meminta."
-    "Aku hampir tertawa karena kalimat itu terasa ditujukan kepadaku, meski Aoi mungkin tidak bermaksud begitu."
+    "Aku ikut mengangguk, padahal bukan aku yang diajak bicara."
     "Kami mampir ke toko roti. Sora memilih dengan serius, membahas isi dan harga seperti sedang menilai alat musik."
     "Aoi mengangkat satu bungkus roti garam ke arahku. Aku mengangguk. Kebiasaan kecil itu justru membuat kalimat di sakuku terasa makin besar."
     scene bg bakery at scene_drift with dissolve
     stop ambience fadeout 1.0
-    show aoi neutral at heroine with dissolve
+    show sora neutral at leftside with portrait_dissolve
+    show aoi neutral at heroine with portrait_dissolve
     s "Kalian mau duduk di luar? Aku punya waktu sampai kereta berikutnya."
     "Tidak ada yang menjawab selama satu ketukan."
     a "Boleh."
@@ -447,7 +461,8 @@ label act_2:
     "Ketika Sora akhirnya melihat jam, bus itu sudah berada di ujung jalan."
     s "Wah. Aku harus ke stasiun. Terima kasih sudah menunggu."
     "Ia mengangkat tangan, membawa roti keduanya, lalu berlari kecil."
-    show aoi shy at heroine with dissolve
+    hide sora with portrait_dissolve
+    show aoi shy at heroine with portrait_dissolve
     "Aoi menutup tas. Kini kami berdua, dengan waktu yang habis."
     r "Maaf."
     a "Karena Sora?"
@@ -460,7 +475,7 @@ label act_2:
     "Ia menatapku satu detik lebih lama."
     a "Baik."
     "Aoi naik ke bus. Kali ini ia duduk dekat pintu, mengangkat tangan sebelum aku menemukannya melalui kaca."
-    "Aku membalas. Kalimat yang tadi kulatih belum terucap. Tetapi satu kata akhirnya sampai padanya: berdua."
+    "Aku membalas sampai busnya berbelok. Kertas di sakuku sudah menjadi bola kecil."
     scene bg bedroom with fade
     play ambience "audio/ambience/night.ogg" fadeout 1.0 fadein 1.5 volume .38
     play music audio.night fadeout 1.5 fadein 1.5
@@ -469,21 +484,22 @@ label act_2:
     r "Iya."
     s "Aku baru sadar waktu di kereta."
     r "Aku juga tidak bilang jelas."
-    s "Besok kalau perlu, bilang aku pulang. Aku tidak tersinggung."
+    s "Besok suruh aku pulang saja. Aku bisa naik kereta sendiri."
     "Aku menatap kalimat itu cukup lama, lalu mengetik terima kasih."
-    "Tidak ada orang yang mencuri kesempatanku. Aku belum meminta kesempatan itu dengan benar."
+    "Kertas dari sakuku kuletakkan di samping ponsel. Kubuka lipatannya, lalu meratakannya dengan telapak tangan."
 
     # SCENE 07 · Jumat sore · panel yang mulai dimiliki banyak orang.
     scene bg lounge at scene_drift with fade
     stop ambience fadeout 1.0
     play music audio.tender fadeout 1.5 fadein 1.5
+    show mio smile at leftside with portrait_dissolve
     "Hari Jumat, stasiun kecil kami sudah mempunyai tiga kucing, satu pesawat, dan seseorang yang mengaku sedang menggambar kentang."
     m "Dia sebenarnya menggambarku."
     "Mio menunjukkan gambar bulat yang ditempel di sudut. Di bawahnya ada tulisan ‘panitia yang sangat sibuk’."
     r "Kemiripannya di mana?"
     m "Sama-sama perlu makan. Pegang ini."
     "Ia menyerahkan satu ujung tali. Aku mengikatnya pada kaki papan pajangan sementara Aoi memasang penjepit kertas."
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     a "Sudah ada dua puluh tiga. Pagi tadi masih sembilan."
     "Sebagian gambar diwarnai rapi. Sebagian hanya satu garis dengan penjelasan panjang. Ada catatan tentang kucing di belakang kantin, ada gambar awan dengan nama yang tidak bisa kubaca."
     "Aoi mengambil selembar yang terlepas, membetulkan penjepitnya, lalu mundur untuk melihat seluruh panel."
@@ -491,15 +507,19 @@ label act_2:
     r "Sekarang justru kurang tempat."
     a "Aku bisa menambah kertas. Yang penting mereka mulai."
     "Mio melirik kami saat mengambil gulungan pita."
-    m "Soal pertanyaanku kemarin lusa. Maaf kalau membuat kalian tidak nyaman."
+    show mio concerned at leftside with portrait_dissolve
+    m "Soal pertanyaanku dua hari lalu. Maaf kalau membuat kalian tidak nyaman."
     "Aoi memegang dua penjepit di telapak tangannya. Ia melihatku, kemudian kembali pada Mio."
     a "Aku kaget. Tapi tidak apa-apa kamu bertanya."
     m "Aku lebih sering bicara dulu daripada memeriksa situasi."
     r "Kami juga belum tahu harus menjawab apa."
     "Kata ‘kami’ keluar sebelum aku sempat menyaringnya. Aoi berhenti memainkan penjepit."
     "Mio hanya mengangguk."
+    show mio thoughtful at leftside with portrait_dissolve
     m "Kalau begitu aku bisa menunggu. Untuk daftar penjaga panel, aku tetap perlu jawaban hari ini."
-    "Ia menyerahkan formulir pada Aoi, lalu pergi mencari meja. Tidak ada senyum menggoda atau gerakan menyikut. Aku merasa berterima kasih padanya."
+    play sound audio.page volume .6
+    "Ia menyerahkan formulir pada Aoi, lalu pergi mencari meja. Aoi menangkap sudut kertas yang hampir tersapu lengannya."
+    hide mio with portrait_dissolve
     a "Senin kamu kebagian persiapan apa?"
     r "Mengangkat alat dari ruang musik setelah makan siang. Jam setengah dua."
     a "Aku memasang panel jam dua."
@@ -508,7 +528,7 @@ label act_2:
     "Selama ini aku hanya mengingat bagian ‘tidak perlu membawa bekal’."
     a "Kalau kamu masih mau bicara, kita bisa keluar waktu itu."
     r "Ke toko roti?"
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     a "Aku memikirkan tempat yang sama."
     "Ia melipat jadwal. Aku menyentuh ujung tali yang sudah kuikat, menguji simpul yang sebenarnya tidak perlu diuji."
     r "Kita berdua."
@@ -521,7 +541,7 @@ label act_2:
     "Sepulang sekolah, aku mampir ke toko barang bekas. Jeans abu-abu kebiruan itu masih tergantung di rak bawah."
     "Aku memeriksa jahitan, menanyakan apakah ada cacat lain, dan membandingkan labelnya dengan angka yang kuingat."
     "Pemilik toko mengemasnya dalam kantong kertas. Di perjalanan pulang, kantong itu terus menyentuh lututku."
-    "Aku belum tahu apa yang akan kukatakan pada hari Senin. Untuk pertama kali minggu itu, tanganku sudah tahu apa yang ingin dibuat."
+    "Di rumah, kantong itu kubuka lagi. Kuambil buku sketsa, lalu mulai dari gambar di dekat saku."
 
     # SCENE 08 · Sabtu dan Minggu · jeans, cat kain, dan ajakan yang jelas.
     scene bg bedroom_day with fade
@@ -540,7 +560,7 @@ label act_2:
         "Di kaki kiri, kugambar atap stasiun berwarna biru. Di bawahnya ada satu jendela kuning, cukup terang untuk memberi kesan seseorang masih menunggu."
     else:
         "Di kaki kiri, kugambar stasiun kecil berwarna kuning. Di sekitarnya kuberi biru gelap, sama seperti langit yang dibuat Aoi di kertas kami."
-    "Aku hampir menambah bunga, awan, dan seluruh kota. Lalu mundur dari meja."
+    "Aku hampir menambah bunga, awan, dan seluruh kota. Kuangkat kuas, lalu mundur dari meja."
     "Masih perlu ada ruang untuk noda yang dibuatnya sendiri."
     "Ponselku bergetar. Foto panel masuk dari Aoi: seseorang menambahkan sepeda yang rodanya tidak saling sejajar."
     call phone_chat([("aoi", "Pemiliknya bilang tetap bisa jalan."), ("ren", "Kalau jalannya menurun, mungkin."), ("aoi", "Aku suka. Dia menggambar sambil berdiri karena malu duduk."), ("ren", "Sekarang sudah ditempel?"), ("aoi", "Di sebelah stasiun kita.")], "Sabtu · 14.16")
@@ -556,12 +576,12 @@ label act_2:
     "Aku meletakkan kuas melintang di bibir gelas. Jeans itu bagus menurutku. Persoalannya justru karena aku ingin ia menyukainya."
     "Aku mengambil selembar kertas. Menulis satu pengingat dengan huruf besar: BERIKAN SETELAH BICARA."
     "Lalu kutambahkan: Tidak perlu dibawa kalau belum siap."
-    "Aku tidak menyukai kemungkinan kedua. Tetap kubiarkan tertulis."
+    "Ujung pensil berhenti di atas baris kedua. Aku menebalkannya."
     call phone_chat([("ren", "Senin kita keluar jam setengah dua belas?"), ("aoi", "Iya. Aku sudah cek jadwalku."), ("ren", "Ada yang ingin kukatakan. Mungkin aku akan agak gugup."), ("aoi", "Aku akan dengarkan."), ("aoi", "Tidak perlu menyelesaikan semuanya lewat pesan sekarang.")], "Sabtu · 20.08")
     "Aku menghapus paragraf yang tadi mulai kutulis. Ucapan terima kasih, lelucon tentang roti, kalimat yang bisa diartikan ke mana saja."
     "Tinggal satu balasan."
     call phone_chat([("ren", "Baik. Sampai Senin."), ("aoi", "Besok masih boleh mengobrol, kan?"), ("ren", "Tentu."), ("aoi", "Bagus. Aku belum selesai cerita soal sepeda tadi.")], "20.10")
-    "Kami mengobrol setengah jam. Setelah itu Aoi pergi membantu menyiapkan makan malam. Aku membiarkan chat berhenti tanpa mencari topik pengganti."
+    "Kami mengobrol setengah jam. Setelah itu Aoi pergi mencuci piring. Aku membiarkan chat berhenti tanpa mencari topik pengganti."
     "Pada hari Minggu, catnya sudah kering untuk dikerjakan lagi. Aku memperbaiki ekor ikan, menambah dua garis di roti, lalu membuat titik kecil di ujung jendela."
     "Kugunakan kain pelindung ketika menyetrika bagian yang memerlukan panas, mengikuti petunjuk pada botol. Ada aroma kain hangat, sama seperti ketika ibuku menyiapkan seragam dulu."
     "Aku menulis kartu perawatan singkat: jangan dicuci sampai akhir pekan, balik bagian dalam ketika mencuci, setrika melalui kain."
@@ -582,8 +602,8 @@ label act_2:
             r "Aku gugup. Jadi mungkin agak pelan. Tapi aku ingin mengatakannya langsung."
             "Aku mengambil napas lagi."
             r "Aku jatuh cinta sama kamu, Aoi. Aku ingin kita berpacaran."
-            "Kalimat keduanya membuat yang pertama terasa perlu. Aku membiarkan keduanya ada."
-    "Senin belum datang. Aoi belum menjawab. Tidak ada bagian dari semua pekerjaan di meja yang bisa memberiku jaminan."
+            "Aku menatap gagang lemari sampai selesai bicara. Besok aku harus bisa menatap Aoi."
+    "Kartu itu sudah selesai. Aku membacanya sekali lagi, membetulkan letaknya, lalu membetulkannya lagi."
     "Aku melipat jeans dengan gambar menghadap ke dalam, memasukkannya ke kantong bersih, lalu menyimpan kartu perawatan di atasnya."
     "Ponsel menyala tepat ketika aku menutup lemari."
     call phone_chat([("aoi", "Selamat malam. Besok jangan melewatkan sarapan."), ("ren", "Kamu juga."), ("aoi", "Aku sudah menaruh rotinya di meja."), ("ren", "Aku baru mau mencari."), ("aoi", "Cari sekarang. Aku tunggu sampai ketemu.")], "Minggu · 22.41")
@@ -604,7 +624,7 @@ label act_3:
     "Pemberitahuan izin keluar sudah masuk saku. Dompet di sisi lain. Ponsel di tas. Kantong kertas kupegang dengan tangan kiri agar tidak terus terbentur lutut."
     "Semua benda sudah mendapat tempat. Hanya tangan kananku yang belum."
     "Aku memasukkannya ke saku, mengeluarkannya lagi, lalu merapikan tali tas."
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     a "Sudah lama?"
     r "Baru."
     "Aoi menatap gerbang, lalu jam di ponselnya."
@@ -623,8 +643,8 @@ label act_3:
     "Ia tidak bertanya lagi. Aku ingin berterima kasih untuk itu, tetapi bahkan ucapan terima kasih bisa membuka pertanyaan tentang isinya."
     scene bg bakery at scene_drift with dissolve
     stop ambience fadeout 1.0
-    show aoi neutral at heroine with dissolve
-    "Pintu toko roti terbuka pukul sebelas lewat tiga puluh tujuh. Nampan-nampannya masih penuh. Kami belum pernah datang sebelum hampir tutup."
+    show aoi neutral at heroine with portrait_dissolve
+    "Kami mendorong pintu toko roti pukul sebelas lewat tiga puluh tujuh. Nampan-nampannya masih penuh. Kami belum pernah datang sebelum hampir tutup."
     a "Ternyata roti itu ada versi lengkapnya."
     "Ia menunjuk roti berbentuk kepang yang biasanya hanya menyisakan label harga."
     r "Mau coba?"
@@ -646,7 +666,7 @@ label act_3:
     "Kami menemukan bangku di bawah pohon, di sisi halaman yang menghadap jalan kecil. Dari sana kami bisa melihat pejalan kaki tanpa harus ikut bergerak bersama mereka."
     scene bg courtyard at scene_drift with dissolve
     play ambience "audio/ambience/garden.ogg" fadeout 1.0 fadein 1.5 volume .3
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     "Pukul sebelas lewat empat puluh lima. Aoi membuka kantong roti di antara kami. Aku menaruh kantongku sendiri di sisi luar kaki kiri."
     "Masih satu jam empat puluh lima menit sebelum aku harus kembali ke ruang musik."
     "Rasanya seperti banyak waktu. Lalu Aoi menoleh dan menanyakan roti yang mana milikku. Mendadak aku tidak tahu harus mulai dari mana."
@@ -663,7 +683,7 @@ label act_3:
     "Dua merpati mendekati remah di dekat kaki bangku. Aoi mengangkat ujung sepatunya agar tidak menginjak salah satunya."
     "Aku menyebut pohonnya besar. Ia mengangguk."
     "Aku mengatakan hal yang sama dengan susunan kata berbeda."
-    show aoi laugh at heroine with dissolve
+    show aoi laugh at heroine with portrait_dissolve
     a "Ren. Aku melihat pohonnya."
     "Aku menutup mata sebentar. Aoi tertawa pelan, lalu melipat bungkus rotinya agar tidak terbang."
     a "Kamu boleh diam dulu."
@@ -672,9 +692,10 @@ label act_3:
     "Hari Rabu, sepuluh detik terasa terlalu panjang. Sekarang sepuluh menit terasa seperti sesuatu yang sedang kuhamburkan."
     "Kusapu remah dari telapak tangan. Tidak semuanya terangkat."
     r "Aoi."
-    show aoi neutral at closeup with dissolve
+    show aoi neutral at closeup with portrait_dissolve
     "Ia berputar sedikit di bangku, menghadapku. Ujung sepatunya menyentuh bayangan sepatuku."
     if story_courage == "plain":
+        r "Aku gugup. Padahal sudah latihan."
         r "Aku jatuh cinta sama kamu."
         "Kalimat itu keluar utuh. Setelahnya aku lupa cara mengambil napas yang biasa."
         r "Aku ingin kita berpacaran. Kalau kamu juga menginginkannya."
@@ -686,15 +707,16 @@ label act_3:
         "Ujung kalimatnya lebih pelan daripada awalnya. Tetap sampai."
         r "Aku ingin kita berpacaran. Kalau kamu juga menginginkannya."
     stop music fadeout 2.0
-    show aoi shy at closeup with dissolve
+    show aoi shy at closeup with portrait_dissolve
     "Aoi menunduk. Kali ini aku bisa melihat warna naik dari pipinya sampai ke telinga, tidak terhalang papan gambar."
     "Aku menunggu. Mencoba tidak mengisi setiap detik dengan permintaan maaf."
     "Ia menarik napas, tersenyum sebentar pada tasnya sendiri, lalu mengangkat wajah."
+    show aoi tender_heart at closeup with portrait_dissolve
     a "Aku juga suka kamu. Sangat."
     play music audio.confession fadein 3.0
     "Ada suara pintu menutup di seberang halaman. Aku mendengarnya dengan jelas, seolah seluruh tempat tiba-tiba kembali mempunyai suara."
     r "Oh."
-    show aoi laugh at closeup with dissolve
+    show aoi laugh_open at closeup with portrait_dissolve
     a "Itu jawabanmu?"
     r "Aku sedang menyusul. Tunggu."
     "Aoi tertawa lagi. Ia menutup mulut dengan tangannya, tetapi matanya tetap melihatku."
@@ -702,7 +724,7 @@ label act_3:
     r "Aku senang."
     a "Aku juga."
     "Itu cukup untuk membuat kami diam lagi, dengan diam yang jauh berbeda."
-    "Angin mengangkat ujung bungkus roti. Aku menangkapnya sebelum terbang. Tindakan kecil itu menyelamatkan tanganku dari tidak tahu harus berbuat apa."
+    "Angin mengangkat ujung bungkus roti. Aku menangkapnya, melipatnya kecil-kecil, lalu menindihnya dengan botol."
     a "Aku kira kamu akan bilang Kamis."
     r "Aku memang mau."
     a "Aku agak curiga. Kamu kelihatan marah pada konektor kabel."
@@ -712,7 +734,7 @@ label act_3:
     r "Dia sudah minta maaf."
     a "Tidak perlu. Dia tidak bisa membaca isi kepalamu."
     r "Sekarang aku tahu."
-    "Aku menoleh ke tas di dekat kaki, lalu kembali padanya. Masih terlalu cepat untuk memberi sesuatu. Aku ingin mendengar suaranya sekali lagi, mengerti bahwa jawaban itu tidak bergantung pada apa pun dalam kantong."
+    "Kantong kertas menyentuh sepatuku. Kubiarkan tetap di sana."
     a "Ren, aku benar-benar suka kamu."
     "Mungkin wajahku masih mempertanyakan sesuatu. Aoi mengucapkannya kali ini tanpa tertawa."
     a "Aku tidak bilang cuma supaya kamu berhenti gugup."
@@ -728,12 +750,12 @@ label act_3:
     a "Aku menyiapkan tiga kalimat kemarin. Semuanya hilang."
     "Ia minum seteguk, meletakkan botol di antara tas dan bangku."
     a "Salah satunya tentang pertama kali kita bicara."
-    "Aku ingat sore itu. Enam minggu sebelumnya, hujan menahan beberapa siswa di dekat pintu sekolah. Aku menggambar sesuatu di belakang lembar pembagian jadwal."
+    "Aku ingat sore itu. Sekitar satu setengah bulan sebelumnya, sepulang kegiatan liburan, hujan menahan beberapa siswa di dekat pintu sekolah. Aku menggambar sesuatu di belakang lembar pembagian jadwal."
     "Aoi meminta meminjam penghapus. Ketika mengembalikannya, ia menunjuk sepatu yang kugambar di sudut kertas."
     r "Kamu bilang talinya tidak mungkin diikat begitu."
     a "Memang tidak bisa. Aku mencobanya malam itu."
     r "Kamu mencobanya?"
-    show aoi smile at closeup with dissolve
+    show aoi smile at closeup with portrait_dissolve
     a "Itu sebabnya aku mengirim foto. Kamu kira kenapa aku meminta kontakmu?"
     "Aku mengingat foto tali kusut di lantai rumahnya. Pesan pertamanya: ‘Bukti bahwa sepatumu bermasalah.’"
     "Aku menghabiskan lima belas menit menggambar versi yang benar, lalu mengirimnya kembali. Aoi membalas dengan foto percobaan kedua."
@@ -769,54 +791,59 @@ label act_3:
         a "Aku senang kamu tinggal."
     "Aku menggosok telapak tangan pada celana. Tanganku mulai gemetar lagi. Kali ini bukan karena masih menunggu jawaban."
     r "Aku juga suka waktu kamu minta aku tinggal."
+    a "Kamu sudah suka aku waktu itu?"
+    r "Belum berani bilang begitu. Tapi waktu bel berbunyi, aku berharap jamnya salah."
+    "Aoi tertawa kecil. Aku menggosok bekas lipatan bungkus roti di telapak tangan."
     "Aoi mendengarkan. Tidak ada bunyi notifikasi atau layar kecil yang bisa kugunakan untuk menyunting kalimat."
     r "Aku selalu mencari alasan yang gampang. Kita satu jalan. Aku butuh kertas. Kamu kebetulan di kantin."
     r "Padahal aku ingin duduk denganmu. Itu saja sudah alasan."
     "Ia mengangguk pelan. Aku melihatnya menahan ujung tas agar tidak jatuh dari bangku."
     r "Dan aku suka kamu bisa mengingat bagian yang orang lain lewati. Waktu konser, aku bahkan sudah lupa kami tertawa di lagu kedua."
     a "Aku melihat kamu senang. Aku ingin melihatnya lagi."
-    r "Aku juga ingin ada waktu kamu melakukan halmu. Panelmu, gambar yang belum selesai. Kamu tidak harus datang ke setiap pertunjukan."
-    a "Aku tahu. Kalau jadwalku bentrok, aku akan bilang."
-    "Jawaban itu membuat sesuatu di bahuku turun. Aku tidak perlu berjanji menjadi orang yang selalu punya waktu, dan ia tidak memintanya."
+    r "Kalau pertunjukan berikutnya bersamaan dengan panelmu?"
+    a "Aku pilih panel. Kamu kirim rekamannya."
+    "Ia melirikku, lalu menyenggol sepatuku dengan sepatunya."
+    a "Yang ada kamu tertawanya. Jangan cuma panggung kosong."
+    r "Aku usahakan."
     "Kami membicarakan saat di beanbag. Aoi ternyata mengira aku tidak menjawab karena tidak ingin dipasangkan dengannya."
     "Aku menjelaskan bahwa aku takut menjawab untuk kami berdua. Ia memandang tangannya sebentar."
     a "Aku juga. Aku ingin bilang iya. Tapi aku belum tahu apa kamu mau."
-    "Sepuluh detik itu, yang sejak Rabu hanya kuingat sebagai kegagalanku sendiri, ternyata mempunyai dua sisi."
     r "Kalau Mio bertanya lagi sekarang?"
     "Aoi membuka mulut, lalu tertawa tanpa suara."
     a "Tunggu. Aku ingin memastikan satu hal dulu."
     "Ia belum mengatakannya. Matanya turun pada tanganku yang bergerak kecil di atas lutut."
-    show aoi surprised at closeup with dissolve
+    show aoi surprised at closeup with portrait_dissolve
     a "Ren. Kamu gemetar."
     r "Aku tahu. Sepertinya tubuhku belum mendapat kabar."
-    "Aku mencoba mengepalkan tangan. Gerakannya malah lebih kentara. Aoi menggeser botol agar tidak jatuh."
+    "Aku mencoba mengepalkan tangan. Gerakannya malah lebih kentara. Aoi memindahkan botol dan kantong roti ke sisi luar bangku."
     a "Boleh aku memelukmu?"
     "Aku mengangguk. Ia menunggu sampai aku benar-benar menatapnya."
     r "Boleh."
-    show aoi shy at closeup with dissolve
+    show aoi shy at closeup with portrait_dissolve
     "Aoi mendekat, meletakkan satu lengan di bahuku dan satu lagi di punggung. Aku membalasnya dengan hati-hati, masih memikirkan posisi siku, tas, dan segala sesuatu yang mendadak terlalu banyak."
     "Lalu ia menepuk punggungku sekali."
     a "Tidak usah rapi."
-    "Aku mengeluarkan napas yang panjang sekali. Pipiku menyentuh rambutnya. Bau sabun yang samar bercampur roti hangat dari kantong di antara kami."
+    "Aku mengeluarkan napas yang panjang sekali. Pipiku menyentuh rambutnya. Ada bau sabun yang samar di kerah seragamnya."
     "Tanganku masih gemetar. Aoi tidak meminta agar berhenti."
-    "Aku melonggarkan bahu. Pelukannya tidak berubah menjadi apa-apa yang lebih rumit. Kami hanya diam sampai napasku kembali biasa."
+    "Aku melonggarkan bahu. Kami tetap begitu sampai napasku kembali biasa."
     "Saat ia mundur, ada bekas lipatan lengan seragam di lenganku. Aku tidak buru-buru merapikannya."
     a "Aku punya banyak hal yang mau kubilang. Sekarang yang keluar sedikit sekali."
     r "Tidak harus semuanya hari ini."
     "Aoi mengangguk, melihat wajahku seolah memeriksa apakah aku sungguh-sungguh."
     r "Besok juga boleh. Atau nanti lewat pesan. Atau cuma sebagian dulu."
-    show aoi smile at closeup with dissolve
+    show aoi smile at closeup with portrait_dissolve
     a "Kalau aku cerita soal semut lagi?"
     r "Sebelum sebelas."
     "Ia tertawa. Aku akhirnya bisa menggenggam botol tanpa takut menumpahkannya."
     "Waktu berjalan dengan aneh setelah itu. Kami sempat membicarakan kelas, rencana pameran, dan lagu yang belum punya judul. Aoi menunjukkan foto sepeda miring, lalu menjelaskan siapa yang menggambarnya."
     "Ada juga jeda-jeda ketika kami hanya duduk. Aku tidak memakainya untuk mencari jalan keluar."
+    play sound audio.bell volume .5
     "Pukul satu lewat lima belas, bel dari menara mengingatkan kami pada waktu. Hampir satu setengah jam di bawah pohon."
     "Kami mulai mengumpulkan bungkus. Aoi memegang tali tasnya, lalu berhenti sebelum berdiri."
     a "Jadi... sekarang kita berpacaran?"
-    "Pertanyaan yang sama bisa mempunyai berat yang berbeda saat orang yang tepat mengatakannya."
+    "Aku berhenti melipat bungkus roti."
     r "Iya. Kalau kamu masih mau."
-    show aoi laugh at heroine with dissolve
+    show aoi laugh at heroine with portrait_dissolve
     a "Aku baru bilang aku sangat suka kamu."
     r "Iya. Aku tahu. Aku juga mau. Kita berpacaran."
     "Aoi mengangguk satu kali dengan sungguh-sungguh, lalu tersenyum begitu lebar sampai ia perlu menunduk lagi."
@@ -826,11 +853,12 @@ label act_3:
     r "Aku sengaja menunggu sampai selesai bicara. Aku tidak ingin kamu merasa harus menjawab karena ini."
     a "Aku sudah jawab."
     r "Iya. Sekarang boleh kuberikan."
+    play sound audio.page volume .6
     "Aoi menerimanya. Jarinya membuka lipatan kertas dengan teliti, seolah bungkusnya juga bagian yang harus dijaga."
     "Ia mengangkat jeans itu dari dalam. Ikan di dekat jahitan muncul lebih dulu, lalu stasiun kecil di kaki kiri."
     show screen keepsake_jeans(story_color)
     a "Ini... yang di toko itu?"
-    r "Ukurannya yang kamu lihat. Aku berharap masih pas."
+    r "Yang kamu lihat waktu itu. Mudah-mudahan pas."
     "Ia menggelar kain di atas tas, menyentuh tepi gambar tanpa menggosoknya."
     a "Ada semut."
     r "Kakinya enam. Sudah kuhitung."
@@ -853,11 +881,14 @@ label act_3:
     a "Ren. Aku ingin memakainya."
     "Aku berhenti memberi petunjuk tambahan. Aoi melipat jeans dengan gambar stasiun tetap terlihat, memasukkannya ke kantong, lalu meraih tanganku yang bebas."
     hide screen keepsake_jeans
-    "Genggamannya ringan. Aku bisa melepaskannya kapan pun perlu. Justru karena itu aku mengeratkannya sedikit."
+    "Ibu jarinya bergerak di atas jariku. Aku baru ingat membalas genggamannya setelah kami berjalan dua langkah."
     a "Ayo. Pacarku harus mengangkat amplifier."
     "Aku tersandung setengah langkah pada kata itu. Aoi menertawakan reaksiku, lalu ikut kehilangan langkah ketika aku menjawab."
     r "Dan pacarku harus memasang panel."
     "Kami kembali ke sekolah dengan empat menit tersisa sebelum giliranku. Sora melihat tangan kami, melihat jam, lalu mengangkat ujung amplifier tanpa komentar."
+    scene bg musicroom with dissolve
+    stop ambience fadeout 1.0
+    show sora easy at leftside with portrait_dissolve
     "Sesudah kami meletakkannya di ruang musik, ia menyenggol lenganku dengan bahu."
     s "Senin berjalan lebih baik?"
     r "Jauh."
@@ -873,7 +904,7 @@ label epilogue:
     play ambience "audio/ambience/garden.ogg" fadeout 1.0 fadein 1.5 volume .3
     play music audio.tender fadeout 3.0 fadein 2.0
     "Sabtu berikutnya, Aoi datang ke toko roti dengan jeans itu."
-    show aoi smile at heroine with dissolve
+    show aoi smile at heroine with portrait_dissolve
     "Ujung kakinya dilipat dua kali. Roti kecil di dekat jahitan berpindah sedikit lebih tinggi. Di saku belakang terselip penggaris pendek."
     a "Pas. Tapi kalau aku terus membawa alat tulis, suatu saat akan ada cat sungguhan di sini."
     r "Masih ada banyak tempat kosong."
@@ -898,8 +929,10 @@ label epilogue:
     "Di bangku depan toko, kami membagi roti kepang. Aoi mengambil bagian yang berisi kacang lebih banyak, lalu memberiku separuh dari bagiannya setelah melihat potonganku."
     "Tidak ada pengakuan besar hari itu. Ia menyuruhku membersihkan remah di dagu. Aku mengingatkannya ada pensil yang hampir jatuh dari saku."
     "Saat ia meraih tanganku di jalan ke halte, aku masih perlu satu detik untuk percaya gerakan itu ditujukan kepadaku."
-    "Kami berpisah sebelum tengah hari. Aoi pergi membeli amplop; aku ke latihan. Keduanya merupakan rencana yang sudah kami punya sebelum berpacaran."
-    "Bedanya, sekarang aku tidak perlu menciptakan alasan untuk bertanya kapan bisa bertemu lagi."
+    "Kami berpisah sebelum tengah hari. Aoi pergi membeli amplop; aku ke latihan."
+    r "Besok ada waktu?"
+    "Ia sudah menaiki satu anak tangga bus. Aoi menoleh, mengangkat satu jari, lalu menunjuk ponselnya."
+    a "Kucek dulu. Nanti kukabari."
     scene bg bedroom with fade
     play ambience "audio/ambience/night.ogg" fadeout 1.0 fadein 1.5 volume .38
     play music audio.night fadeout 3.0 fadein 2.0

@@ -1,0 +1,11 @@
+{
+  "tested_at_utc": "2026-11-04T06:39:51.174773+00:00",
+  "browser": "Chromium via Playwright on local HTTP preview",
+  "nodes_rendered": 274,
+  "search": "story_color",
+  "search_and_inspection": "PASS",
+  "javascript_errors": [],
+  "tested_html_sha256": "0458e416168a916254e2bf3b171d1e42d80cb4d64e8d5d206820db0dc192d195",
+  "tested_graph_sha256": "45d501902944a9aafaf33cbd6eaa2c9e4912a2ce9b98a5e2752dcba78baecd22",
+  "note": "Viewer test applies to these artifact hashes. Graphify HTML loads pinned vis-network from CDN; CLI and JSON query are offline. Later rebuilds require fresh source checking."
+}
