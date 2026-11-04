@@ -30,8 +30,7 @@ the title. The launch timeout is retained in the evidence rather than counted
 as a successful Android wait response. Actual screenshots establish rendering.
 The installed-package snapshot was taken before this launch.
 
-Final ordinary gameplay, save/load, resume and fresh choice autosave checks
-are in progress. Baseline results below do not establish those final results.
+Final ordinary chat progression reached 01.47, but a later relaunch produced an Android ANR. Screenshot `09-anr-during-chat.png` and `anr-summary.txt` record it. The trace places the main thread in Android InputConsumer and SDLThread within ART CheckJNI. The cause is not isolated, and the AudioTrack change is not claimed to fix this later ANR. Final save/load, resume and fresh choice autosave are still unverified. Baseline results below do not establish those final results. A reduced-resolution800×450 diagnostic is in progress; it does not verify the intended1280×720 profile.
 
 ## Baseline build — 2026-11-04
 

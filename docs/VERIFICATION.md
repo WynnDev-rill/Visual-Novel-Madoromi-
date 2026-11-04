@@ -14,7 +14,7 @@ Current signedAPK:80,009,790bytes, SHA-256 `2e5c03f925a188249a1aed87992241be00c7
 | Production artwork | PASS:exact33image inventory, source/outputhashes, dimensions and alpha. No earlier character/background pack is included in this selection. |
 | SignedAPK | PASS:signature, exact33image/10audio/4font/59GUI hashes, API21–36 metadata, threeABIs,16KB64bitELF alignment and no INTERNET permission. |
 | Android install/render | PASS:current APK installed; canonicaltitle/newphone rendered on preserved API21x86_64 softwaredevice. Product AudioTrack selector worked without externalwrapper ordebug-app setting. |
-| Android lifecycle/autosave | Ordinary final-build checks still being completed; baseline results do not substitute for them. See ANDROID_VERIFICATION.md. |
+| Android lifecycle/autosave | BLOCKED: later Android API21 software-emulator ANR during chat; final save/load, resume and fresh autosave remain unverified. Baseline results do not substitute. See ANDROID_VERIFICATION.md. |
 | Desktop bundle | PASS:71,001,940bytes; ZIPCRC and all33nativeRPA image hashes match sources; projecttests/tools excluded. |
 | Graphify | Real0.9.102build/cluster/export/query, citedpath traversal, freshness guard and browserviewer exercised. Ren’Py uses the documented projectadapter; this is not upstreamnative.rpy support. |
 
