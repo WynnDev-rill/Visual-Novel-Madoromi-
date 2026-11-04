@@ -1,0 +1,21 @@
+{
+    "expansion": false,
+    "google_play_key": null,
+    "google_play_salt": null,
+    "heap_size": null,
+    "icon_name": "MADOROMI",
+    "include_pil": false,
+    "include_sqlite": false,
+    "layout": null,
+    "name": "MADOROMI \u2014 Sepuluh Detik",
+    "numeric_version": 1,
+    "orientation": "sensorLandscape",
+    "package": "id.wynndev.madoromi",
+    "permissions": [],
+    "source": false,
+    "store": "none",
+    "update_always": true,
+    "update_icons": true,
+    "update_keystores": false,
+    "version": "1.0.0"
+}

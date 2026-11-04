@@ -1,0 +1,28 @@
+# Local engine output and private signing material
+*.rpyc
+*.rpymc
+game/cache/
+game/saves/
+game/visuals.rpa*
+log.txt
+traceback.txt
+errors.txt
+*.keystore
+*.jks
+local.properties
+build/
+dist/
+.venv/
+__pycache__/
+.android.json
+.android.local.json
+.DS_Store
+
+# Third-party sprites licensed for game bundles, not standalone redistribution
+game/images/characters/
+
+# Creator permits game bundles, not standalone environment pack redistribution.
+game/images/backgrounds/
+
+*.bak
+.impeccable/cache/

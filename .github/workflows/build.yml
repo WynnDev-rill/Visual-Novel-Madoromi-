@@ -1,0 +1,68 @@
+name: Build and verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      android:
+        description: Build an Android APK with an ephemeral CI signing key
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  verify-desktop:
+    runs-on: ubuntu-24.04
+    env:
+      MADOROMI_TOOLCHAINS: ${{ github.workspace }}/../madoromi-toolchains
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install runtime dependencies
+        run: sudo apt-get update && sudo apt-get install -y xvfb libgl1 libegl1 libxrandr2 libxinerama1 libxcursor1 libxi6 libxxf86vm1
+      - name: Cache engine archives
+        uses: actions/cache@v4
+        with:
+          path: ../madoromi-toolchains/downloads
+          key: renpy-8.5.3-linux-x64
+      - run: tools/build.sh bootstrap
+      - name: Acquire licensed runtime visuals
+        run: |
+          python3 -m pip install Pillow
+          python3 tools/acquire_visuals.py --cache "$RUNNER_TEMP/madoromi-visuals"
+      - run: tools/build.sh lint
+      - run: xvfb-run -a tools/build.sh test
+      - run: tools/build.sh desktop
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Madoromi-desktop-and-test-report
+          path: |
+            dist/*.zip
+            dist/test-report.log
+          if-no-files-found: error
+
+  android:
+    if: github.event_name == 'workflow_dispatch' && inputs.android
+    needs: verify-desktop
+    runs-on: ubuntu-24.04
+    env:
+      MADOROMI_TOOLCHAINS: ${{ github.workspace }}/../madoromi-toolchains
+    steps:
+      - uses: actions/checkout@v4
+      - run: tools/build.sh bootstrap-android
+      - name: Acquire licensed runtime visuals
+        run: |
+          python3 -m pip install Pillow
+          python3 tools/acquire_visuals.py --cache "$RUNNER_TEMP/madoromi-visuals"
+      - run: tools/build.sh android
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Madoromi-Android
+          path: |
+            dist/Madoromi-1.0.0-android.apk
+            dist/Madoromi-1.0.0-android.apk.sha256
+            dist/android-metadata.txt
+            dist/android-signature.txt
+          if-no-files-found: error

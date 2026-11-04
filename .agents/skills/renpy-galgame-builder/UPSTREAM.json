@@ -1,0 +1,99 @@
+{
+  "repository": "https://github.com/jaywang172/renpy-galgame-builder",
+  "commit": "fdcaa89aa30d45d9d9141df089353097a4e71f39",
+  "retrieved_utc": "2026-11-03",
+  "license": "MIT",
+  "scope": "Project-local skill only; no game scaffolds copied or hooks/global packages installed.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream": "LICENSE",
+      "sha256": "55837ce960b792ed731e3bd00fb000e76effbd549179c72a20edefbe1f03202a"
+    },
+    {
+      "path": "README.md",
+      "upstream": "README.md",
+      "sha256": "81e63688c65ff98e7043a634c59a5cda7c1847ee84dce9ccf982f4b725726482"
+    },
+    {
+      "path": "SKILL.md",
+      "upstream": "SKILL.md",
+      "sha256": "cd29a94ae7c0c0766117be56be412e4dc5c2eec56cf24226ca824f029dfec81a"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "upstream": "agents/openai.yaml",
+      "sha256": "d1f2cc24bb0a822d8eb125c816f71bd0e9930550198eb3e17680d81e92ea9467"
+    },
+    {
+      "path": "assets/templates/README_renpy_project.template.md",
+      "upstream": "assets/templates/README_renpy_project.template.md",
+      "sha256": "7fada1ec01b86a795f0188d097c35e5e7e3a50bd3d5e27e4242e9e13928f5a20"
+    },
+    {
+      "path": "assets/templates/art_asset_manifest.template.md",
+      "upstream": "assets/templates/art_asset_manifest.template.md",
+      "sha256": "859fe4345aa7a8d90b3373e50054b203eaa02d85dcc1cfc913c41e9c0b2d564e"
+    },
+    {
+      "path": "assets/templates/crop_spec.example.json",
+      "upstream": "assets/templates/crop_spec.example.json",
+      "sha256": "5d3688a1707150f6eca877d60cb47329c046b3c4170e36c23f24caf329dd6c71"
+    },
+    {
+      "path": "assets/templates/localization_glossary.template.md",
+      "upstream": "assets/templates/localization_glossary.template.md",
+      "sha256": "1277527d1da041e761967e7e2a0f7324510a5db4dbbf4c780393c7cd7b663c98"
+    },
+    {
+      "path": "assets/templates/renpy_screens_safe_layout.rpy",
+      "upstream": "assets/templates/renpy_screens_safe_layout.rpy",
+      "sha256": "3bb0cb84d6b5d99b3f28ec419c395fe337d3481eded4ea7cee984e5582317fc1"
+    },
+    {
+      "path": "assets/templates/renpy_script_skeleton.rpy",
+      "upstream": "assets/templates/renpy_script_skeleton.rpy",
+      "sha256": "bd2da539dcd97691239c2916c7ba730ab84162312868db47b3ed62fc35ebcfeb"
+    },
+    {
+      "path": "references/image-generation.md",
+      "upstream": "references/image-generation.md",
+      "sha256": "b3c3e6b3a338d984ee6084215c13027d7d166919fa5ffae1ac059903838ca565"
+    },
+    {
+      "path": "references/localization.md",
+      "upstream": "references/localization.md",
+      "sha256": "9d2954b0a453586d21cefd2f1b98b77690494f45895e392bb7489ed81b8052e5"
+    },
+    {
+      "path": "references/story-structure.md",
+      "upstream": "references/story-structure.md",
+      "sha256": "1958d0967b241324de76383f3a5437a4cab57e602680f37438904454b8434f40"
+    },
+    {
+      "path": "references/ui-and-assets.md",
+      "upstream": "references/ui-and-assets.md",
+      "sha256": "8d1511e4fdb29671fa25382915ac7f0a5f5b08aa9728653ea1b8abaed7eb0335"
+    },
+    {
+      "path": "references/validation.md",
+      "upstream": "references/validation.md",
+      "sha256": "358bac3333601406bd3a22ba522c475bdb1955440a9ade1deda9492820d98bd3"
+    },
+    {
+      "path": "scripts/check_vn_assets.py",
+      "upstream": "scripts/check_vn_assets.py",
+      "sha256": "05174ee562e00d35dfa3be1bb00e4d8e5a8ae33ea726b5e5b4c377790ae05f2d"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "upstream": "scripts/requirements.txt",
+      "sha256": "e36848f673847de9ea26fbde287f64d9f34bb0fe7b0546beeeb612148544c4d8"
+    },
+    {
+      "path": "scripts/slice_vn_assets.py",
+      "upstream": "scripts/slice_vn_assets.py",
+      "sha256": "46e36975c12b3bb282736564fcb26f92a8952ca1e4315c93b70a819f9d3e8075"
+    }
+  ]
+}

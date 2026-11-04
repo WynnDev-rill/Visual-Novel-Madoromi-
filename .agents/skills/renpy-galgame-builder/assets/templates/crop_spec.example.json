@@ -1,0 +1,29 @@
+{
+  "crops": [
+    {
+      "filename": "dialogue_box.png",
+      "box": [60, 820, 1220, 990],
+      "size": [1160, 170]
+    },
+    {
+      "filename": "choice_button_idle.png",
+      "box": [190, 360, 1090, 418],
+      "size": [900, 58]
+    },
+    {
+      "filename": "choice_button_hover.png",
+      "box": [190, 440, 1090, 498],
+      "size": [900, 58]
+    },
+    {
+      "filename": "status_panel.png",
+      "box": [260, 120, 1020, 640],
+      "size": [760, 520]
+    },
+    {
+      "filename": "status_button.png",
+      "box": [1060, 40, 1210, 88],
+      "size": [150, 48]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ren'Py Galgame Builder"
+  short_description: "Build polished Ren'Py galgame prototypes"
+  icon_small: "./assets/icon_small.svg"
+  icon_large: "./assets/icon_large.svg"
+  brand_color: "#FF7AD9"
+  default_prompt: "Use $renpy-galgame-builder to create or polish a Ren'Py visual novel prototype."

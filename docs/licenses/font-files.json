@@ -1,0 +1,22 @@
+[
+  {
+    "path": "game/fonts/MadoromiTitleJP.otf",
+    "sha256": "70b613fbe6f4c0e08e2cfc98b2238389a8da3ba3d50899301d95597dec8d2ff1",
+    "bytes": 10244
+  },
+  {
+    "path": "game/fonts/NotoSans-Regular.ttf",
+    "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+    "bytes": 512672
+  },
+  {
+    "path": "game/fonts/NotoSerif-Italic.ttf",
+    "sha256": "bc25600aa27cd409e1e5b3d86340df3a329bb860fcfbe57a03a95070b229e1b0",
+    "bytes": 637472
+  },
+  {
+    "path": "game/fonts/NotoSerif-Regular.ttf",
+    "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f",
+    "bytes": 588876
+  }
+]

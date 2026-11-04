@@ -1,0 +1,2069 @@
+{
+  "note": "Runtime art excluded from source-control redistribution; rebuild from creator storefronts using this script.",
+  "assets": [
+    {
+      "asset_id": "bedroom",
+      "runtime_path": "game/images/backgrounds/bedroom.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-personal-rooms-pack-1",
+      "source_archive": "PersonalRooms1_2160p_WEBP.zip",
+      "source_archive_sha256": "aa12ef5ebc337fbacf5fd513010ce1ca9ae9d2f044b0bc4b7c8449d658d95ff7",
+      "source_member": "PersonalRooms1_2160p_WEBP/pra_a1_night1_lights.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "e2cbc6bf02288227eef2faf2234013b371f9e282c748c2e2a015fa5bdb47cf70",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "bedroom_day",
+      "runtime_path": "game/images/backgrounds/bedroom_day.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-personal-rooms-pack-1",
+      "source_archive": "PersonalRooms1_2160p_WEBP.zip",
+      "source_archive_sha256": "aa12ef5ebc337fbacf5fd513010ce1ca9ae9d2f044b0bc4b7c8449d658d95ff7",
+      "source_member": "PersonalRooms1_2160p_WEBP/pra_a1_day2.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "7c4af897478809124b3bf19999309fb84d1d790ae4121a7530cc499f554da06f",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "cafeteria",
+      "runtime_path": "game/images/backgrounds/cafeteria.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-mini-pack-2",
+      "source_archive": "MiniPack2_2160p_WEBP.zip",
+      "source_archive_sha256": "35dbe2b977021bcb528f1ff38d553a95a1bfe66257cd53cc15c72723ecbe8906",
+      "source_member": "MiniPack2_2160p_WEBP/canteen_day2.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "63544e534bca536efc63201801060b5c9cb4823e4b3c3ae62c2708e4c70790c0",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "artroom",
+      "runtime_path": "game/images/backgrounds/artroom.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-2",
+      "source_archive": "SchoolMiniPack2_2160p_WEBP.zip",
+      "source_archive_sha256": "a1866968936cdf2b54559092b11e2746a45104f52ddf9c04eb916fa01256afd8",
+      "source_member": "SchoolMiniPack2_2160p_WEBP/smp2_ar_day2.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "f4c7e49aa3ee984c6508f3c6cbdfb02d9bed31c3e9d3a99a93f381c7c5eeb2fc",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "artroom_evening",
+      "runtime_path": "game/images/backgrounds/artroom_evening.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-2",
+      "source_archive": "SchoolMiniPack2_2160p_WEBP.zip",
+      "source_archive_sha256": "a1866968936cdf2b54559092b11e2746a45104f52ddf9c04eb916fa01256afd8",
+      "source_member": "SchoolMiniPack2_2160p_WEBP/smp2_ar_evening1.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "28f9855d8c47823044abfafabad5802442b16ed1e7874180285b2a93b599cf89",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "cafe",
+      "runtime_path": "game/images/backgrounds/cafe.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-mini-pack-1",
+      "source_archive": "MiniPack1_2160p_WEBP.zip",
+      "source_archive_sha256": "f77ba5978fc243115bb78e0bb587759839b05abe5fa5d87e8961949e6d89f2c3",
+      "source_member": "MiniPack1_2160p_WEBP/coffee_shop_day1.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "16bc7346bbcbab310c2447baa581c70af0b951319239257608f459113e637d77",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "cafe_evening",
+      "runtime_path": "game/images/backgrounds/cafe_evening.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-mini-pack-1",
+      "source_archive": "MiniPack1_2160p_WEBP.zip",
+      "source_archive_sha256": "f77ba5978fc243115bb78e0bb587759839b05abe5fa5d87e8961949e6d89f2c3",
+      "source_member": "MiniPack1_2160p_WEBP/coffee_shop_evening1.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "27eaadac9c9097ce8d974c01c5ef4d2fe19d3e89f3347ad0be8f98b2c92718f9",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school",
+      "runtime_path": "game/images/backgrounds/school.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-1",
+      "source_archive": "SchoolMiniPack_2160p_WEBP.zip",
+      "source_archive_sha256": "3c0d4d9b9546b1353dcc115733fd37ff5fcdda1009267cf29533c9e2caad114a",
+      "source_member": "SchoolMiniPack_2160p_WEBP/smp_front_day1.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "bab648ae028ebb6c3826147dd89d00c191c14550bf7f931b4f97d854cc99577c",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_evening",
+      "runtime_path": "game/images/backgrounds/school_evening.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-1",
+      "source_archive": "SchoolMiniPack_2160p_WEBP.zip",
+      "source_archive_sha256": "3c0d4d9b9546b1353dcc115733fd37ff5fcdda1009267cf29533c9e2caad114a",
+      "source_member": "SchoolMiniPack_2160p_WEBP/smp_front_evening1.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "8d4e1012b159817fed3efdcfb50c2a9cbed894126115e34a37b8702676489404",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "classroom",
+      "runtime_path": "game/images/backgrounds/classroom.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-1",
+      "source_archive": "SchoolMiniPack_2160p_WEBP.zip",
+      "source_archive_sha256": "3c0d4d9b9546b1353dcc115733fd37ff5fcdda1009267cf29533c9e2caad114a",
+      "source_member": "SchoolMiniPack_2160p_WEBP/smp_classroom1_day2.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "1df4d84febdfd49f935d0b42ff09146360326e8ab266523459b82550f526f2bf",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "classroom_evening",
+      "runtime_path": "game/images/backgrounds/classroom_evening.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-1",
+      "source_archive": "SchoolMiniPack_2160p_WEBP.zip",
+      "source_archive_sha256": "3c0d4d9b9546b1353dcc115733fd37ff5fcdda1009267cf29533c9e2caad114a",
+      "source_member": "SchoolMiniPack_2160p_WEBP/smp_classroom1_evening1.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "30f0bfaccb8fe03a63527bfd5aec71dba1976c52ab04ae314cf2f116746231bc",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "hallway",
+      "runtime_path": "game/images/backgrounds/hallway.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-school-mini-pack-1",
+      "source_archive": "SchoolMiniPack_2160p_WEBP.zip",
+      "source_archive_sha256": "3c0d4d9b9546b1353dcc115733fd37ff5fcdda1009267cf29533c9e2caad114a",
+      "source_member": "SchoolMiniPack_2160p_WEBP/smp_hallway11_day1.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "0912d44a45f6873a67c636e98c900f357dcb1917c88d459f836d270813b6a885",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "street",
+      "runtime_path": "game/images/backgrounds/street.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-starter-pack-2",
+      "source_archive": "Visual Novel Backgrounds (Starter Pack 2).zip",
+      "source_archive_sha256": "edb7359231c91bed0ae3c073921d51ad38e6152f97a001ad6deecda1b8939a7e",
+      "source_member": "Visual Novel Backgrounds (Starter Pack 2)/city a s3st2 day.png",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "cc30f6faa34c4c2a3c63dd1f156c4706417c43807e6c05d29958fb1c1620b554",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "street_evening",
+      "runtime_path": "game/images/backgrounds/street_evening.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-starter-pack-2",
+      "source_archive": "Visual Novel Backgrounds (Starter Pack 2).zip",
+      "source_archive_sha256": "edb7359231c91bed0ae3c073921d51ad38e6152f97a001ad6deecda1b8939a7e",
+      "source_member": "Visual Novel Backgrounds (Starter Pack 2)/city a s3st2 evening.png",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "0837a2801e29ff4dca288cdb1e2557dfb4e81f8a0f0424f15f62da2f8a419a8a",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "night",
+      "runtime_path": "game/images/backgrounds/night.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-starter-pack-2",
+      "source_archive": "Visual Novel Backgrounds (Starter Pack 2).zip",
+      "source_archive_sha256": "edb7359231c91bed0ae3c073921d51ad38e6152f97a001ad6deecda1b8939a7e",
+      "source_member": "Visual Novel Backgrounds (Starter Pack 2)/city a s1st2 nightlights.png",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "78455b9d31d1208bfac56605e00751086cad7761bbbb52d19f1da20d38bd6291",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "stage",
+      "runtime_path": "game/images/backgrounds/stage.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-visual-novel-backgrounds-starter-pack-2",
+      "source_archive": "Visual Novel Backgrounds (Starter Pack 2).zip",
+      "source_archive_sha256": "edb7359231c91bed0ae3c073921d51ad38e6152f97a001ad6deecda1b8939a7e",
+      "source_member": "Visual Novel Backgrounds (Starter Pack 2)/school a auditorium inuse2.png",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "ff92139210a0b0ac0c55a96880576e2c3f713e249bd8aceb1255f7c2d989b9c8",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "nature",
+      "runtime_path": "game/images/backgrounds/nature.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-stylized-backgrounds-for-visual-novels-random-pack-a",
+      "source_archive": "RandomPackA_2160p_1080p_WEBP.zip",
+      "source_archive_sha256": "c147523e3439cc2608245721ebeafe3a711cf54818140e3fb80577b967c31b4e",
+      "source_member": "RandomPackA_2160p_WEBP/forest_a_day1a.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "97ecdd9cf5d373c21c84a82ba5dbf2516f2adfe6e5723dd009bf48cb1499c882",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "river_arch",
+      "runtime_path": "game/images/backgrounds/river_arch.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-stylized-backgrounds-for-visual-novels-random-pack-a",
+      "source_archive": "RandomPackA_2160p_1080p_WEBP.zip",
+      "source_archive_sha256": "c147523e3439cc2608245721ebeafe3a711cf54818140e3fb80577b967c31b4e",
+      "source_member": "RandomPackA_2160p_WEBP/railarea_a_day1a.webp",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "runtime_size": [
+        1920,
+        1080
+      ],
+      "runtime_sha256": "f71b3726764cad9ac588ba2d8276ec0a9759f3fb3a29e97d3bf5a66d9fb7f0e8",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Lanczos resizing only",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_neutral",
+      "runtime_path": "game/images/characters/aoi/school_neutral.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_normal.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "bfe538b1472e04a23eaffb3167781177fff8a76024bbeaf895eb0c4e83bbb0fb",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_smile",
+      "runtime_path": "game/images/characters/aoi/school_smile.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_normalblush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "84140ebefc61498790cd3723efcfed403cb3415a41dd95893cdbdfe834ad4fee",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_shy",
+      "runtime_path": "game/images/characters/aoi/school_shy.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_blush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "217407a56d1f076d50395eeb588b82cf718efd1f582f6a21455f7e451fdd16f2",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_sad",
+      "runtime_path": "game/images/characters/aoi/school_sad.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_upset.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "3bf1fe6cb93cc8dad7ee14d0f8e3d5f10b5f67b9bc5a38ec687d85c0009122d3",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_surprised",
+      "runtime_path": "game/images/characters/aoi/school_surprised.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_huh.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "1860e498811426733e405b5888ca97f58008a36243aebcfae1d2fef2e4a879ea",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_laugh",
+      "runtime_path": "game/images/characters/aoi/school_laugh.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_happy.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "2d5c97a6aaaa5ef7c2f7fa2780b4188df0fe7d58bd985dab00e5a173b5ba1d19",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_talk",
+      "runtime_path": "game/images/characters/aoi/school_talk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_talk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "9875a963171668f840073423914c431fb142a773e0a41a50ba87444732fce33f",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_tears",
+      "runtime_path": "game/images/characters/aoi/school_tears.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_tears.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "71139214ac51d3a7bc1207046695ac9629b20849ca78f1b440706c1ff722872b",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_pout",
+      "runtime_path": "game/images/characters/aoi/school_pout.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_pout.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "3b2d21164719554c5325832b6ba756dbb099e423b534f731ebbb1b37472b533c",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_frown",
+      "runtime_path": "game/images/characters/aoi/school_frown.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_frown.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "fa32f0649e9d2a2a6b6f09bac75ce2db0235e3c4df2ff8e2640e6fddb042d5ac",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_angry",
+      "runtime_path": "game/images/characters/aoi/school_angry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_angry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "80c776903de6f3c34f66dc1d223f497b74e18f28e4c69d8b9990371f5e14b738",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_angrytalk",
+      "runtime_path": "game/images/characters/aoi/school_angrytalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_angrytalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "8a7021de7e55c4b7f46bfff9717373225771236ad9f3d4a3adb78cfa709ba956",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_disgusted",
+      "runtime_path": "game/images/characters/aoi/school_disgusted.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_disgusted.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "6ba74b7a29330431e04e76cfa9c762283e047810979c7341c40552456fef32e5",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_smirk",
+      "runtime_path": "game/images/characters/aoi/school_smirk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_evilsmirk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "117d750451c857993f75d1376ec7539719717e58c1aca9ca5234bba383184a9d",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_poutangry",
+      "runtime_path": "game/images/characters/aoi/school_poutangry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_poutangry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "76024706c930075d7ce4882d452a34e1c506fead6ea832e352e76576dd7574bd",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_dread",
+      "runtime_path": "game/images/characters/aoi/school_dread.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_purp.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "944c7a75e6fdf490ffaf8d05802244b77e4396b986d21bbe043503df92fee93e",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "school_sadtalk",
+      "runtime_path": "game/images/characters/aoi/school_sadtalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schwin_upsettalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "60cb3ce3fa1161c26e97958ac11433586b66a8670c0be5d9312e60cf1cab1bf2",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_neutral",
+      "runtime_path": "game/images/characters/aoi/summer_neutral.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_normal.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "f88babb3b5cb24e7bc7b03ff3d14d2468e82ecaf3dcb9903d7a7c57804d365d1",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_smile",
+      "runtime_path": "game/images/characters/aoi/summer_smile.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_normalblush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "c77bec2aaffc1686b2cb98bd6feaab4a9c4eca12e58dac6bd8fa64114fe1f5f0",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_shy",
+      "runtime_path": "game/images/characters/aoi/summer_shy.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_blush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "7cedc8a2b2fe74e516ba9427f44735265d40186e855592c15718c724f38a1f00",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_sad",
+      "runtime_path": "game/images/characters/aoi/summer_sad.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_upset.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "7fdd71a331350f3976f385e621edfbff80734d53461fba8f4a632eb7bad8af1c",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_surprised",
+      "runtime_path": "game/images/characters/aoi/summer_surprised.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_huh.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "7e16b043dbfcf8250bf7f7c955ce2525a6f79876a398ee0c821c0d870c7381a8",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_laugh",
+      "runtime_path": "game/images/characters/aoi/summer_laugh.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_happy.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "5317c85cfbf351a019e768287682f5a2d6211764b882df64dd1672f051c38a8d",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_talk",
+      "runtime_path": "game/images/characters/aoi/summer_talk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_talk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "c05ac1bc49dbceb235fcdc4993c34fb742e6f38d93abed5029b16db7d2aa7db9",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_tears",
+      "runtime_path": "game/images/characters/aoi/summer_tears.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_tears.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "5f06170fb2ed911a2454e6cb5d8861e420d77ef86b92258d9fba9de70f455cc9",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_pout",
+      "runtime_path": "game/images/characters/aoi/summer_pout.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_pout.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "df14212e86f4c82aec9c63aa07658653a987179532cb115620d9eb880448354c",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_frown",
+      "runtime_path": "game/images/characters/aoi/summer_frown.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_frown.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "36d9bfd23391da0b84754e97a22f8a27adec4e75c4ddfe2a1c8f0d215af047e1",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_angry",
+      "runtime_path": "game/images/characters/aoi/summer_angry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_angry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "4eea709074aa9ac15760b32822a27ed715f10adcde49baca630b82189971a5b3",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_angrytalk",
+      "runtime_path": "game/images/characters/aoi/summer_angrytalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_angrytalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "b5f6fb6c7a117dd8b76265b6db2e41dcbe8fe4565b140fa278bc3a47795c6c6c",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_disgusted",
+      "runtime_path": "game/images/characters/aoi/summer_disgusted.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_disgusted.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "7ca950951c3e1acc443d9fb9b2a1ae384b60cc540ce476bff3073f7f51879f59",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_smirk",
+      "runtime_path": "game/images/characters/aoi/summer_smirk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_evilsmirk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "73db1cb87ca547f6244b6a726f30f4df1335315455945c7a29d3a4900e590e55",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_poutangry",
+      "runtime_path": "game/images/characters/aoi/summer_poutangry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_poutangry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "3f6e14dfb3282fa518729ff2544e973989f972b239ebda4668242d0840364b8e",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_dread",
+      "runtime_path": "game/images/characters/aoi/summer_dread.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_purp.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "55b9e18718be05fb76ee60aed971b266fccd6a69d1ea5b0a98f10a647e17f298",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "summer_sadtalk",
+      "runtime_path": "game/images/characters/aoi/summer_sadtalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/free-characters-for-visual-novels-set-a01",
+      "source_archive": "BasicCharacterSetA01_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "68d37c8c03c8164b9c2852c6d6df5f68806a3b42aa9af39b23189d78b9f01905",
+      "source_member": "BasicCharacterSetA01_2160p_WEBP_Free/kohaku_schsum_upsettalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "bc650b07fca2781c2ce863ad30e1a1f0e8298386a19fcfd02950508f4d1c580c",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_neutral",
+      "runtime_path": "game/images/characters/aoi/casual_neutral.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_normal.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "c5e13901cf2d9a97a6d5c49eb4338e03016fa0d63788776759af6607b5959eb0",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_smile",
+      "runtime_path": "game/images/characters/aoi/casual_smile.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_normalblush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "8ca4b7d0fa2eb0ed7722c0b8208453fb953e83065465c907ad10e27d86fb6343",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_shy",
+      "runtime_path": "game/images/characters/aoi/casual_shy.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_blush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "4027605c406eedf3c40d2e24bead1d3f0d910d212f3120434efd55ffdaa9cb7a",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_sad",
+      "runtime_path": "game/images/characters/aoi/casual_sad.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_upset.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "9477a84a4c824f0f089bfd4e11c3f596b9211f7ec93d7d0d54c0b33243b31259",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_surprised",
+      "runtime_path": "game/images/characters/aoi/casual_surprised.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_huh.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "2147c8c62a62347b206b8ceac83a06cfa06da261d749ad8afe8f21a697d76fa5",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_laugh",
+      "runtime_path": "game/images/characters/aoi/casual_laugh.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_happy.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "f6505a6e0c20f61d45342fec4f21b4b9a37cf04a5332b714869c5ed8da2d10e5",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_talk",
+      "runtime_path": "game/images/characters/aoi/casual_talk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_talk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "db3ef9989a8286a6496f313270e820d146f273594beff02a053fda1ada1e9466",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_tears",
+      "runtime_path": "game/images/characters/aoi/casual_tears.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_tears.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "71ac1c3e6f47df30949e358e362629b6b446b6d5de0aa49f94ce8bd36ffb080f",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_pout",
+      "runtime_path": "game/images/characters/aoi/casual_pout.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_pout.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "f1e0216a0e48a63cc05a0494c7079e96ffca4359d9fefb62e433ca2711477492",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_frown",
+      "runtime_path": "game/images/characters/aoi/casual_frown.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_frown.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "8ea70a68c30d5645de27a1bb3fbcf18fc010b400189d7113d45efc4941adb379",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_angry",
+      "runtime_path": "game/images/characters/aoi/casual_angry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_angry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "aa1aae6fc0a5e23578252e4a3e7aa328a1167188a06387eed7356ba8a9988a5e",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_angrytalk",
+      "runtime_path": "game/images/characters/aoi/casual_angrytalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_angrytalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "d6a50758fc1e9cfe1849e6044511dd490c1beecc2f8b134095fa5d8025f43a58",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_disgusted",
+      "runtime_path": "game/images/characters/aoi/casual_disgusted.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_disgusted.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "03c808a4bd10d52dd676a9729df62ea6d0707c7db1dc604b62609faed8d59a65",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_smirk",
+      "runtime_path": "game/images/characters/aoi/casual_smirk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_evilsmirk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "7c55566edc4a164b8edf8f821b6fa3e9512fe7f45b73b8e1f04c4e2e360416e7",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_poutangry",
+      "runtime_path": "game/images/characters/aoi/casual_poutangry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_poutangry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "331371af6984db1c59a083df80cbd11917cc28065c8cf0c508def9b8f6c51ecb",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_dread",
+      "runtime_path": "game/images/characters/aoi/casual_dread.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_purp.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "b30c3dd632f7d06c1d29cb230bf65576ca1b82891bed60fa98fb0de261c1d327",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "casual_sadtalk",
+      "runtime_path": "game/images/characters/aoi/casual_sadtalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_whitetop_upsettalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "5fbb4d750dc4c374b89a1001ec4be4c5634d88f14101caffddb688cb67403a7f",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_neutral",
+      "runtime_path": "game/images/characters/aoi/blouse_neutral.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_normal.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "d7802c3fac0b1dd710cbb3f148e08f4fb9a8d6eee6f2d5e778fd728b46ea8f89",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_smile",
+      "runtime_path": "game/images/characters/aoi/blouse_smile.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_normalblush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "796589e5f06cf85f1efad6ae0a95d4b10cb3b14069a455c6c0b8af6536254ac4",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_shy",
+      "runtime_path": "game/images/characters/aoi/blouse_shy.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_blush.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "3e9ce7de267b7da125939f83e22e6a555ef4ed9e0f8ff8da39fde908ac05146e",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_sad",
+      "runtime_path": "game/images/characters/aoi/blouse_sad.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_upset.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "9dbff269b3fbadedb298cbc4cc9d6ea6d5a9e5962be0a1361400e973fe441d25",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_surprised",
+      "runtime_path": "game/images/characters/aoi/blouse_surprised.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_huh.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "a3d383c17634e733cb158c5e5a165271b14779a4fc505c62990cbbdb981ca630",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_laugh",
+      "runtime_path": "game/images/characters/aoi/blouse_laugh.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_happy.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "7a2986b7923876dd0a996b42c0e00abeb0a50713c38776fea4f540ab024ffde1",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_talk",
+      "runtime_path": "game/images/characters/aoi/blouse_talk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_talk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "9d9b91762b6010232a33a3f0e7f389ab48ec7a4505f083745afadb01128617d3",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_tears",
+      "runtime_path": "game/images/characters/aoi/blouse_tears.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_tears.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "1652da020b1b797c00e082b1bc38c03908e43b9d71072b9a7895612f6cdc32cc",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_pout",
+      "runtime_path": "game/images/characters/aoi/blouse_pout.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_pout.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "2d2f455df67c5c829491685d5c2f111804268da8c856d9842bcee8f5bdb132bc",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_frown",
+      "runtime_path": "game/images/characters/aoi/blouse_frown.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_frown.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "dc5486a5800ac905d939c480ad754dffcc5d62446693294b0a61b78a02d21011",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_angry",
+      "runtime_path": "game/images/characters/aoi/blouse_angry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_angry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "8961024b52c1080deab025f42306b28f8e2fd38768d673819e9a4bed76ede958",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_angrytalk",
+      "runtime_path": "game/images/characters/aoi/blouse_angrytalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_angrytalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "477833507a267a462dc0df94650940da08c3e2618bed8bab798a5d22e1e88470",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_disgusted",
+      "runtime_path": "game/images/characters/aoi/blouse_disgusted.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_disgusted.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "ff27d831ae77c81208b78b56ef3f23a80628c9d45c37d852c4949a7aee1c14c0",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_smirk",
+      "runtime_path": "game/images/characters/aoi/blouse_smirk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_evilsmirk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "119d4939bf0b5782484941da6b2e5f4c4b8f89da773cd55cd22a227a3fd5091b",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_poutangry",
+      "runtime_path": "game/images/characters/aoi/blouse_poutangry.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_poutangry.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "9071152b8dfa7fefad4e09ebc47c21d5258b302f5b47728c00e69733424fe8e4",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_dread",
+      "runtime_path": "game/images/characters/aoi/blouse_dread.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_purp.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "e3718d38f66895f441eb27811aca5c2372f0e4557b950fdb5d91ba3a63e6c062",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    },
+    {
+      "asset_id": "blouse_sadtalk",
+      "runtime_path": "game/images/characters/aoi/blouse_sadtalk.webp",
+      "creator": "Potat0Master",
+      "source_page": "https://potat0master.itch.io/characters-set-a02",
+      "source_archive": "BasicCharacterSetA02_2160p_WEBP_Free.zip",
+      "source_archive_sha256": "815a5f406705f01e3d5aa2ff30458441513b51996d3a6b69586e0096c6a215de",
+      "source_member": "BasicCharacterSetA02_2160p_WEBP_Free/kohaku_shirttop_upsettalk.webp",
+      "source_size": [
+        1440,
+        2160
+      ],
+      "runtime_size": [
+        770,
+        1080
+      ],
+      "runtime_sha256": "af14fa4f08e17874af8a1ac3fec41fed74062728c74cf11fe4f128022931c1f6",
+      "license": "Royalty-free custom; commercial game use and editing permitted; standalone redistribution prohibited",
+      "credit": "Character and background art: Potat0Master",
+      "ai_restriction": "No restriction stated on audited creator page; creator declares no generative AI used",
+      "adaptation": "Common transparent crop and Lanczos resizing",
+      "audited": "2026-11-03",
+      "status": "approved for integrated game only"
+    }
+  ]
+}

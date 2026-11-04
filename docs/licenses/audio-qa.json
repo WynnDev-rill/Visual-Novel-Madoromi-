@@ -1,0 +1,90 @@
+{
+  "checked": "2026-11-03",
+  "method": "ffprobe stream assertion; complete ffmpeg decode with EBU R128/true peak meter; no perceptual listening claim",
+  "files": [
+    {
+      "path": "game/audio/ambience/garden.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -21.9,
+      "true_peak_dbfs": -5.1,
+      "loop_boundary_delta_linear": 0.0018112,
+      "within_clip_delta_p99_linear": 0.1037402
+    },
+    {
+      "path": "game/audio/ambience/night.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -22.2,
+      "true_peak_dbfs": -13.3,
+      "loop_boundary_delta_linear": 0.0343177,
+      "within_clip_delta_p99_linear": 0.0696467
+    },
+    {
+      "path": "game/audio/bgm/confession.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -17.9,
+      "true_peak_dbfs": -1.4
+    },
+    {
+      "path": "game/audio/bgm/day.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -18.0,
+      "true_peak_dbfs": -2.3
+    },
+    {
+      "path": "game/audio/bgm/night.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -18.0,
+      "true_peak_dbfs": -1.5
+    },
+    {
+      "path": "game/audio/bgm/tender.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -17.9,
+      "true_peak_dbfs": -1.4
+    },
+    {
+      "path": "game/audio/sfx/bell.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -19.3,
+      "true_peak_dbfs": -8.3
+    },
+    {
+      "path": "game/audio/sfx/message.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -18.3,
+      "true_peak_dbfs": -5.2
+    },
+    {
+      "path": "game/audio/sfx/page.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -23.5,
+      "true_peak_dbfs": -6.7
+    },
+    {
+      "path": "game/audio/sfx/ui.ogg",
+      "streams": 1,
+      "codec": "vorbis",
+      "complete_decode": "pass",
+      "integrated_lufs": -70.0,
+      "true_peak_dbfs": -10.8
+    }
+  ]
+}
